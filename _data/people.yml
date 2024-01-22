@@ -6,9 +6,9 @@ people:
     subject: Bioengineering
     aliases:
       - Zach Caterer
-  - name: Koda S. Araki
+  - name: Koda 
     url: /koda/
-    image_path: #/assets/images/people/koda.gif
+    image_path: assets/images/people/koda.png
     title: Mentee
     subject: Animal Habitat Management
 mentors:
