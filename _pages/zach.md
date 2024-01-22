@@ -4,7 +4,7 @@ classes: wide
 header:
     overlay_color: "#000"
     overlay_filter: "0.1"
-    overlay_image: assets/uwec/uwec_aerial.jpg
+    overlay_image: assets/images/uwec/uwec_aerial.jpg
 ---
 
 <div>
