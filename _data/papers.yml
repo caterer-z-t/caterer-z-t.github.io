@@ -4,8 +4,8 @@ categories:
     - title: 'Differentiating Between Non-Alcoholic Steatohepatitis and Alcoholic Steatohepatitis though FTIR Imaging'
       authors:
       - Zachary Caterer
-      - Jocelyn Stepanek *
-      - Leah Rook *
+      - Jocelyn Stepanek*
+      - Leah Rook*
       - Blake Mathisen
       - Mikayla Hady
       - Jenny Boyle
@@ -18,18 +18,18 @@ categories:
       venue: In Prep
     - title: "Using Fourier Transform Infrared (FTIR) Spectroscopy to Identify Kidney Cancer in Patients with Diabetes"
       authors:
-      - Mikayla Hady *
-      - Blake Mathisen *
-      - Zachary Caterer *
+      - Mikayla Hady
+      - Zachary Caterer*
+      - Blake Mathisen*
       - Summa Setty
       - Michael J. Walsh
       year: TBD
       venue: In Prep
     - title: "Using Infrared Light to Improve the Diagnosis and Treatment of Patients with Kidney Cancer"
       authors:
-      - Mikayla Hady *
-      - Zachary Caterer *
-      - Blake Mathisen *
+      - Zachary Caterer*
+      - Mikayla Hady*
+      - Blake Mathisen*
       - Katie Feuker
       - Megan Way
       - Sanjeev Akkina
@@ -40,8 +40,8 @@ categories:
     - title: "Analysis of Bcl2-Associated Anthanogene 3 Mutated Cardiac Tissue Using Fourier-Transform Infrared Spectroscopy"
       authors:
       - Blake Mathisen
-      - Zachary Caterer *
-      - Mikayla Hady *
+      - Zachary Caterer*
+      - Mikayla Hady*
       - Jocelyn Stepanek
       - Jenny Boyle
       - Leah Rook
@@ -53,8 +53,8 @@ categories:
     - title: "Exploring Feature Selection with Deep Learning for Kidney Tissue Microarray Classification using Infrared Spectral Imaging"
       authors:
       - Zachary Caterer
-      - Jordan Langois *
-      - Connor McKeown *
+      - Jordan Langois*
+      - Connor McKeown*
       - Samuel Stumo
       - Michael J. Walsh
       - Summa Setty

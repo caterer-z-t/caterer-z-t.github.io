@@ -16,7 +16,6 @@ header:
 </ul>
 </div>
 
-<h3>Bio</h3>
 <div>
     <h1>Zachary Caterer</h1>
     <h2>Undergraduate Student</h2>
@@ -27,5 +26,5 @@ header:
 </div>
 <div>
   <h4> About Zachary Caterer</h4>
-  
+  <h3>Bio</h3>
 </div>
