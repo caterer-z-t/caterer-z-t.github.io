@@ -19,13 +19,13 @@ locale                   : "en-US"
 title                    : ''
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : ""
-description              : "The Larremore Lab, University of Colorado Boulder, BioFrontiers and Computer Science."
+name                     : # site name that appears in masthead
+description              : # site description that appears in masthead
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-logo                     : "/assets/images/masthead.png"
+logo                     : # path of logo image, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -84,11 +84,11 @@ naver_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : danlarremore
+  username               : # twitter username (don't include @)
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
+  username               : # facebook username
+  app_id                 : # facebook app id
+  publisher              : # facebook publisher
 og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
@@ -101,7 +101,7 @@ social:
 analytics:
   provider: "google-gtag"
   google:
-    tracking_id: "UA-36889698-2"
+    tracking_id: # UA-XXXXXXXX-X
     anonymize_ip: false 
 
 
