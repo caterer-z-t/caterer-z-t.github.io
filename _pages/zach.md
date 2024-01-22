@@ -1,6 +1,7 @@
 ---
 permalink: /zach/
 classes: wide
+layout: splash
 header:
     overlay_color: "#000"
     overlay_filter: "0.1"
@@ -16,4 +17,15 @@ header:
 </div>
 
 <h3>Bio</h3>
-
+<div>
+    <h1>Zachary Caterer</h1>
+    <h2>Undergraduate Student</h2>
+    <h4>Department of Mathematics</h4>
+    BS - Applied Mathematics and Statistics
+    <h4>Department of Chemistry and Biochemistry</h4>
+    BS - Biochemistry, Molecular Biology
+</div>
+<div>
+  <h4> About Zachary Caterer</h4>
+  
+</div>
