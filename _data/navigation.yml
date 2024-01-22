@@ -4,15 +4,9 @@ main:
     url: /people/
   - title: Papers
     url: /publications/
-  - title: Code & Data
-    url: /openscience/
-  - title: Slides
-    url: /slides/
-  - title: Jobs
-    url: /opportunities/
-  - title: Lab Manual
-    url: /manual/
-  - title: Teaching
+  - title: Teaching & Tutoring
     url: /teaching/
+  - title: Outreach
+    url: /outreach/
   - title: Press
     url: /press/
