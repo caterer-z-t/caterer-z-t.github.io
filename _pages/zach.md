@@ -28,3 +28,4 @@ header:
   <h4>About Zachary Caterer</h4>
   <h3>Bio</h3>
 </div>
+<img src = "assets/images/people/zach/zach.JPG" alt = 'Zach' width = '400/>
