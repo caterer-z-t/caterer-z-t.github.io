@@ -1,9 +1,9 @@
 people:
   - name: Zachary Caterer
     url: /zach/
-    image_path: #/assets/images/people/zach.gif
-    title: PhD Student
-    subject: Bioengineering
+    image_path: assets/images/people/zach.JPG
+    title: Undergraduate Student
+    subject: Applied Mathematics, Statistics, Biochemistry, and Molecular Biology
     aliases:
       - Zach Caterer
   - name: Koda 
