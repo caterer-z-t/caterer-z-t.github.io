@@ -46,7 +46,7 @@ header:
 {% endfor %}
 </div>
 <div>
-    <h3>Mentors</h3>
+    <h3>Undergraduate Mentors</h3>
     <ul>
 {% for person in site.data.people.mentors %}
     {% if person.url %}
