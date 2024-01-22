@@ -1,23 +1,60 @@
 categories:
   - heading: "In Press, Submitted, or In Prep"
     pubs:
+    - title: 'Differentiating Between Non-Alcoholic Steatohepatitis and Alcoholic Steatohepatitis though FTIR Imaging'
+      authors:
+      - Zachary Caterer
+      - Jocelyn Stepamek *
+      - Leah Rook *
+      - Blake Mathisen
+      - Mikayla Hady
+      - Jenny Boyle
+      - Katie Feuker
+      - Nathaniel Severson
+      - Natalia Nieto
+      - Grace Guzman
+      - Michael J. Walsh
+      year: TBD
+      venue: In Prep
+    - title: "Using Fourier Transform Infrared (FTIR) Spectroscopy to Identify Kidney Cancer in Patients with Diabetes"
+      authors:
+      - Mikayla Hady *
+      - Blake Mathisen *
+      - Zachary Caterer *
+      - Summa Setty
+      - Michael J. Walsh
+      year: TBD
+      venue: In Prep
+    - title: "Using Infrared Light to Improve the Diagnosis and Treatment of Patients with Kidney Cancer"
+      authors:
+      - Mikayla Hady *
+      - Zachary Caterer *
+      - Blake Mathisen *
+      - Katie Feuker
+      - Megan Way
+      - Sanjeev Akkina
+      - Summa Setty
+      - Michael J. Walsh
+      year: TBD
+      venue: In Prep
     - title: "Analysis of Bcl2-Associated Anthanogene 3 Mutated Cardiac Tissue Using Fourier-Transform Infrared Spectroscopy"
       authors:
       - Blake Mathisen
-      - Zachary Caterer
-      - Mikayla Hady
+      - Zachary Caterer *
+      - Mikayla Hady *
       - Jocelyn Stepamek
       - Jenny Boyle
       - Leah Rook
       - Michael Willis
+      - Sajeev Akkina
       - Michael J. Walsh
       year: 2024
       venue: IEEE
     - title: "Exploring Feature Selection with Deep Learning for Kidney Tissue Microarray Classification using Infrared Spectral Imaging"
       authors:
       - Zachary Caterer
-      - Jordan Langois
-      - Connor McKeown
+      - Jordan Langois *
+      - Connor McKeown *
       - Samuel Stumo
       - Michael J. Walsh
       - Summa Setty
