@@ -2,6 +2,7 @@
 title: People
 permalink: /people/
 classes: wide
+layout: tag
 header:
     overlay_color: "#000"
     overlay_filter: "0.4"

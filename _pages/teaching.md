@@ -1,6 +1,7 @@
 ---
 title: Teaching, and Tutoring
 permalink: /teaching/
+layout: home
 classes: wide
 header:
     overlay_color: "#000"

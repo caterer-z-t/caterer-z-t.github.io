@@ -1,6 +1,7 @@
 ---
 permalink: /koda/
 classes: wide
+layout: single
 ---
 
 <div>

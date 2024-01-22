@@ -1,6 +1,7 @@
 ---
 permalink: /zach/
 classes: wide
+layout: tags
 header:
     overlay_color: "#000"
     overlay_filter: "0.1"
