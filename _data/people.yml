@@ -1,14 +1,14 @@
 people:
   - name: Zachary Caterer
     url: /zach/
-    image_path: assets/images/people/zach.JPG
+    image_path: assets/images/people/zach/zach.JPG
     title: Undergraduate Student
     subject: AMS & BMB
     aliases:
       - Zach Caterer
   - name: Koda 
     url: /koda/
-    image_path: assets/images/people/koda.png
+    image_path: assets/images/people/koda/koda.png
     title: Best Boy Ever
     subject: Animal Habitat Management
 mentors:
