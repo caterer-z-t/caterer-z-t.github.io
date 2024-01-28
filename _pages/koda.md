@@ -11,7 +11,7 @@ header:
 <div>
   <h1>Koda</h1>
   <p>
-    I'm Koda, a 4-year-old Golden Retriever with a heart of gold. I'm a trained therapy dog who loves spreading joy wherever I goes. I am master at chasing squirrels and have a special talent for scaring away pesky animals from the yard (or so I'm told!). When I'm not on duty as a therapy dog, you can find me lounging around the house, dreaming of my next big adventure.
+    I'm Koda, a 4-year-old Golden Retriever with a heart of gold. I'm a trained therapy dog who loves spreading joy wherever I goes. I am master at chasing squirrels and have a special talent for scaring away pesky animals from the yard. When I'm not on duty as a therapy dog, you can find me lounging around the house, dreaming of my next big adventure.
   </p>
   <h2>Likes:</h2>
   <ul>
