@@ -28,5 +28,16 @@ header:
 <div>
   <h4>About Zachary Caterer</h4>
   <h3>Bio</h3>
+  <p>
+    Zachary Caterer is an undergraduate student pursuing a BS in Applied Mathematics and Statistics from the Department of Mathematics, as well as a BS in Biochemistry and Molecular Biology from the Department of Chemistry and Biochemistry at the University of Wisconsin-Eau Claire.
+  </p>
+  <h3>Interests</h3>
+  <p>
+    Zachary's research interests include enzyme kinetics and bioinformatics, with a focus on understanding the underlying mechanisms of biological systems at the molecular level. He is also passionate about programming and data analysis, using computational tools to solve complex problems in the field of biochemistry.
+  </p>
+  <h3>Skills</h3>
+  <p>
+    Zachary has a strong background in mathematics, statistics, and biochemistry, with proficiency in programming languages such as Python and R. He is skilled in data analysis, experimental design, and scientific writing, and has experience working in research laboratories.
+  </p>
 </div>
-<img src = "assets/images/people/zach/zach.JPG" alt = 'Zach' width = '400'/>
+<img src="assets/images/people/zach/zach.JPG" alt="Zach" width="400"/>
