@@ -9,10 +9,9 @@ header:
 ---
 
 <div>
-  <img src="assets/images/people/koda/koda_cozy.jpeg" alt="Koda" width="400"/>
   <h1>Koda</h1>
   <p>
-    Meet Koda, the 4-year-old Golden Retriever with a heart of gold. Koda is a trained therapy dog who loves spreading joy wherever he goes. He's a master at chasing squirrels and has a special talent for scaring away pesky animals from the yard (or so he thinks!). When he's not on duty as a therapy dog, you can find him lounging around the house, dreaming of his next big adventure.
+    I'm Koda, a 4-year-old Golden Retriever with a heart of gold. I'm a trained therapy dog who loves spreading joy wherever I goes. I am master at chasing squirrels and have a special talent for scaring away pesky animals from the yard (or so I'm told!). When I'm not on duty as a therapy dog, you can find me lounging around the house, dreaming of my next big adventure.
   </p>
   <h2>Likes:</h2>
   <ul>
