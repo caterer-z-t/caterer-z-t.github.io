@@ -1,6 +1,11 @@
 ---
 permalink: /koda/
 classes: wide
+layout: tags
+header:
+    overlay_color: "#000"
+    overlay_filter: "0.1"
+    overlay_image: assets/images/people/koda/koda_snow_play.jpeg
 ---
 
 <div>
