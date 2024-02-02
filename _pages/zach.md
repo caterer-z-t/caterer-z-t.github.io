@@ -29,12 +29,13 @@ header:
   <p>
     Zachary Caterer is an undergraduate student pursuing a BS in Applied Mathematics and Statistics from the Department of Mathematics, as well as a BS in Biochemistry and Molecular Biology from the Department of Chemistry and Biochemistry at the University of Wisconsin-Eau Claire.
   </p>
-  <h3>Interests</h3>
-  <p>
-    Zachary's research interests include enzyme kinetics and bioinformatics, with a focus on understanding the underlying mechanisms of biological systems at the molecular level. He is also passionate about programming and data analysis, using computational tools to solve complex problems in the field of biochemistry.
-  </p>
-  <h3>Skills</h3>
-  <p>
-    Zachary has a strong background in mathematics, statistics, and biochemistry, with proficiency in programming languages such as Python and R. He is skilled in data analysis, experimental design, and scientific writing, and has experience working in research laboratories.
-  </p>
+<h3>Interests</h3>
+<p>
+  Zachary is interested in the implementation of AI, deep learning models, and machine learning models into biological systems, as well as bioinformatics and the use of computational tools for solving complex biological problems, leveraging these tools to design creative solutions to these problems.
+</p>
+<h3>Skills</h3>
+<p>
+  Zachary has a strong background in mathematics, statistics, and biochemistry, with proficiency in programming languages such as Python and R. He is skilled in data analysis, experimental design, and scientific writing, and has experience working in research laboratories. Additionally, Zachary is knowledgeable about LaTeX and the following tech stacks: Python, R, Overleaf, LaTeX, Shell Script, GitHub Pages, Google Cloud, Anaconda, OpenCV, MySQL, Adobe Acrobat Reader, Adobe Creative Cloud, Adobe Lightroom, Canva, Adobe Illustrator, Adobe Photoshop, Adobe Lightroom Classic, Matplotlib, Keras, NumPy, Pandas, Plotly, PyTorch, scikit-learn, SciPy, and TensorFlow.
+</p>
+
 </div>
