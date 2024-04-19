@@ -2,13 +2,18 @@
 #  Icons from <https://fontawesome.com/>
 
 platforms:
-  - type: Orcid
-    icon: "fa-brands fa-orcid"
-    link: "https://orcid.org/0000-0001-9019-0730"
+  - type: Linkedin
+    icon: "fab fa-linkedin"
+    link: "https://www.linkedin.com/in/zacharytcaterer/"
 
   - type: Instagram
     icon: "fa-brands fa-instagram"
     link: "https://www.instagram.com/z_26caterer"
+
+  - type: Orcid
+    icon: "fa-brands fa-orcid"
+    link: "https://orcid.org/0000-0001-9019-0730"
+
 
   #- type: Telegram
   #  icon: "fab fa-telegram"
@@ -16,9 +21,7 @@ platforms:
 
   # Uncomment below if you need to.
   #
-  - type: Linkedin
-    icon: "fab fa-linkedin"
-    link: "https://www.linkedin.com/in/zacharytcaterer/"
+
   #
   # - type: Weibo
   #   icon: "fab fa-weibo"
