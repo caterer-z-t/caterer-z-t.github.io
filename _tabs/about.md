@@ -74,5 +74,3 @@ Hello! I'm Zachary (Zach) Caterer, a Biochemistry, Molecular Biology, and Applie
 
 - **English**: Native or bilingual proficiency
 - **French**: Limited working proficiency
-
-Feel free to connect with me on [LinkedIn](www.linkedin.com/in/zacharytcaterer)!
