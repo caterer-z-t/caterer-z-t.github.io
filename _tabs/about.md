@@ -20,7 +20,7 @@ Hello! I'm Zachary (Zach) Caterer, a Biological Engineering PhD student studying
 
 - **Bachelor of Science (BS), Applied Mathematics and Statistics** (Sep 2020 - May 2024)
 
-## Experience
+## Academic Experience
 
 ### University of Wisconsin-Eau Claire
 - **Undergraduate Research Assistant, Dr. Nic Wheeler Lab** (Feb 2023 - Present)
@@ -31,6 +31,14 @@ Hello! I'm Zachary (Zach) Caterer, a Biological Engineering PhD student studying
 
 ### UCLA Henry Samueli School of Engineering and Applied Science
 - **Undergraduate Research Assistant, Dr. Mireille Kamariza** (Apr 2023 - Aug 2023)
+
+<div style="display: flex;">
+    <div style="flex: 1; padding: 20px;">
+        # Text Content
+        TKL at UCLA
+    </div>
+    <div style="flex: 1; background-image: url('assets/images/people/zach/avatar.png'); background-size: cover;"></div>
+</div>
 
 ## Non-Academia Experience
 
