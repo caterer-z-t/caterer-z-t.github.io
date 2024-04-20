@@ -1,12 +1,13 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 1
 ---
-![Zachary Caterer](assets/images/people/zach/zach_stance.JPG)
-_Zach's Senior Photos taken near UWEC's Campus_
 
 Hello! I'm Zachary (Zach) Caterer, a Biological Engineering PhD student studying at the University of Colorado Boulder in the department of Chemical and Biological Engineering with a certificate in Inderdiciplinary Quantative Biology in the Biofrontier's Institute. 
+
+![Zachary Caterer](assets/images/people/zach/zach_stance.JPG)
+_Zach's Senior Photos taken near UWEC's Campus_
 
 ## Education
 
@@ -31,14 +32,6 @@ Hello! I'm Zachary (Zach) Caterer, a Biological Engineering PhD student studying
 
 ### UCLA Henry Samueli School of Engineering and Applied Science
 - **Undergraduate Research Assistant, Dr. Mireille Kamariza** (Apr 2023 - Aug 2023)
-
-<div style="display: flex;">
-    <div style="flex: 1; padding: 20px;">
-        # Text Content
-        TKL at UCLA
-    </div>
-    <div style="flex: 1; background-image: url('assets/images/people/zach/avatar.png'); background-size: cover;"></div>
-</div>
 
 ## Non-Academia Experience
 
