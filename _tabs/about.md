@@ -5,9 +5,14 @@ order: 4
 ---
 ![Zachary Caterer](assets/images/people/zach/zach_stance.JPG)
 
-Hello! I'm Zachary (Zach) Caterer, a Biochemistry, Molecular Biology, and Applied Mathematics and Statistics student at the University of Wisconsin-Eau Claire.
+Hello! I'm Zachary (Zach) Caterer, a Biological Engineering PhD student studying at the University of Colorado Boulder in the department of Chemical and Biological Engineering with a certificate in Inderdiciplinary Quantative Biology in the Biofrontier's Institute. 
 
 ## Education
+
+### University of Colorado Boulder
+- **Doctor of Philosophy (PhD), Biological Engineering** (Sep 2024 - Present)
+
+- **Masters of Science (MS), Biological Engineering** (Sep 2024 - Present)
 
 ### University of Wisconsin-Eau Claire
 - **Bachelor of Science (BS), Biochemistry and Molecular Biology** (Sep 2020 - May 2024)
