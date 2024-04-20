@@ -4,6 +4,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 ![Zachary Caterer](assets/images/people/zach/zach_stance.JPG)
+_Zach's Senior Photos taken near UWEC's Campus_
 
 Hello! I'm Zachary (Zach) Caterer, a Biological Engineering PhD student studying at the University of Colorado Boulder in the department of Chemical and Biological Engineering with a certificate in Inderdiciplinary Quantative Biology in the Biofrontier's Institute. 
 
