@@ -31,6 +31,8 @@ Hello! I'm Zachary (Zach) Caterer, a Biological Engineering PhD student studying
 ### UCLA Henry Samueli School of Engineering and Applied Science
 - **Undergraduate Research Assistant, Dr. Mireille Kamariza** (Apr 2023 - Aug 2023)
 
+## Non-Academia Experience
+
 ### Kwik Trip, Inc.
 - **Guest Service Associate** (Jun 2020 - Jun 2022)
 
