@@ -49,8 +49,8 @@ As an **Amgen Scholar** at UCLA's Department of Bioengineering, I had the privil
 **Project Summary:**
 Our study utilized unique probes, DMN-Tre and 3HC-Tre, which are sensitive to changes in hydrophobicity when bacterial metabolism is activated, allowing visualization of TB bacteria in just 30 minutes. We captured this process using Octopi, which facilitated high-throughput and automated image acquisition. These images were then processed through a machine learning pipeline that integrates data acquisition with analysis, reducing the need for manual intervention and enhancing diagnostic accuracy.
 
-![TKL Lab Circle](assets/images/ucla/lab_circ.JPG)
-_UCLA TKL Lab Meeting_
+<img src="assets/images/ucla/lab_circ.JPG" alt="UCLA TKL Lab Circle" style="width: 300px; height: auto;">
+
 
 **Where to Learn More:**
 For further information about this research:
