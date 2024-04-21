@@ -9,62 +9,23 @@ Hello! I'm Zachary (Zach) Caterer, a Biological Engineering PhD student studying
 ![Zachary Caterer](assets/images/people/zach/zach_stance.JPG)
 _Zach's Senior Photos taken near UWEC's Campus_
 
-## Education
 
-### University of Colorado Boulder
-- **Doctor of Philosophy (PhD), Biological Engineering** (Sep 2024 - Present)
+My Undergraduate education is from the **[University of Wisconsin Eau Claire](https://www.uwec.edu/)** where I double majored in [Applied Mathematics & Statistics](https://www.uwec.edu/academics/programs/undergraduate/statistics-applied-mathematics/), and [Biochemistry & Molecular Biology](https://www.uwec.edu/academics/programs/undergraduate/biochemistry-molecular-biology/).
 
-- **Masters of Science (MS), Biological Engineering** (Sep 2024 - Present)
+![UWEC Campus](assets/images/uwec/uwec_sunset_arch.jpeg)
+_UWEC arch at sunset_
 
-### University of Wisconsin-Eau Claire
-- **Bachelor of Science (BS), Biochemistry and Molecular Biology** (Sep 2020 - May 2024)
+## My Academic Adventures 
 
-- **Bachelor of Science (BS), Applied Mathematics and Statistics** (Sep 2020 - May 2024)
+While at UWEC, I delved into research with Dr. Wheeler in the Department of Biology. 
 
-## Academic Experience
 
-### University of Wisconsin-Eau Claire
-- **Undergraduate Research Assistant, Dr. Nic Wheeler Lab** (Feb 2023 - Present)
-  
-- **Undergraduate Research Assistant, Dr. Rahul Gomes Lab** (Sep 2021 - Present)
-  
-- **Tutor, ACS** (Jan 2023 - Present)
+I've also collaborated with Dr. Rahul Gomes in the Department of Computer Science. 
 
-### UCLA Henry Samueli School of Engineering and Applied Science
-- **Undergraduate Research Assistant, Dr. Mireille Kamariza** (Apr 2023 - Aug 2023)
+As an **Amgen Scholar** at UCLA, I worked with Dr. Merielle Kamariza in the Department of Bioengineering. 
 
-## Non-Academia Experience
+I started research with Dr. Michael Walsh  in the Department of Materials Science & Biomedical Engineering who is now at the New York Institute of Technology in the Department of Electrical and Computer Engineering. 
 
-### Kwik Trip, Inc.
-- **Guest Service Associate** (Jun 2020 - Jun 2022)
+## Personal Life (Because All Work and No Play Makes Jack a Dull Boy) 🐕
 
-### Metropolitan General
-- **Medical Intern** (Jan 2022)
-
-### Irish Wheelchair Association (IWA)
-- **IWA Intern** (Jun 2021 - Aug 2021)
-
-## Volunteering
-
-- **Animal Therapy, Pet Partners** (Mar 2020 - Present)
-
-- **Animal Therapy, Dove Healthcare** (Oct 2022 - Present)
-
-## Skills
-
-- **Analytical Skills**
-- **Visual Studio**
-- **Scientific Communications**
-- **Statistics**
-- **Git**
-- **LaTeX**
-
-## Honors & Awards
-
-- **Amgen Scholar** (Jun 2023)
-- **Dean's List, University of Wisconsin-Eau Claire** (May 2023)
-
-## Languages
-
-- **English**: Native or bilingual proficiency
-- **French**: Limited working proficiency
+In my downtime, I hang out with my 4-year-old golden retriever who's therapy-certified and he is persuing his a PhD in Squirrel Habitat Management.
