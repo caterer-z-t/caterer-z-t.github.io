@@ -77,6 +77,7 @@ For further information:
 I started my research journey with Dr. Michael Walsh in the Department of Materials Science & Biomedical Engineering, now at the New York Institute of Technology in the Department of Electrical and Computer Engineering. Throughout this tenure, I was granted the wonderful opportunity to present our findings at various research conferences, including the prestigious Research in the Rotunda in Madison, Wisconsin, the Celebration of Excellence, Research, and Creative Activities (CERCA), and the National Conference on Undergraduate Research (NCUR).
 
 ![Spectral Patholgy Lab](assets/images/uwec/spl.jpg)
+_SPL Lab_
 
 ### Project Summaries
 
@@ -99,12 +100,29 @@ I started my research journey with Dr. Michael Walsh in the Department of Materi
     During my tenure in Dr. Walsh's lab, I played a pivotal role in the development of a software program designed to analyze a variety of spectroscopic data, including FTIR, ATR, Raman, and mass spectrometry. This software, entirely written in Python, equipped users with tools for basic data processing tasks such as baselining, normalization, and the application of second derivatives. Moreover, it included advanced statistical processing capabilities, such as linear regressions, principal component analysis, and linear discriminant analysis. This project was not only crucial for enhancing our research capabilities but also served as my gateway to learning Python and developing coding skills. The software has significantly streamlined the data analysis process in our lab, improving the efficiency and accuracy of our spectroscopic studies.
 
 ![Cerca 2022](assets/images/uwec/cerca2022.jpg)
+_CERCA 2022 Poster Presentation_
 
 **Where to Learn More:**
 For further information:
 - Visit the [The Spectral Pathology Lab Website](https://www.spectralpathology.com/).
 
 
-## Personal Life (Because All Work and No Play Makes Jack a Dull Boy) 🐕
+## Personal Life 
 
-In my downtime, I hang out with my 4-year-old golden retriever who's therapy-certified and he is persuing his a PhD in Squirrel Habitat Management.
+In my downtime, I love to spend time with my 4-year-old, Koda, a golden retriever who's therapy-certified, where we visit nursing homes and hospital. When not caring for others he is persuing his a PhD in Squirrel Habitat Management.
+
+
+<div style="display: flex; justify-content: space-around;">
+    <figure>
+        <img src="assets/images/people/koda/koda_cozy.jpeg" alt="UCLA TKL Lab Circle" style="width: 80%; height: auto;">
+        <figcaption>Figure 1: Koda</figcaption>
+    </figure>
+    <figure>
+        <img src="assets/images/people/koda/zach_n_baby_koda.jpeg" alt="UCLA TKL Lab Circle" style="width: 80%; height: auto;">
+        <figcaption>Figure 2: Koda as a puppy</figcaption>
+    </figure>
+    <figure>
+        <img src="assets/images/people/koda/koda_snowshoe.jpeg" alt="UCLA TKL Lab Circle" style="width: 80%; height: auto;">
+        <figcaption>Figure 3: Snowshoing</figcaption>
+    </figure>
+</div>
