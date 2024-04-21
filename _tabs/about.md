@@ -51,15 +51,15 @@ Our study utilized unique probes, DMN-Tre and 3HC-Tre, which are sensitive to ch
 
 <div style="display: flex; justify-content: space-around;">
     <figure>
-        <img src="assets/images/ucla/lab_circ.JPG" alt="UCLA TKL Lab Circle" style="width: 30%; height: auto;">
+        <img src="assets/images/ucla/lab_circ.JPG" alt="UCLA TKL Lab Circle" style="width: 80%; height: auto;">
         <figcaption>Figure 1: UCLA TKL Lab Circle</figcaption>
     </figure>
     <figure>
-        <img src="assets/images/ucla/ev_amgen.png" alt="UCLA TKL Lab Circle" style="width: 30%; height: auto;">
+        <img src="assets/images/ucla/ev_amgen.png" alt="UCLA TKL Lab Circle" style="width: 80%; height: auto;">
         <figcaption>Figure 2: EV AMGEN Scholar</figcaption>
     </figure>
     <figure>
-        <img src="assets/images/ucla/lab_circ_2.JPG" alt="UCLA TKL Lab Circle" style="width: 30%; height: auto;">
+        <img src="assets/images/ucla/lab_circ_2.JPG" alt="UCLA TKL Lab Circle" style="width: 80%; height: auto;">
         <figcaption>Figure 3: UCLA TKL Lab Circle Upon Reuniting</figcaption>
     </figure>
 </div>
