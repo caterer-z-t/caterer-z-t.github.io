@@ -31,8 +31,16 @@ To explore more about Dr. Wheeler's work and access the wrmXpress GUI:
 - Check out Dr. Wheeler's lab page at the [wheelerlab.bio](https://wheelerlab.bio/).
 - Find the wrmXpress GUI on [wrmXpress-gui](https://github.com/wheelerlab-uwec/wrmXpress-gui)
 
-**Research with Dr. Gomes**
-I've also collaborated with Dr. Rahul Gomes in the Department of Computer Science. 
+**Research with Dr. Gomes:**
+
+I collaborated with Dr. Rahul Gomes in the Department of Computer Science on two research projects:
+
+1. **Pancreatic Ductal Adenocarcinoma (PDAC):**
+   We developed a scalable feature selection and deep learning framework to identify methylation sites in the human genome associated with PDAC. Our approach involved analyzing high-dimensional genomic datasets, including almost 485,578 CPG markers. By employing feature selection techniques and analyzing gene expression data, we identified key genes implicated in PDAC, such as "KRAS", "BRCA1", and "TP53". Our findings hold promise for improving diagnosis and treatment outcomes for this aggressive cancer.
+
+2. **Artificial Intellegence in Tumor Classification Using FTIR:**
+   We proposed a deep learning-based framework for automating classification in kidney tumor tissue microarrays (TMAs) using Infrared (IR) spectroscopic imaging data. By integrating feature selection algorithms with deep learning models, we achieved a classification accuracy of 95.47% for distinguishing Chromophobe renal cell carcinoma from Oncocytoma. This advancement could lead to the development of an advanced diagnostic tool for renal tumors, potentially impacting patient outcomes and treatment strategies.
+
 
 As an **Amgen Scholar** at UCLA, I worked with Dr. Merielle Kamariza in the Department of Bioengineering. 
 
