@@ -1,7 +1,10 @@
 ---
-# the default layout is 'page'
 icon: fas fa-info-circle
 order: 1
+toc: true
+comments: true
+math: true
+mermaid: true
 ---
 
 Hello! I'm Zachary (Zach) Caterer, a Biological Engineering PhD student studying at the University of Colorado Boulder in the department of Chemical and Biological Engineering with a certificate in Inderdiciplinary Quantative Biology in the Biofrontier's Institute. 
@@ -11,8 +14,8 @@ _Zach's Senior Photos taken near UWEC's Campus_
 
 # Undergraduate 
 My Undergraduate education is from the **[University of Wisconsin Eau Claire](https://www.uwec.edu/)** where I double majored in 
-- [Applied Mathematics & Statistics](https://www.uwec.edu/academics/programs/undergraduate/statistics-applied-mathematics/), and 
-- [Biochemistry & Molecular Biology](https://www.uwec.edu/academics/programs/undergraduate/biochemistry-molecular-biology/).
+- [Applied Mathematics & Statistics](https://www.uwec.edu/academics/programs/undergraduate/statistics-applied-mathematics/) 
+- [Biochemistry & Molecular Biology](https://www.uwec.edu/academics/programs/undergraduate/biochemistry-molecular-biology/)
 
 ![UWEC Campus](assets/images/uwec/uwec_sunset_arch.jpeg)
 _UWEC arch at sunset_

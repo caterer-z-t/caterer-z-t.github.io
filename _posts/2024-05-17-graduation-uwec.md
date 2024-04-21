@@ -1,13 +1,12 @@
 ---
 title: Graduation From UWEC
-date: 2024-04-20 11:00:00 +0030
+date: 2024-05-17 11:00:00 +0030
 tag: [UWEC]
 categories: [Undergrad]
 author: <zc>
 ---
 
-This is my first entry in my blog. I'm excited to start sharing my thoughts and experiences with you all. Stay tuned for more updates!
-In today's blog post, I am thrilled to share with you the exciting news of my successful completion of my undergraduate degree at UWEC! 🎓🎉
+I am thrilled to share with you the exciting news of my successful completion of my undergraduate degree at UWEC!
 
 <!-- ![Graduation Image](/path/to/graduation-image.jpg) -->
 
@@ -29,6 +28,6 @@ As I reflect on my time as an undergraduate student, I am filled with a sense of
 
 I am now ready to take on new challenges, explore new opportunities, and make a positive impact in the world. The knowledge and skills I have gained during my time at UWEC have equipped me to face any obstacle that comes my way.
 
-Thank you all for being a part of this incredible journey with me. Stay tuned for more updates as I embark on the next chapter of my life!
+In my next chapter, I will be attending the University of Colorado Boulder where I will be pursuing a PhD in Biological Engineering through the Department of Chemical and Biological Engineeering. I am also proud to announce that I was accepted into the Biofrontier Institute's Interdiciplinary Quantative Biology program which is funded through the National Science Foundations Integrated Data Science Fellowship. I am extremely excited to work with an amazing group of people. I will spend this summer doing research with Dr. Kayla Sprenger and Dr. Wyatt Shields in the Department of Chemical and Biological Engineering at the University of Colorado Boulder. 
 
 ![Next Chapter Image](assets/images/boulder/4b28a121-4475-4e08-a2c3-18502ba23626_rw_1920.jpeg) 
