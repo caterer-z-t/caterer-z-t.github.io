@@ -9,6 +9,14 @@ mermaid: true
 
 Hello! I'm Zachary (Zach) Caterer, a Biological Engineering PhD student studying at the University of Colorado Boulder in the department of Chemical and Biological Engineering with a certificate in Inderdiciplinary Quantative Biology in the Biofrontier's Institute. 
 
+# Graduate
+My Graduate education is from **University of Colorado Boulder** where I am studying 
+- PhD in Biological Engineering 
+- MS in Biological Engineeering 
+Both of which are housed under the Department of Chemical and Biological Engineering at the University of Colorado Boulder. I will also be getting a certificate in 
+- Interdiciplinary Quantative Biology 
+Which is through the Biofrontiers Institute and funded through the National Science Foundation Integrated Data Science Fellowship. 
+
 ![Zachary Caterer](assets/images/people/zach/zach_stance.JPG)
 _Zach's Senior Photos taken near UWEC's Campus_
 
