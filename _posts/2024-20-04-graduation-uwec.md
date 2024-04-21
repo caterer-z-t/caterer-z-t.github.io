@@ -3,6 +3,7 @@ title: Graduation From UWEC
 date: 2024-04-20 11:00:00 +0030
 tag: [UWEC]
 categories: [Undergrad]
+author: <zc>
 ---
 
 This is my first entry in my blog. I'm excited to start sharing my thoughts and experiences with you all. Stay tuned for more updates!
