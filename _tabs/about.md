@@ -96,7 +96,7 @@ _SPL Lab_
 5. **Comparing the Accuracy of FTIR Imaging and QCL Technology for Differentiation between Chromophobe Renal Cell Carcinoma and Oncocytoma**
     I contributed to research comparing the efficacy of Fourier Transform Infrared (FTIR) imaging and Quantum Cascade Laser (QCL) technology in differentiating between Chromophobe renal cell carcinoma and Oncocytoma. This study aimed to determine which technology could more accurately differentiate these two closely related renal disorders, thereby enhancing diagnostic accuracy and reliability essential for effective kidney cancer treatment and management.
 
-6. **Development of a Comprehensive Analytical Software for Spectroscopic Data**
+6. **Spectral Pathology Lab Application Database (SPLAD)**
     During my tenure in Dr. Walsh's lab, I played a pivotal role in the development of a software program designed to analyze a variety of spectroscopic data, including FTIR, ATR, Raman, and mass spectrometry. This software, entirely written in Python, equipped users with tools for basic data processing tasks such as baselining, normalization, and the application of second derivatives. Moreover, it included advanced statistical processing capabilities, such as linear regressions, principal component analysis, and linear discriminant analysis. This project was not only crucial for enhancing our research capabilities but also served as my gateway to learning Python and developing coding skills. The software has significantly streamlined the data analysis process in our lab, improving the efficiency and accuracy of our spectroscopic studies.
 
 ![Cerca 2022](assets/images/uwec/cerca2022.jpg)
