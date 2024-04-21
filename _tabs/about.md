@@ -18,7 +18,7 @@ _UWEC arch at sunset_
 ## My Academic Adventures 
 
 **Research with Dr. Wheeler:**
-During your time at UWEC, you worked with Dr. Wheeler in the Department of Biology. We developed a user-friendly interface for high-throughput analysis of parasitic worms.
+During your time at UWEC, you worked with Dr. Wheeler in the Department of Biology. We developed a user-friendly interface for high-throughput analysis of parasitic worms. I had the wonderful opportunity to present this research at the Celebration of Excellence, Research, and Creative Activities (CERCA). 
 
 ![Wheeler Lab](assets/images/uwec/wheeler_lab.jpeg)
 _Wheeler Lab social gathering_
@@ -33,7 +33,9 @@ To explore more about Dr. Wheeler's work and access the wrmXpress GUI:
 
 **Research with Dr. Gomes:**
 
-I collaborated with Dr. Rahul Gomes in the Department of Computer Science on two research projects:
+I collaborated with Dr. Rahul Gomes in the Department of Computer Science on two research projects. I had the wonderful opportunity to present this research at  the Celebration of Excellence, Research, and Creative Activities (CERCA), and the National Conference on Undergraduate Research (NCUR) respectively.:
+
+### Project Summaries 
 
 1. **Pancreatic Ductal Adenocarcinoma (PDAC):**
    We developed a scalable feature selection and deep learning framework to identify methylation sites in the human genome associated with PDAC. Our approach involved analyzing high-dimensional genomic datasets, including almost 485,578 CPG markers. By employing feature selection techniques and analyzing gene expression data, we identified key genes implicated in PDAC, such as "KRAS", "BRCA1", and "TP53". Our findings hold promise for improving diagnosis and treatment outcomes for this aggressive cancer.
@@ -60,18 +62,48 @@ Our study utilized unique probes, DMN-Tre and 3HC-Tre, which are sensitive to ch
     </figure>
     <figure>
         <img src="assets/images/ucla/lab_circ_2.JPG" alt="UCLA TKL Lab Circle" style="width: 80%; height: auto;">
-        <figcaption>Figure 3: UCLA TKL Lab Circle Upon Reuniting</figcaption>
+        <figcaption>Figure 3: UCLA TKL Lab Circle Part 2</figcaption>
     </figure>
 </div>
 
 
 **Where to Learn More:**
-For further information about this research:
-- To visit the [The Kamariza Lab Website](https://www.kamarizalab.com/).
+For further information:
+- Visit the [The Kamariza Lab Website](https://www.kamarizalab.com/).
 - To find more information regarding [AMGEN Scholars Program at UCLA](https://sciences.ugresearch.ucla.edu/programs-and-scholarships/amgen-scholars/), and the [previous AMGEN Scholars](https://sciences.ugresearch.ucla.edu/profiles/amgen-scholars/). 
 
 
-I started research with Dr. Michael Walsh  in the Department of Materials Science & Biomedical Engineering who is now at the New York Institute of Technology in the Department of Electrical and Computer Engineering. 
+## Research with Dr. Walsh
+I started my research journey with Dr. Michael Walsh in the Department of Materials Science & Biomedical Engineering, now at the New York Institute of Technology in the Department of Electrical and Computer Engineering. Throughout this tenure, I was granted the wonderful opportunity to present our findings at various research conferences, including the prestigious Research in the Rotunda in Madison, Wisconsin, the Celebration of Excellence, Research, and Creative Activities (CERCA), and the National Conference on Undergraduate Research (NCUR).
+
+![Spectral Patholgy Lab](assets/images/uwec/spl.jpg)
+
+### Project Summaries
+
+1. **Analysis of Bcl2-Associated Anthanogene 3 Mutated Cardiac Tissue Using Fourier-Transform Infrared Spectroscopy**
+    This study delves into BAG3 mutations, known to cause severe cardiomyopathies, using Fourier-Transform Infrared Spectroscopy (FTIR). By analyzing cardiac cross-sections from transgenic mice harboring the P209L BAG3 mutation, we detected specific spectral differences indicative of pathological alterations in myocardial tissues. This research offers insights into the molecular mechanics behind cardiomyopathies and proposes a non-invasive diagnostic approach that could significantly influence therapeutic strategies.
+
+2. **Differentiating Between Non-Alcoholic Steatoheatitis and Alcoholic Steatohepatitis through FTIR Imaging**
+    Our research tackled the challenge of distinguishing between non-alcoholic (NASH) and alcoholic steatohepatitis (ASH) using FTIR imaging. The technique allowed us to identify unique biochemical fingerprints that differentiate NASH from ASH, potentially leading to more precise and less invasive diagnostic methods. This study is especially valuable in clinical settings where patient history alone does not reliably indicate the underlying disease etiology.
+
+3. **Using Infrared Light to Improve the Diagnosis and Treatment of Patients with Kidney Cancer**
+    This project explores the use of mid-infrared (MIR) imaging in diagnosing kidney cancer, particularly focusing on distinguishing between chromophobe renal cell carcinoma and renal oncocytoma. By employing both FTIR spectroscopy and Quantum Cascade Laser (QCL) technology, we demonstrated that infrared imaging can identify subtle biochemical changes in tissue samples, providing a non-invasive and accurate diagnostic tool that could greatly enhance clinical outcomes for kidney cancer patients.
+
+4. **Artificial Intelligence in Tumor Classification Using FTIR**
+    In the Walsh lab, we developed a deep learning framework to automate the classification of kidney tumor tissue microarrays using infrared (IR) spectroscopic imaging data. Integrating feature selection algorithms with deep learning models, we achieved a classification accuracy of 95.47% in distinguishing Chromophobe renal cell carcinoma from Oncocytoma. This project highlights the potential for advanced diagnostics in renal tumor identification, significantly impacting patient treatment strategies and outcomes.
+
+5. **Comparing the Accuracy of FTIR Imaging and QCL Technology for Differentiation between Chromophobe Renal Cell Carcinoma and Oncocytoma**
+    I contributed to research comparing the efficacy of Fourier Transform Infrared (FTIR) imaging and Quantum Cascade Laser (QCL) technology in differentiating between Chromophobe renal cell carcinoma and Oncocytoma. This study aimed to determine which technology could more accurately differentiate these two closely related renal disorders, thereby enhancing diagnostic accuracy and reliability essential for effective kidney cancer treatment and management.
+
+6. **Development of a Comprehensive Analytical Software for Spectroscopic Data**
+    During my tenure in Dr. Walsh's lab, I played a pivotal role in the development of a software program designed to analyze a variety of spectroscopic data, including FTIR, ATR, Raman, and mass spectrometry. This software, entirely written in Python, equipped users with tools for basic data processing tasks such as baselining, normalization, and the application of second derivatives. Moreover, it included advanced statistical processing capabilities, such as linear regressions, principal component analysis, and linear discriminant analysis. This project was not only crucial for enhancing our research capabilities but also served as my gateway to learning Python and developing coding skills. The software has significantly streamlined the data analysis process in our lab, improving the efficiency and accuracy of our spectroscopic studies.
+
+![Cerca 2022](assets/images/uwec/cerca2022.jpg)
+
+**Where to Learn More:**
+For further information:
+- Visit the [The Spectral Pathology Lab Website](https://www.spectralpathology.com/).
+
 
 ## Personal Life (Because All Work and No Play Makes Jack a Dull Boy) 🐕
 
