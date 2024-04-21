@@ -1,5 +1,6 @@
 ---
-layout: cv
+layout: page
+title: cv
 icon: fa-solid fa-file
 order: 5
 ---
