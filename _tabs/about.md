@@ -42,7 +42,16 @@ I collaborated with Dr. Rahul Gomes in the Department of Computer Science on two
    We proposed a deep learning-based framework for automating classification in kidney tumor tissue microarrays (TMAs) using Infrared (IR) spectroscopic imaging data. By integrating feature selection algorithms with deep learning models, we achieved a classification accuracy of 95.47% for distinguishing Chromophobe renal cell carcinoma from Oncocytoma. This advancement could lead to the development of an advanced diagnostic tool for renal tumors, potentially impacting patient outcomes and treatment strategies.
 
 
-As an **Amgen Scholar** at UCLA, I worked with Dr. Merielle Kamariza in the Department of Bioengineering. 
+**Research with Dr. Kamariza:**
+
+As an **Amgen Scholar** at UCLA's Department of Bioengineering, I had the privilege to work with Dr. Mireille Kamariza on developing cutting-edge diagnostics for Tuberculosis (TB). Our project introduced a novel diagnostic approach that combines environment-sensitive probes with Octopi, an automated fluorescence microscope enhanced by machine learning. This innovative method allows for the rapid and accurate detection of live *Mycobacterium tuberculosis* (Mtb), significantly improving upon traditional TB diagnostic practices.
+
+**Project Summary:**
+Our study utilized unique probes, DMN-Tre and 3HC-Tre, which are sensitive to changes in hydrophobicity when bacterial metabolism is activated, allowing visualization of TB bacteria in just 30 minutes. We captured this process using Octopi, which facilitated high-throughput and automated image acquisition. These images were then processed through a machine learning pipeline that integrates data acquisition with analysis, reducing the need for manual intervention and enhancing diagnostic accuracy.
+
+**Where to Learn More:**
+For further information about this transformative research, please visit [The Kamariza Lab Website](https://www.kamarizalab.com/).
+
 
 I started research with Dr. Michael Walsh  in the Department of Materials Science & Biomedical Engineering who is now at the New York Institute of Technology in the Department of Electrical and Computer Engineering. 
 
