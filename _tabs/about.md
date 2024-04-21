@@ -9,8 +9,10 @@ Hello! I'm Zachary (Zach) Caterer, a Biological Engineering PhD student studying
 ![Zachary Caterer](assets/images/people/zach/zach_stance.JPG)
 _Zach's Senior Photos taken near UWEC's Campus_
 
-
-My Undergraduate education is from the **[University of Wisconsin Eau Claire](https://www.uwec.edu/)** where I double majored in [Applied Mathematics & Statistics](https://www.uwec.edu/academics/programs/undergraduate/statistics-applied-mathematics/), and [Biochemistry & Molecular Biology](https://www.uwec.edu/academics/programs/undergraduate/biochemistry-molecular-biology/).
+# Undergraduate 
+My Undergraduate education is from the **[University of Wisconsin Eau Claire](https://www.uwec.edu/)** where I double majored in 
+- [Applied Mathematics & Statistics](https://www.uwec.edu/academics/programs/undergraduate/statistics-applied-mathematics/), and 
+- [Biochemistry & Molecular Biology](https://www.uwec.edu/academics/programs/undergraduate/biochemistry-molecular-biology/).
 
 ![UWEC Campus](assets/images/uwec/uwec_sunset_arch.jpeg)
 _UWEC arch at sunset_
