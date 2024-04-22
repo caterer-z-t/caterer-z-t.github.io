@@ -5,6 +5,5 @@ icon: fa-solid fa-file
 order: 5
 ---
 
-<object data="assets/images/people/zach/zc_cv.pdf" type="application/pdf" width="100%" height="800px">
-  <p>This browser does not support PDFs. Please <a href="assets/images/people/zach/zc_cv.pdf">download the PDF</a> to view it.</p>
-</object>
+<iframe src="https://github.com/caterer-z-t/caterer-z-t.github.io/raw/18203f292a9f2e65508be1a1045fb2e50f0987b0/assets/images/people/zach/zc_cv.pdf" width="100%" height="800px"></iframe>
+
