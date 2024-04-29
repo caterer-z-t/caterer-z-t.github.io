@@ -6,6 +6,7 @@ comments: true
 math: true
 mermaid: true
 ---
+<div style="display: flex; flex-direction: row;">
 
 Hello! I'm Zachary (Zach) Caterer, a Biological Engineering PhD student studying at the University of Colorado Boulder in the department of Chemical and Biological Engineering with a certificate in Inderdiciplinary Quantative Biology in the Biofrontier's Institute. 
 
@@ -18,10 +19,12 @@ Both of which are housed under the Department of Chemical and Biological Enginee
 
 - Interdiciplinary Quantative Biology 
 
-Which is through the Biofrontiers Institute and funded through the National Science Foundation Integrated Data Science Fellowship. 
+Which is through the Biofrontiers Institute and funded through the National Science Foundation Integrated Data Science Fellowship.
 
 ![Zachary Caterer](assets/images/people/zach/zach_stance.JPG)
 _Zach's Senior Photos taken near UWEC's Campus_
+
+</div>
 
 # Undergraduate 
 My Undergraduate education is from the **[University of Wisconsin Eau Claire](https://www.uwec.edu/)** where I double majored in 
@@ -55,6 +58,9 @@ I collaborated with Dr. Rahul Gomes in the Department of Computer Science on two
 
 1. **Pancreatic Ductal Adenocarcinoma (PDAC):**
    We developed a scalable feature selection and deep learning framework to identify methylation sites in the human genome associated with PDAC. Our approach involved analyzing high-dimensional genomic datasets, including almost 485,578 CPG markers. By employing feature selection techniques and analyzing gene expression data, we identified key genes implicated in PDAC, such as "KRAS", "BRCA1", and "TP53". Our findings hold promise for improving diagnosis and treatment outcomes for this aggressive cancer.
+
+![UWEC Gomes PDAC](assets/images/uwec/cerca_avec_gomes.jpg)
+_Gomes Research Lab Presenting PDAC Project at CERCA 2024_
 
 2. **Artificial Intellegence in Tumor Classification Using FTIR:**
    We proposed a deep learning-based framework for automating classification in kidney tumor tissue microarrays (TMAs) using Infrared (IR) spectroscopic imaging data. By integrating feature selection algorithms with deep learning models, we achieved a classification accuracy of 95.47% for distinguishing Chromophobe renal cell carcinoma from Oncocytoma. This advancement could lead to the development of an advanced diagnostic tool for renal tumors, potentially impacting patient outcomes and treatment strategies.
