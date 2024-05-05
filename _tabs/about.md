@@ -23,14 +23,14 @@ mermaid: true
         <li>Interdisciplinary Quantitative Biology</li>
     </ul>
     <p>This certificate is through the BioFrontiers Institute and funded through the National Science Foundation Integrated Data Science Fellowship.</p>
-    <p><em>Zach's Senior Photos taken near UWEC's Campus</em></p>
 </div>
 
 <div style="flex: 1;">
-    <img src="assets/images/people/zach/avatar.jpg" style="width: 100%; height: auto;">
+    <img src="assets/images/people/zach/avatar.jpg" alt="Zachary Caterer's Senior Photo near UWEC Campus" style="width: 100%; height: auto;">
 </div>
 
 </div>
+
 
 
 # Undergraduate 
