@@ -23,7 +23,6 @@ mermaid: true
         <li>Interdisciplinary Quantitative Biology</li>
     </ul>
     <p>This certificate is through the BioFrontiers Institute and funded through the National Science Foundation Integrated Data Science Fellowship.</p>
-    <p><em>Zach's Senior Photos taken near UWEC's Campus</em></p>
 </div>
 
 <div style="flex: 1;">
