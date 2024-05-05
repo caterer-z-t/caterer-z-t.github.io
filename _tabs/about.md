@@ -6,25 +6,28 @@ comments: true
 math: true
 mermaid: true
 ---
-<div style="display: flex; flex-direction: row;">
-
-Hello! I'm Zachary (Zach) Caterer, a Biological Engineering PhD student studying at the University of Colorado Boulder in the department of Chemical and Biological Engineering with a certificate in Inderdiciplinary Quantative Biology in the Biofrontier's Institute. 
-
-# Graduate
-My Graduate education is from **University of Colorado Boulder** where I am studying 
-- PhD in Biological Engineering 
-- MS in Biological Engineeering 
-
-Both of which are housed under the Department of Chemical and Biological Engineering at the University of Colorado Boulder. I will also be getting a certificate in 
-
-- Interdiciplinary Quantative Biology 
-
-Which is through the Biofrontiers Institute and funded through the National Science Foundation Integrated Data Science Fellowship.
+<div style="display: flex; flex-direction: row; align-items: center; justify-content: start;">
 
 ![Zachary Caterer](assets/images/people/zach/zach_stance.JPG)
-_Zach's Senior Photos taken near UWEC's Campus_
+<div style="margin-left: 20px;">
+    <h1>Hello! I'm Zachary (Zach) Caterer</h1>
+    <p>I am a PhD student in Biological Engineering at the University of Colorado Boulder, part of the Department of Chemical and Biological Engineering, and pursuing a certificate in Interdisciplinary Quantitative Biology at the BioFrontiers Institute.</p>
 
+    <h2>Graduate Education</h2>
+    <p>My graduate education is from <strong>University of Colorado Boulder</strong>, where I am studying:</p>
+    <ul>
+        <li>PhD in Biological Engineering</li>
+        <li>MS in Biological Engineering</li>
+    </ul>
+    <p>Both degrees are housed under the Department of Chemical and Biological Engineering at the University of Colorado Boulder. I will also be receiving a certificate in:</p>
+    <ul>
+        <li>Interdisciplinary Quantitative Biology</li>
+    </ul>
+    <p>This certificate is through the BioFrontiers Institute and funded through the National Science Foundation Integrated Data Science Fellowship.</p>
+    <p><em>Zach's Senior Photos taken near UWEC's Campus</em></p>
 </div>
+</div>
+
 
 # Undergraduate 
 My Undergraduate education is from the **[University of Wisconsin Eau Claire](https://www.uwec.edu/)** where I double majored in 
