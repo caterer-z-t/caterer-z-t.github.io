@@ -27,10 +27,7 @@ mermaid: true
 
 <div style="flex: 1;">
     <img src="assets/images/people/zach/avatar.jpg" alt="Zachary Caterer's Senior Photo near UWEC Campus" style="width: 100%; height: auto;">
-    <iframe
-        class="responsive-map"
-        src="https://www.google.com/maps/place/Boulder,+CO/@40.0292806,-105.3225503,12z/data=!3m1!4b1!4m6!3m5!1s0x876b8d4e278dafd3:0xc8393b7ca01b8058!8m2!3d40.0149856!4d-105.2705456!16zL20vMG5jajg?entry=ttu">
-    </iframe>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90379.03046376428!2d-105.23997745!3d40.0293099!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876b8d4e278dafd3%3A0xc8393b7ca01b8058!2sBoulder%2C%20CO!5e1!3m2!1sen!2sus!4v1714943319112!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
 
 </div>
