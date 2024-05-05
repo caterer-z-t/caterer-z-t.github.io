@@ -6,10 +6,9 @@ comments: true
 math: true
 mermaid: true
 ---
-<div style="display: flex; flex-direction: row; align-items: center; justify-content: start;">
+<div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
 
-![Zachary Caterer](assets/images/people/zach/avatar.jpg)
-<div style="margin-left: 20px;">
+<div style="flex: 1; padding-right: 20px;">
     <h1>Hello! I'm Zachary (Zach) Caterer</h1>
     <p>I am a PhD student in Biological Engineering at the University of Colorado Boulder, part of the Department of Chemical and Biological Engineering, and pursuing a certificate in Interdisciplinary Quantitative Biology at the BioFrontiers Institute.</p>
 
@@ -26,6 +25,11 @@ mermaid: true
     <p>This certificate is through the BioFrontiers Institute and funded through the National Science Foundation Integrated Data Science Fellowship.</p>
     <p><em>Zach's Senior Photos taken near UWEC's Campus</em></p>
 </div>
+
+<div style="flex: 1;">
+    <img src="assets/images/people/zach/avatar.jpg" style="width: 100%; height: auto;">
+</div>
+
 </div>
 
 
