@@ -31,8 +31,6 @@ mermaid: true
 
 </div>
 
-
-
 # Undergraduate 
 My Undergraduate education is from the **[University of Wisconsin Eau Claire](https://www.uwec.edu/)** where I double majored in 
 - [Applied Mathematics & Statistics](https://www.uwec.edu/academics/programs/undergraduate/statistics-applied-mathematics/) 
