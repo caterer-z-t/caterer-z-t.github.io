@@ -41,6 +41,62 @@ _UWEC arch at sunset_
 
 ## My Academic Adventures 
 
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Wheeler')">Dr. Wheeler</button>
+  <button class="tablinks" onclick="openCity(event, 'Gomes')">Dr. Gomes</button>
+  <button class="tablinks" onclick="openCity(event, 'Kamariza')">Dr. Kamariza</button>
+  <button class="tablinks" onclick="openCity(event, 'Walsh')">Dr. Walsh</button>
+</div>
+
+<!-- Tab content -->
+<div id="Wheeler" class="tabcontent">
+  <h3>Research with Dr. Wheeler</h3>
+  <p>During your time at UWEC, you worked with Dr. Wheeler...</p>
+  <img src="assets/images/uwec/wheeler_lab.jpeg" alt="Wheeler Lab">
+  <p>Wheeler Lab social gathering</p>
+</div>
+
+<div id="Gomes" class="tabcontent">
+  <h3>Research with Dr. Gomes</h3>
+  <p>I collaborated with Dr. Rahul Gomes in the Department of Computer Science...</p>
+  <img src="assets/images/uwec/cerca_avec_gomes.jpg" alt="Gomes Lab at CERCA">
+  <p>Gomes Research Lab Presenting PDAC Project at CERCA 2024</p>
+</div>
+
+<div id="Kamariza" class="tabcontent">
+  <h3>Research with Dr. Kamariza</h3>
+  <p>As an Amgen Scholar at UCLA's Department of Bioengineering...</p>
+  <img src="assets/images/ucla/lab_circ.JPG" alt="UCLA TKL Lab Circle">
+  <p>Figure 1: UCLA TKL Lab Circle</p>
+</div>
+
+<div id="Walsh" class="tabcontent">
+  <h3>Research with Dr. Walsh</h3>
+  <p>I started my research journey with Dr. Michael Walsh...</p>
+  <img src="assets/images/uwec/spl.jpg" alt="Spectral Pathology Lab">
+  <p>SPL Lab</p>
+</div>
+
+<script>
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+// Default open
+document.getElementsByClassName('tablinks')[0].click();
+</script>
+
+
 **Research with Dr. Wheeler:**
 During your time at UWEC, you worked with Dr. Wheeler in the Department of Biology. We developed a user-friendly interface for high-throughput analysis of parasitic worms. I had the wonderful opportunity to present this research at the Celebration of Excellence, Research, and Creative Activities (CERCA). 
 
