@@ -8,6 +8,10 @@
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
   url:  'https://www.linkedin.com/in/zacharytcaterer/' # Fill with your Linkedin homepage
 
+- type: twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/caterer_z_t"
+
 - type: Instagram
   icon: "fab fa-instagram"
   url: "https://www.instagram.com/z_26caterer"
@@ -21,9 +25,9 @@
   url: "https://orcid.org/0000-0001-9019-0730"
 
 
-- type: rss
-  icon: "fas fa-rss"
-  noblank: true
+# - type: rss
+#   icon: "fas fa-rss"
+#   noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
 
