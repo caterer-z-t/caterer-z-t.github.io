@@ -43,7 +43,7 @@ _UWEC arch at sunset_
 
 <!-- Tab links -->
 <div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'Wheeler')">Dr. Wheeler</button>
+  <button class="tablinks", id = 'defaultOpen' onclick="openCity(event, 'Wheeler')">Dr. Wheeler</button>
   <button class="tablinks" onclick="openCity(event, 'Gomes')">Dr. Gomes</button>
   <button class="tablinks" onclick="openCity(event, 'Kamariza')">Dr. Kamariza</button>
   <button class="tablinks" onclick="openCity(event, 'Walsh')">Dr. Walsh</button>
