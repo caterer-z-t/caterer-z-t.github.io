@@ -41,6 +41,43 @@ _UWEC arch at sunset_
 
 ## My Academic Adventures 
 
+{{< tabs >}}
+{{< tab id="wheeler" title="Dr. Wheeler" >}}
+### Research with Dr. Wheeler:
+During your time at UWEC, you worked with Dr. Wheeler...
+
+![Wheeler Lab](assets/images/uwec/wheeler_lab.jpeg)
+*Wheeler Lab social gathering*
+{{< /tab >}}
+
+{{< tab id="gomes" title="Dr. Gomes" >}}
+### Research with Dr. Gomes:
+I collaborated with Dr. Rahul Gomes in the Department of Computer Science...
+
+![UWEC Gomes PDAC](assets/images/uwec/cerca_avec_gomes.jpg)
+*Gomes Research Lab Presenting PDAC Project at CERCA 2024*
+{{< /tab >}}
+
+{{< tab id="kamariza" title="Dr. Kamariza" >}}
+### Research with Dr. Kamariza:
+As an **Amgen Scholar** at UCLA's Department of Bioengineering...
+
+<div style="display: flex; justify-content: space-around;">
+    <figure>
+        <img src="assets/images/ucla/lab_circ.JPG" alt="UCLA TKL Lab Circle" style="width: 80%; height: auto;">
+        <figcaption>Figure 1: UCLA TKL Lab Circle</figcaption>
+    </figure>
+{{< /tab >}}
+
+{{< tab id="walsh" title="Dr. Walsh" >}}
+### Research with Dr. Walsh
+I started my research journey with Dr. Michael Walsh in the Department of Materials Science...
+
+![Spectral Patholgy Lab](assets/images/uwec/spl.jpg)
+*SPL Lab*
+{{< /tab >}}
+{{< /tabs >}}
+
 **Research with Dr. Wheeler:**
 During your time at UWEC, you worked with Dr. Wheeler in the Department of Biology. We developed a user-friendly interface for high-throughput analysis of parasitic worms. I had the wonderful opportunity to present this research at the Celebration of Excellence, Research, and Creative Activities (CERCA). 
 
