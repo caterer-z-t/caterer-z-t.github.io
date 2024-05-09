@@ -1,7 +1,7 @@
 ---
 layout: page
 title: cv
-icon: fa-solid fa-file
+icon: fa-solid fa-file-user
 order: 3
 ---
 
