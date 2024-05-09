@@ -1,11 +1,12 @@
 ---
-icon: fas fa-info-circle
+icon: fa-solid fa-address-card
 order: 1
 toc: true
 comments: true
 math: true
 mermaid: true
 ---
+
 <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
 
 <div style="flex: 1; padding-right: 20px;">

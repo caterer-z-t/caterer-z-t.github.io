@@ -2,7 +2,6 @@
 layout: page
 title: koda
 icon: fa-solid fa-paw
-order: 6
+order: 3
 ---
 
-# Hello, I'm Koda
