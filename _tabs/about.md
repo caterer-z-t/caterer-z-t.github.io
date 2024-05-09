@@ -42,6 +42,19 @@ _UWEC arch at sunset_
 
 ## My Academic Adventures 
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tab Interface</title>
+<style>
+  .tabcontent { display: none; }
+  .active { background-color: #ccc; }
+</style>
+</head>
+<body>
+
+
 <!-- Tab links -->
 <div class="tab">
   <button class="tablinks" id='defaultOpen' onclick="openTab(event, 'Wheeler')">Dr. Wheeler</button>
