@@ -44,10 +44,10 @@ _UWEC arch at sunset_
 
 <!-- Tab links -->
 <div class="tab">
-  <button class="tablinks" id = 'defaultOpen' onclick="openCity(event, 'Wheeler')">Dr. Wheeler</button>
-  <button class="tablinks" onclick="openCity(event, 'Gomes')">Dr. Gomes</button>
-  <button class="tablinks" onclick="openCity(event, 'Kamariza')">Dr. Kamariza</button>
-  <button class="tablinks" onclick="openCity(event, 'Walsh')">Dr. Walsh</button>
+  <button class="tablinks" id='defaultOpen' onclick="openTab(event, 'Wheeler')">Dr. Wheeler</button>
+  <button class="tablinks" onclick="openTab(event, 'Gomes')">Dr. Gomes</button>
+  <button class="tablinks" onclick="openTab(event, 'Kamariza')">Dr. Kamariza</button>
+  <button class="tablinks" onclick="openTab(event, 'Walsh')">Dr. Walsh</button>
 </div>
 
 <!-- Tab content -->
@@ -221,20 +221,3 @@ window.onload = function() {
 
 ## Personal Life 
 
-In my downtime, I love to spend time with my 4-year-old, Koda, a golden retriever who's therapy-certified, where we visit nursing homes and hospital. When not caring for others he is persuing his a PhD in Squirrel Habitat Management.
-
-
-<div style="display: flex; justify-content: space-around;">
-    <figure>
-        <img src="assets/images/people/koda/koda_cozy.jpeg" alt="UCLA TKL Lab Circle" style="width: 80%; height: auto;">
-        <figcaption>Figure 1: Koda</figcaption>
-    </figure>
-    <figure>
-        <img src="assets/images/people/koda/zach_n_baby_koda.jpeg" alt="UCLA TKL Lab Circle" style="width: 80%; height: auto;">
-        <figcaption>Figure 2: Koda as a puppy</figcaption>
-    </figure>
-    <figure>
-        <img src="assets/images/people/koda/koda_snowshoe.jpeg" alt="UCLA TKL Lab Circle" style="width: 80%; height: auto;">
-        <figcaption>Figure 3: Snowshoing</figcaption>
-    </figure>
-</div>
