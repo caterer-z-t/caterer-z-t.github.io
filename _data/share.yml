@@ -4,16 +4,15 @@
 platforms:
   - type: Linkedin
     icon: "fab fa-linkedin"
-    link: "https://www.linkedin.com/in/zacharytcaterer/"
+    link: "https://www.linkedin.com/"
 
   - type: Instagram
     icon: "fa-brands fa-instagram"
-    link: "https://www.instagram.com/z_26caterer"
+    link: "https://www.instagram.com/"
 
-  - type: Orcid
-    icon: "fa-brands fa-orcid"
-    link: "https://orcid.org/0000-0001-9019-0730"
-
+  - type: Twitter
+    icon: "fab fa-twitter"
+    link: "https://twitter.com/"
 
   #- type: Telegram
   #  icon: "fab fa-telegram"
