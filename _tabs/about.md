@@ -40,20 +40,7 @@ My Undergraduate education is from the **[University of Wisconsin Eau Claire](ht
 ![UWEC Campus](assets/images/uwec/uwec_sunset_arch.jpeg)
 _UWEC arch at sunset_
 
-## My Academic Adventures 
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Tab Interface</title>
-<style>
-  .tabcontent { display: none; }
-  .active { background-color: #ccc; }
-</style>
-</head>
-<body>
-
+## My Research Experience 
 
 <!-- Tab links -->
 <div class="tab">
@@ -205,31 +192,6 @@ _UWEC arch at sunset_
     <li>Visit <a href="https://www.spectralpathology.com/">The Spectral Pathology Lab Website</a>.</li>
   </ul>
 </div>
-
-
-<script>
-// Function to open the specified tab
-function openTab(evt, tabName) {
-    var i, tabcontent, tablinks;
-    // Hide all tab content
-    tabcontent = document.getElementsByClassName("tabcontent");
-    for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-    }
-    // Remove the "active" class from all tab links
-    tablinks = document.getElementsByClassName("tablinks");
-    for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].className = tablinks[i].className.replace(" active", "");
-    }
-    // Show the current tab content and add "active" class to the link
-    document.getElementById(tabName).style.display = "block";
-    evt.currentTarget.className += " active";
-}
-// Open the "Wheeler" tab by default
-window.onload = function() {
-    document.getElementById("defaultOpen").click();
-};
-</script>
 
 
 ## Personal Life 
