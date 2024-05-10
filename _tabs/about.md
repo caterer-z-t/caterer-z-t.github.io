@@ -42,14 +42,6 @@ _UWEC arch at sunset_
 
 ## My Research Experience 
 
-<!-- Tab links -->
-<div class="tab">
-  <button class="tablinks" id='defaultOpen' onclick="openTab(event, 'Wheeler')">Dr. Wheeler</button>
-  <button class="tablinks" onclick="openTab(event, 'Gomes')">Dr. Gomes</button>
-  <button class="tablinks" onclick="openTab(event, 'Kamariza')">Dr. Kamariza</button>
-  <button class="tablinks" onclick="openTab(event, 'Walsh')">Dr. Walsh</button>
-</div>
-
 <!-- Tab content -->
 <div id="Wheeler" class="tabcontent">
   <h3>Research with Dr. Wheeler</h3>
