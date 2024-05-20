@@ -1,7 +1,7 @@
 ---
 title: C4-5 Spinal Cord Injury
 date: 2019-08-03 12:00:00 +0030
-tag: [SCI]
+tag: [Life]
 categories: [Life]
 author: <zc>
 ---
