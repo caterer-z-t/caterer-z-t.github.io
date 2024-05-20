@@ -1,6 +1,6 @@
 ---
 title: Graduation From UWEC
-date: 2024-05-17 11:00:00 +0030
+date: 2024-05-17 12:00:00 +0030
 tag: [UWEC]
 categories: [Undergrad]
 author: <zc>
