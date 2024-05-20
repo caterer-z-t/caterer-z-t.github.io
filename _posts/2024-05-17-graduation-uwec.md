@@ -16,10 +16,8 @@ During my time at UWEC, I have had the privilege of learning from some of the mo
 
 Of course, I couldn't have done it without the support of my amazing friends and family. Their encouragement, love, and belief in me have been my driving force throughout this journey. I am forever grateful for their unwavering support.
 
-As I reflect on my time as an undergraduate student, I am filled with a sense of accomplishment and excitement for what lies ahead. This degree is not just a piece of paper; it represents the countless hours of hard work, dedication, and perseverance that I have put into my education.
-
 I am now ready to take on new challenges, explore new opportunities, and make a positive impact in the world. The knowledge and skills I have gained during my time at UWEC have equipped me to face any obstacle that comes my way.
 
-In my next chapter, I will be attending the University of Colorado Boulder where I will be pursuing a PhD in Biological Engineering through the Department of Chemical and Biological Engineeering. I am also proud to announce that I was accepted into the Biofrontier Institute's Interdiciplinary Quantative Biology program which is funded through the National Science Foundations Integrated Data Science Fellowship. I am extremely excited to work with an amazing group of people. I will spend this summer doing research with Dr. Kayla Sprenger and Dr. Wyatt Shields in the Department of Chemical and Biological Engineering at the University of Colorado Boulder. 
+In my next chapter, I will be attending the University of Colorado Boulder where I will be pursuing a PhD in Biological Engineering through the Department of Chemical and Biological Engineeering. I am also proud to announce that I was accepted into the Biofrontier Institute's Interdiciplinary Quantative Biology program which is funded through the National Science Foundations Integrated Data Science Fellowship. I am extremely excited to work with an amazing group of people. 
 
 ![Next Chapter Image](assets/images/boulder/4b28a121-4475-4e08-a2c3-18502ba23626_rw_1920.jpeg) 

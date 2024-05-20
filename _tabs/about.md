@@ -7,10 +7,12 @@ math: true
 mermaid: true
 ---
 
+## Hello! I'm Zachary (Zach) Caterer
+
 <div style="display: flex; flex-direction: row; align-items: center; justify-content: center;">
 
 <div style="flex: 1; padding-right: 20px;">
-    <h1>Hello! I'm Zachary (Zach) Caterer</h1>
+    
     <p>I am a PhD student in Biological Engineering at the University of Colorado Boulder, part of the Department of Chemical and Biological Engineering, and pursuing a certificate in Interdisciplinary Quantitative Biology at the BioFrontiers Institute.</p>
 
     <h2>Graduate Education</h2>
