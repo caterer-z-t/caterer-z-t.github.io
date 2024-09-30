@@ -188,5 +188,3 @@ _UWEC arch at sunset_
 </div>
 
 
-## Personal Life 
-
