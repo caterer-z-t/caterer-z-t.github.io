@@ -12,7 +12,7 @@ author: <zc>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <link rel="stylesheet" href="{{ '/assets/js/public/style.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/js/public/index.css' | relative_url }}">
   <script async src="https://unpkg.com/es-module-shims@1.6.3/dist/es-module-shims.js"></script>
   <script type="importmap">
     {
