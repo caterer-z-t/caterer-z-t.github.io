@@ -35,7 +35,7 @@ mermaid: true
 </div>
 
 {% include webweb.html webweb_json=site.data.index_web responsive = true %}
-<!-- {% include webweb.html webweb_json=site.data.index_web responsive=true %} -->
+
 # Undergraduate 
 My Undergraduate education is from the **[University of Wisconsin Eau Claire](https://www.uwec.edu/)** where I double majored in 
 - [Applied Mathematics & Statistics](https://www.uwec.edu/academics/programs/undergraduate/statistics-applied-mathematics/) 
