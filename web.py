@@ -6,7 +6,7 @@ from pathlib import Path
 data_path = Path(__file__).parent.joinpath("_data")
 papers_path = data_path.joinpath("papers.yml")
 people_path = data_path.joinpath("people.yml")
-
+webjson_path = data_path.joinpath("webweb.json")
 
 # Function to load YAML data from a file
 def load_yaml(path: Path):
@@ -81,7 +81,8 @@ web.display.scaleLinkWidth = True
 
 # Export the graph data as JSON
 # web.display.write_json("index_web.json")
-web.save("webweb.html")
+# web.save("webweb.html")
+webjson_path.write_text(web.json)
 
 # Show the network visualization
 # web.show()
