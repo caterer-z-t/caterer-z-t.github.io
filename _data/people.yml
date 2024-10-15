@@ -1,0 +1,131 @@
+people:
+  - name: Zachary Caterer
+    title: PhD Student
+    alias: 
+      - Zach Caterer
+      - Zac Caterer
+      - Zachary Caterer
+      - Zach
+      - Zac
+    email: 
+      - ztcaterer@colorado.edu
+      - zach.caterer@colorado.edu
+      - zac.caterer@colorado.edu
+      - zaca2954@colorado.edu
+      - caterezt4830@uwec.edu
+    url: https://www.caterer-z-t.github.io
+
+### CU Boulder
+  - name: Fan Zhang
+    title: Principle Investigator
+    contact: Direct
+    size: 4
+  - name: Jun Inamo
+    title: Post-Doctoral Researcher
+    size: 1
+  - name: Jade Young
+    title: PhD Student
+    size: 3
+  - name: Revanth Krishna
+    title: Research Assistant
+    size: 3
+
+  - name: Maggie Stainslawski
+    title: Principle Investigator
+    contact: Direct
+    size: 4
+
+ ### UWEC
+  - name: Rahul Gomes
+    title: Principle Investigator
+    contact: Direct
+    size: 4
+  - name: Page Keller
+    title: Undergraduate Researcher
+    size: 3
+  - name: Samuel Morehead
+    title: Undergraduate Researcher
+    size: 3
+  - name: Jordan Langios
+    title: Undergraduate Researcher
+    size: 3
+  - name: Connor McKeown
+    title: Undergraduate Researcher
+    size: 3
+  - name: Samuel Stumo
+    title: Undergraduate Researcher
+    size: 3
+  - name: Kira Hansen
+    title: Undergraduate Researcher
+    size: 1
+  - name: Nihman Paul
+    title: PhD Student
+    size: 1
+  - name: Rick Jansen
+    title: Principle Investigator
+    contact: Indirect
+    size: 1
+  
+
+  - name: Nic Wheeler
+    title: Principle Investigator
+    contact: Direct
+    size: 4
+  - name: Rachel Horejsi
+    title: Undergraduate Researcher
+    size: 1
+  - name: Carley Weber
+    title: Undergraduate Researcher
+    size: 1
+  - name: Sage Mathisen
+    title: Undergraduate Researcher
+    size: 3
+  - name: Chase Nelson
+    title: Undergraduate Researcher
+    size: 1
+  - name: Maggie Bagatta
+    title: Undergraduate Researcher 
+    size: 1
+  - name: Ireland Coughlin
+    title: Undergraduate Researcher
+    size: 1
+  - name: Megan Wettien
+    title: Undergraduate Researcher
+    size: 1
+  - name: Mostafa Zamanian
+    title: Principle Investigator
+    contact: Indirect
+    size: 1
+
+  - name: Michael Walsh
+    title: Principle Investigator
+    contact: Direct
+    size: 4
+  - name: Mikayla Hady
+    title: Undergraduate Researcher
+    size: 3
+  - name: Jocelyn Stepanek
+    title: Undergraduate Researcher
+    size: 3
+  - name: Summa Setty
+    title: Principle Investigator
+    contact: Indirect
+    size: 1
+  
+  - name: Mireille Kamariza
+    title: Principle Investigator
+    contact: Direct
+    size: 4
+  - name: Ashley Klemmens
+    title: Research Assistant
+    size: 3
+  - name: YougJin Lee
+    title: Undergraduate Researcher
+    size: 3
+  - name: Manu Prakash
+    title: Principle Investigator
+    size: 1
+    contact: Indirect
+  - name: Hongquan Li
+    title: Post-Doctoral Researcher
+    size: 1

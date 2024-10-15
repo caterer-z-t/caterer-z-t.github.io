@@ -1,0 +1,94 @@
+categories:
+  - heading: "Preprint, Under Review, or In Press"
+    pubs:
+    - title: "pyCellPhenoX"
+      authors:
+      - Zachary Caterer
+      - Fan Zhang
+      - Jade Young
+      - Jun Inamo
+      - Revanth Krishna
+      year: 2024
+      # venue: "bioRxiv"
+      # links:
+      #   - text: bioRxiv
+      #     url: https://www.biorxiv.org/content/10.1101/2021.12.31.474747
+    - title: "wrmXpress-gui"
+      authors:
+      - Zachary Caterer
+      - Nic Wheeler
+      - Rachel Horejsi
+      - Carley Weber
+      - Sage Mathisen
+      - Chase Nelson
+      - Maggie Bagatta
+      - Ireland Coughlin
+      - Megan Wettien
+      - Mostafa Zamanian
+      # year: 2024
+      # venue: "bioRxiv"
+      # links:
+      #   - text: bioRxiv
+      #     url: https://www.biorxiv.org/content/10.1101/2021.12.31.474747
+
+    - title: 'Identification of DNA Methylation Markers using Feature Selection and Deep Learning for Pancreatic Ductal Adenocarcinoma (PDAC) Diagnosis'
+      authors:
+      - Zachary Caterer
+      - Rahul Gomes
+      - Page Keller
+      - Samuel Morehead
+      - Kira Hansen
+      - Nihman Paul
+      - Rick Jansen
+      year: 2024
+      # venue: "bioRxiv"
+      # links:
+      #   - text: bioRxiv
+      #     url: https://www.biorxiv.org/content/10.1101/2021.12.31.474747
+    - title: 'Using environment-sensitive probes to detect Mycobacterium Tuberculosis with Machine Learning-based fluorescence microscope Octopi'
+      authors:
+      - Zachary Caterer
+      - Mireille Kamariza
+      - Ashley Klemmens
+      - YougJin Lee
+      - Manu Prakash
+      - Hongquan Li
+      year: 2023
+
+    - title: "SPLAD (Spectral Pathology Lab Application Data-Base)"
+      authors: 
+      - Zachary Caterer
+      - Michael Walsh
+      - Sage Mathisen
+      year: 2022
+
+    - title: "Differentiating Between Non-Alcoholic Steatohepatitis and Alcoholic Steatohepatitis though FTIR Imaging"
+      authors:
+      - Zachary Caterer
+      - Mikayla Hady
+      - Jocelyn Stepanek
+      - Michael Walsh
+      - Sage Mathisen
+      year: 2023
+
+    - title: "Exploring Feature Selection with Deep Learning for Kidney Tissue Microarray Classification using Infrared Spectral Imaging"
+      authors:
+      - Zachary Caterer
+      - Mikayla Hady
+      - Jordan Langios
+      - Connor McKeown
+      - Samuel Stumo
+      - Rahul Gomes
+      - Michael Walsh
+      - Summa Setty
+      - S Akkina
+      year: 2023
+
+    - title: "Comparing the Accuracy of FTIR Imaging and QCL Technology for the Differentiation between Chromophobe Renal Cell Carcinoma and Oncocytoma"
+      authors:
+      - Zachary Caterer
+      - Michael Walsh
+      - Sage Mathisen
+      - Mikayla Hady
+      - Jocelyn Stepanek
+      year: 2023
