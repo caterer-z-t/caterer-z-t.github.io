@@ -34,7 +34,7 @@ mermaid: true
 
 </div>
 
-<iframe src="webweb.html" width="800" height="600" frameborder="0"></iframe>
+{% include webweb.html %}
 
 # Undergraduate 
 My Undergraduate education is from the **[University of Wisconsin Eau Claire](https://www.uwec.edu/)** where I double majored in 
