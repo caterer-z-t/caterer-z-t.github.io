@@ -1,33 +1,23 @@
 <link rel="stylesheet" href="{{ '/assets/css/webweb/style.css' | relative_url }}">
 
-<div id="webweb-container" style="width: 100%;"></div>
-
+<div id="webweb-container" style="width: 100%; height: 100%;"></div>
 <script type="text/javascript">
     var wwdata = {{ include.webweb_json | jsonify }};
-
-    // Attach the WebWeb visualization to the div with id "webweb-container"
     wwdata.display.attachWebwebToElementWithId = "webweb-container";
-    wwdata.display.g = 0.4;
+    wwdata.display.g = 0.4; // Adjust based on your requirements
 
-    // Handle responsiveness
     {% if include.responsive == true %}
     wwdata.display.w = undefined;
     wwdata.display.h = undefined;
-    {% else %}
-    wwdata.display.w = 500; // Default width if not responsive
-    wwdata.display.h = 500; // Default height if not responsive
     {% endif %}
 
-    // Conditional fixed width
     {% if include.fix_width == false %}
-    wwdata.display.w = 250;
+    wwdata.display.w = 250; // Set default width
     {% endif %}
-
-    // Conditional fixed height
     {% if include.fix_height == false %}
-    wwdata.display.h = 250;
+    wwdata.display.h = 250; // Set default height
     {% endif %}
 </script>
-
+<br>
 <script type="text/javascript"
-    src="{{ '/assets/js/webweb/webweb.bundle.js' | relative_url }}?{{site.time | date: '%s%N'}}"></script>
+    src="{{ '/assets/js/webweb/webweb.bundle.js' | relative_url }}?{{ site.time | date: '%s%N' }}"></script>
