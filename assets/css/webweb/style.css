@@ -63,3 +63,8 @@
     display: block;
     margin: 0 auto;
 }
+
+/* Hide buttons or control elements */
+.webweb-controls {
+    display: none !important;
+}

@@ -78,6 +78,7 @@ web.display.linkLength = 40
 web.display.colorPalette = "Set2"
 web.display.scaleLinkOpacity = False
 web.display.scaleLinkWidth = True
+web.display.showControl = False
 
 # Export the graph data as JSON
 # web.display.write_json("index_web.json")
@@ -85,4 +86,4 @@ web.display.scaleLinkWidth = True
 webjson_path.write_text(web.json)
 
 # Show the network visualization
-# web.show()
+web.show()
