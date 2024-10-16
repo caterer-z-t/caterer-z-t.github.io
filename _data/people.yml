@@ -20,50 +20,69 @@ people:
     title: Principle Investigator
     contact: Direct
     size: 4
+    kind: direct contact
   - name: Jun Inamo
     title: Post-Doctoral Researcher
+    kind: collaborator
     size: 1
   - name: Jade Young
     title: PhD Student
     size: 3
+    kind: direct contact
   - name: Revanth Krishna
     title: Research Assistant
     size: 3
+    kind: direct contact
 
   - name: Maggie Stainslawski
     title: Principle Investigator
     contact: Direct
     size: 4
+    kind: direct contact
+  - name: Emily Yeo
+    title: PhD Student
+    size: 3
+    kind: direct contact
+
 
  ### UWEC
   - name: Rahul Gomes
     title: Principle Investigator
     contact: Direct
     size: 4
+    kind: direct contact
   - name: Page Keller
     title: Undergraduate Researcher
     size: 3
+    kind: direct contact
   - name: Samuel Morehead
     title: Undergraduate Researcher
     size: 3
+    kind: direct contact
   - name: Jordan Langios
     title: Undergraduate Researcher
     size: 3
+    kind: direct contact
   - name: Connor McKeown
     title: Undergraduate Researcher
     size: 3
+    kind: direct contact
   - name: Samuel Stumo
     title: Undergraduate Researcher
     size: 3
+    kind: direct contact
   - name: Kira Hansen
     title: Undergraduate Researcher
     size: 1
+    kind: collaborator
   - name: Nihman Paul
     title: PhD Student
+    kind: collaborator
     size: 1
   - name: Rick Jansen
     title: Principle Investigator
     contact: Indirect
+    kind: collaborator
     size: 1
   
 
@@ -71,61 +90,79 @@ people:
     title: Principle Investigator
     contact: Direct
     size: 4
+    kind: direct contact
   - name: Rachel Horejsi
     title: Undergraduate Researcher
     size: 1
+    kind: collaborator
   - name: Carley Weber
     title: Undergraduate Researcher
     size: 1
+    kind: collaborator
   - name: Sage Mathisen
     title: Undergraduate Researcher
     size: 3
+    kind: direct contact
   - name: Chase Nelson
     title: Undergraduate Researcher
     size: 1
+    kind: collaborator
   - name: Maggie Bagatta
     title: Undergraduate Researcher 
     size: 1
+    kind: collaborator
   - name: Ireland Coughlin
     title: Undergraduate Researcher
     size: 1
+    kind: collaborator
   - name: Megan Wettien
     title: Undergraduate Researcher
     size: 1
+    kind: collaborator
   - name: Mostafa Zamanian
     title: Principle Investigator
     contact: Indirect
     size: 1
+    kind: collaborator
 
   - name: Michael Walsh
     title: Principle Investigator
     contact: Direct
     size: 4
+    kind: direct contact
   - name: Mikayla Hady
     title: Undergraduate Researcher
     size: 3
+    kind: direct contact
   - name: Jocelyn Stepanek
     title: Undergraduate Researcher
     size: 3
+    kind: direct contact
   - name: Summa Setty
     title: Principle Investigator
     contact: Indirect
     size: 1
+    kind: collaborator
   
   - name: Mireille Kamariza
     title: Principle Investigator
     contact: Direct
     size: 4
+    kind: direct contact
   - name: Ashley Klemmens
     title: Research Assistant
     size: 3
+    kind: direct contact
   - name: YougJin Lee
     title: Undergraduate Researcher
     size: 3
+    kind: direct contact
   - name: Manu Prakash
     title: Principle Investigator
     size: 1
+    kind: collaborator
     contact: Indirect
   - name: Hongquan Li
     title: Post-Doctoral Researcher
     size: 1
+    kind: collaborator

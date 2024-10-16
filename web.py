@@ -1,93 +1,104 @@
-import yaml
+from collections import defaultdict
 from webweb import Web
 from pathlib import Path
+import yaml
 
-# Define the paths to the YAML data files
-data_path = Path(__file__).parent.joinpath("_data")
-papers_path = data_path.joinpath("papers.yml")
-people_path = data_path.joinpath("people.yml")
-webjson_path = data_path.joinpath("webweb.json")
+# Define constants for paths
+DATA_PATH = Path(__file__).parent.joinpath("_data")
+PAPERS_PATH = DATA_PATH.joinpath("papers.yml")
+PEOPLE_PATH = DATA_PATH.joinpath("people.yml")
+WEBWEB_JSON_PATH = DATA_PATH.joinpath("index_web.json")
+
+# Map node types to colors
+KIND_TO_COLOR_MAP = {
+    "collaborator": "#78C81F",
+    "direct contact": "#E01E7B",
+    "paper": "#1C7BE0",
+}
+
 
 # Function to load YAML data from a file
-def load_yaml(path: Path):
+def load_yaml(path):
     return yaml.load(path.read_text(), Loader=yaml.FullLoader)
 
 
-# Load the papers and people data
-papers_data = load_yaml(papers_path)
-people_data = load_yaml(people_path)
+# Function to clean names
+def clean_name(name):
+    return name.rstrip("*.")
 
-# Get Zachary Caterer's aliases
-zach_aliases = [
-    person["alias"]
-    for person in people_data["people"]
-    if person["name"] == "Zachary Caterer"
-][0]
 
-# Create a list to hold all connections (adjacency list)
-adjacency = []
+# Function to create a mapping of names to aliases
+def people_to_aliases(all_people):
+    aliases = {}
+    for person in all_people["people"]:
+        person_name = clean_name(person["name"])
+        aliases[person_name] = person_name
+        for alias in person.get("aliases", []):
+            aliases[clean_name(alias)] = person_name
+    return aliases
 
-# Create node attributes (to define node sizes and colors)
-node_attributes = {}
 
-# Assign node attributes for Zachary first
-zachary_name = "Zachary Caterer"
-node_attributes[zachary_name] = {"nodeType": 5}  # Fixed size for Zachary
+# Main function to create the network
+def make_network(data):
+    nodes = defaultdict(dict)
+    edges = []
 
-# Iterate through the papers to find connections and add intermediate project title nodes
-for category in papers_data["categories"]:
-    for paper in category["pubs"]:
-        authors = paper["authors"]
-        project_title = paper["title"]
+    zachary_name = "Zachary Caterer"
 
-        # Add the project title node and a connection from Zachary to the project title
-        if any(alias in authors for alias in zach_aliases):
-            adjacency.append([zachary_name, project_title])
-            node_attributes[project_title] = {
-                "nodeType": 2
-            }  # Medium size for project titles
+    for category in data["papers"]["categories"]:
+        for paper in category["pubs"]:
+            title = paper["title"]
+            nodes[title] = {"name": title, "kind": "paper"}
 
-            # Connect the project title to other authors
-            for author in authors:
-                if author not in zach_aliases:  # Skip Zachary's aliases
-                    adjacency.append([project_title, author])
+            for name in paper["authors"]:
+                cleaned_name = clean_name(name)
+                if cleaned_name == zachary_name:
+                    continue
 
-                    # Find the author in the people_data and get their size
-                    for person in people_data["people"]:
-                        if person["name"] == author:
-                            # Use the size defined in the people.yml file
-                            size = person.get(
-                                "size", 1
-                            )  # Default size is 1 if not specified
-                            node_attributes[author] = {"nodeType": size}
+                nodes[cleaned_name]["name"] = cleaned_name
+                nodes[cleaned_name]["kind"] = "collaborator"
+                edges.append([title, cleaned_name])
 
-# Create the Webweb project with the adjacency list and node attributes
-web = Web(
-    adjacency=adjacency,
-    display={
-        "nodes": node_attributes,
-    },
-)
+    for person in data["people"]["people"]:
+        name = clean_name(person["name"])
+        nodes[name]["name"] = name
+        nodes[name]["kind"] = "direct contact"
 
-# Set how the nodes should be displayed based on their type (nodeType values for size)
-web.display.sizeBy = "nodeType"
-web.display.colorBy = "nodeType"  # Color nodes by node type if desired
-web.display.gravity = 0.1
-web.display.charge = 100
-web.display.linkLength = 40
-web.display.width = 400
-web.display.height = 400
-web.display.scaleLinkOpacity = False
-web.display.scaleLinkWidth = True
-web.display.showControl = False
-web.display.hideMenu = True
-web.display.nameToMatch = "Zachary Caterer"
-web.display.showLegend = False
+    for node in nodes:
+        kind = nodes[node]["kind"]
+        nodes[node]["size"] = 1.4 if kind == "direct contact" else 0.6
+        nodes[node]["color"] = KIND_TO_COLOR_MAP[kind]
 
-# Export the graph data as JSON
-# web.display.write_json("index_web.json")
-# web.save("webweb.html")
-webjson_path.write_text(web.json)
+    web = Web(adjacency=edges, nodes=dict(nodes))
+    web.display.sizeBy = "size"
+    web.display.colorBy = "color"
+    web.display.hideMenu = True
+    web.display.showLegend = False
+    web.display.gravity = 0.55
+    web.display.width = 400
+    web.display.height = 400
+    web.display.scaleLinkOpacity = True
+    web.display.scaleLinkWidth = True
 
-# Show the network visualization
-web.show()
+    WEBWEB_JSON_PATH.write_text(web.json)
+    web.show()
+
+
+if __name__ == "__main__":
+    # Load data
+    data = {
+        "papers": load_yaml(PAPERS_PATH),
+        "people": load_yaml(PEOPLE_PATH),
+    }
+    # Create aliases
+    aliases = people_to_aliases(data["people"])
+
+    # Clean names in the data
+    for category in data["papers"]["categories"]:
+        for paper in category["pubs"]:
+            paper["authors"] = [
+                aliases.get(clean_name(name), name) for name in paper["authors"]
+            ]
+
+    # Create the network
+    make_network(data)
