@@ -79,6 +79,9 @@ web.display.colorPalette = "Set2"
 web.display.scaleLinkOpacity = False
 web.display.scaleLinkWidth = True
 web.display.showControl = False
+web.display.hideMenu = True
+web.display.nameToMatch = "Zachary Caterer"
+web.display.showLegend = False
 
 # Export the graph data as JSON
 # web.display.write_json("index_web.json")
