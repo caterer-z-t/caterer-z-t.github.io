@@ -75,7 +75,6 @@ web.display.colorBy = "nodeType"  # Color nodes by node type if desired
 web.display.gravity = 0.1
 web.display.charge = 100
 web.display.linkLength = 40
-web.display.colorPalette = "Set2"
 web.display.scaleLinkOpacity = False
 web.display.scaleLinkWidth = True
 web.display.showControl = False
