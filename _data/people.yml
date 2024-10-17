@@ -15,156 +15,145 @@ people:
       - caterezt4830@uwec.edu
     url: https://www.caterer-z-t.github.io
     kind: myself
-    size: 5
 
 ### CU Boulder
+
+## Zhang Lab
   - name: Fan Zhang
     title: Principle Investigator
-    contact: Direct
-    size: 4
-    kind: direct contact
+    kind: direct
+
   - name: Jun Inamo
     title: Post-Doctoral Researcher
-    kind: collaborator
-    size: 1
+    kind: indirect
+
   - name: Jade Young
     title: PhD Student
-    size: 3
-    kind: direct contact
+    kind: direct
+
   - name: Revanth Krishna
     title: Research Assistant
-    size: 3
-    kind: direct contact
+    kind: direct
 
-  - name: Maggie Stainslawski
+## Stanislawski Lab
+  - name: Maggie Stanislawski
     title: Principle Investigator
-    contact: Direct
-    size: 4
-    kind: direct contact
+    kind: direct
+
   - name: Emily Yeo
     title: PhD Student
-    size: 3
-    kind: direct contact
+    kind: direct 
 
 
  ### UWEC
+
+ ## Gomes Lab
   - name: Rahul Gomes
     title: Principle Investigator
-    contact: Direct
-    size: 4
-    kind: direct contact
+    kind: direct 
+  
   - name: Page Keller
     title: Undergraduate Researcher
-    size: 3
-    kind: direct contact
+    kind: direct 
+
   - name: Samuel Morehead
     title: Undergraduate Researcher
-    size: 3
-    kind: direct contact
+    kind: direct 
+
   - name: Jordan Langios
     title: Undergraduate Researcher
-    size: 3
-    kind: direct contact
+    kind: direct 
+
   - name: Connor McKeown
     title: Undergraduate Researcher
-    size: 3
-    kind: direct contact
+    kind: direct 
+
   - name: Samuel Stumo
     title: Undergraduate Researcher
-    size: 3
-    kind: direct contact
+    kind: direct 
+  
   - name: Kira Hansen
     title: Undergraduate Researcher
-    size: 1
-    kind: collaborator
+    kind: indirect
+
   - name: Nihman Paul
     title: PhD Student
-    kind: collaborator
-    size: 1
+    kind: indirect
+    
   - name: Rick Jansen
     title: Principle Investigator
-    contact: Indirect
-    kind: collaborator
-    size: 1
+    kind: indirect
   
-
+ ## Wheeler Lab 
   - name: Nic Wheeler
     title: Principle Investigator
-    contact: Direct
-    size: 4
-    kind: direct contact
+    kind: direct 
+
   - name: Rachel Horejsi
     title: Undergraduate Researcher
-    size: 1
-    kind: collaborator
+    kind: indirect
+
   - name: Carley Weber
     title: Undergraduate Researcher
-    size: 1
-    kind: collaborator
+    kind: indirect
+
   - name: Sage Mathisen
     title: Undergraduate Researcher
-    size: 3
-    kind: direct contact
+    kind: direct 
+
   - name: Chase Nelson
     title: Undergraduate Researcher
-    size: 1
-    kind: collaborator
+    kind: indirect
+
   - name: Maggie Bagatta
     title: Undergraduate Researcher 
-    size: 1
-    kind: collaborator
+    kind: indirect
+
   - name: Ireland Coughlin
     title: Undergraduate Researcher
-    size: 1
-    kind: collaborator
+    kind: indirect
+
   - name: Megan Wettien
     title: Undergraduate Researcher
-    size: 1
-    kind: collaborator
+    kind: indirect
+
   - name: Mostafa Zamanian
     title: Principle Investigator
-    contact: Indirect
-    size: 1
-    kind: collaborator
+    kind: indirect
 
   - name: Michael Walsh
     title: Principle Investigator
-    contact: Direct
-    size: 4
-    kind: direct contact
+    kind: direct 
+
   - name: Mikayla Hady
     title: Undergraduate Researcher
-    size: 3
-    kind: direct contact
+    kind: direct 
+
   - name: Jocelyn Stepanek
     title: Undergraduate Researcher
-    size: 3
-    kind: direct contact
+    kind: direct 
+
   - name: Summa Setty
     title: Principle Investigator
-    contact: Indirect
-    size: 1
-    kind: collaborator
-  
+    kind: indirect
+
+  ## Kamariza Lab
   - name: Mireille Kamariza
     title: Principle Investigator
-    contact: Direct
-    size: 4
-    kind: direct contact
+    kind: direct 
+
   - name: Ashley Klemmens
     title: Research Assistant
-    size: 3
-    kind: direct contact
+    kind: direct 
+
   - name: YougJin Lee
     title: Undergraduate Researcher
-    size: 3
-    kind: direct contact
+    kind: direct 
+
   - name: Manu Prakash
     title: Principle Investigator
-    size: 1
-    kind: collaborator
-    contact: Indirect
+    kind: indirect
+
   - name: Hongquan Li
     title: Post-Doctoral Researcher
-    size: 1
-    kind: collaborator
+    kind: indirect

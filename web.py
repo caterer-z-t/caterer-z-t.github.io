@@ -14,9 +14,10 @@ TITLE_TO_COLOR_MAP = {
     "PhD Student": "#FFA500",  # Orange
     "Principle Investigator": "#FF6347",  # Tomato
     "Post-Doctoral Researcher": "#32CD32",  # Lime Green
-    "collaborator": "#1E90FF",  # Dodger Blue
+    "Research Assistant": "#FF69B4",  # Hot Pink
+    "indirect": "#1E90FF",  # Dodger Blue
     "myself": "#FFD700",  # Gold
-    "direct contact": "#FF4500",  # Orange Red
+    "direct": "#FF4500",  # Orange Red
     "paper": "#8A2BE2",  # Blue Violet
 }
 
@@ -42,12 +43,18 @@ def people_to_aliases(all_people):
     return aliases
 
 
-# Function to determine node size based on size in YAML
+# Function to determine node size based on kind
 def get_node_size(node_info):
-    # Set paper size to 2, otherwise use the specified size
-    if node_info["kind"] == "paper":
+    if node_info["kind"] == "myself":
+        return 4.0
+    elif node_info["kind"] == "direct":
+        return 3.0
+    elif node_info["kind"] == "indirect":
+        return 1.0
+    elif node_info["kind"] == "paper":
         return 2.0
-    return node_info.get("size", 0.6)  # Default to 0.6 if size is not specified
+    else:
+        return 0.6  # Default size for any other type
 
 
 # Main function to create the network
@@ -61,7 +68,7 @@ def make_network(data):
     nodes[zachary_name] = {
         "name": zachary_name,
         "kind": "myself",
-        "size": 10,
+        "size": 5.0,
     }  # Use size from YAML
 
     for category in data["papers"]["categories"]:
@@ -79,28 +86,37 @@ def make_network(data):
 
                 # Add collaborators
                 if cleaned_name not in nodes:
-                    nodes[cleaned_name] = {"name": cleaned_name, "kind": "collaborator"}
+                    nodes[cleaned_name] = {"name": cleaned_name, "kind": "indirect"}
                 else:
                     # If already exists, make sure it's marked as collaborator
-                    nodes[cleaned_name]["kind"] = "collaborator"
+                    nodes[cleaned_name]["kind"] = "indirect"
 
                 edges.append([title, cleaned_name])
 
     # Process people data
     for person in data["people"]["people"]:
         name = clean_name(person["name"])
-        size = person.get("size", 0.6)  # Default size to 0.6 if not specified
-        if name not in nodes:  # Avoid overwriting existing nodes
-            nodes[name] = {"name": name, "kind": person["kind"], "size": size}
+
+        # Ensure kind is assigned correctly based on people data
+        kind = person["kind"]
+
+        # Check if the person already exists in nodes (from edges or other sections)
+        if name not in nodes:
+            # Create a new node for this person if it doesn't already exist
+            nodes[name] = {"name": name, "kind": kind}
         else:
-            nodes[name]["size"] = size  # Update size if already exists
+            # If the node already exists, update the kind to ensure it's correct
+            nodes[name]["kind"] = kind  # Don't overwrite size here
+
+        # Assign size based on kind if it's not already set
+        nodes[name]["size"] = get_node_size(nodes[name])
 
     # Assign sizes and colors to nodes
     for node in nodes:
-        nodes[node]["size"] = get_node_size(
-            nodes[node]
-        )  # Set size using the updated function
-        # Set color based on the title instead of kind
+        # Assign size based on the node type (direct, indirect, paper, myself)
+        nodes[node]["size"] = get_node_size(nodes[node])
+
+        # Assign color based on the title, using TITLE_TO_COLOR_MAP
         title = next(
             (
                 person["title"]
@@ -109,9 +125,11 @@ def make_network(data):
             ),
             None,
         )
+
+        # Use title to determine color, default to gray if no title is found
         nodes[node]["color"] = TITLE_TO_COLOR_MAP.get(
-            title, "#FFFFFF"
-        )  # Default to white if title not found
+            title, "#C0C0C0"
+        )  # Default to light gray
 
     # Create and display the web
     web = Web(adjacency=edges, nodes=dict(nodes))
@@ -120,8 +138,8 @@ def make_network(data):
     web.display.hideMenu = True
     web.display.showLegend = False
     web.display.gravity = 0.55
-    web.display.width = 400
-    web.display.height = 400
+    web.display.width = 300
+    web.display.height = 300
     web.display.scaleLinkOpacity = True
     web.display.scaleLinkWidth = True
     web.display.nameToMatch = "Zachary Caterer"
