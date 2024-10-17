@@ -11,13 +11,13 @@ WEBWEB_JSON_PATH = DATA_PATH.joinpath("webweb.json")
 
 # Map titles to colors
 TITLE_TO_COLOR_MAP = {
-    "PhD Student": "#E0A01C",  # Gold
-    "Principle Investigator": "#E01E7B",  # Pink
-    "Post-Doctoral Researcher": "#78C81F",  # Green
-    "collaborator": "#78C81F",  # Green
-    "myself": "#E0A01C",  # Gold
-    "direct contact": "#c61a1a",  # Red
-    "paper": "#1C7BE0",  # Blue
+    "PhD Student": "#FFA500",  # Orange
+    "Principle Investigator": "#FF6347",  # Tomato
+    "Post-Doctoral Researcher": "#32CD32",  # Lime Green
+    "collaborator": "#1E90FF",  # Dodger Blue
+    "myself": "#FFD700",  # Gold
+    "direct contact": "#FF4500",  # Orange Red
+    "paper": "#8A2BE2",  # Blue Violet
 }
 
 
