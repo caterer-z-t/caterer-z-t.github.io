@@ -7,13 +7,17 @@ import yaml
 DATA_PATH = Path(__file__).parent.joinpath("_data")
 PAPERS_PATH = DATA_PATH.joinpath("papers.yml")
 PEOPLE_PATH = DATA_PATH.joinpath("people.yml")
-WEBWEB_JSON_PATH = DATA_PATH.joinpath("index_web.json")
+WEBWEB_JSON_PATH = DATA_PATH.joinpath("webweb.json")
 
-# Map node types to colors
-KIND_TO_COLOR_MAP = {
-    "collaborator": "#78C81F",
-    "direct contact": "#E01E7B",
-    "paper": "#1C7BE0",
+# Map titles to colors
+TITLE_TO_COLOR_MAP = {
+    "PhD Student": "#E0A01C",  # Gold
+    "Principle Investigator": "#E01E7B",  # Pink
+    "Post-Doctoral Researcher": "#78C81F",  # Green
+    "collaborator": "#78C81F",  # Green
+    "myself": "#E0A01C",  # Gold
+    "direct contact": "#c61a1a",  # Red
+    "paper": "#1C7BE0",  # Blue
 }
 
 
@@ -33,9 +37,17 @@ def people_to_aliases(all_people):
     for person in all_people["people"]:
         person_name = clean_name(person["name"])
         aliases[person_name] = person_name
-        for alias in person.get("aliases", []):
+        for alias in person.get("alias", []):
             aliases[clean_name(alias)] = person_name
     return aliases
+
+
+# Function to determine node size based on size in YAML
+def get_node_size(node_info):
+    # Set paper size to 2, otherwise use the specified size
+    if node_info["kind"] == "paper":
+        return 2.0
+    return node_info.get("size", 0.6)  # Default to 0.6 if size is not specified
 
 
 # Main function to create the network
@@ -45,6 +57,13 @@ def make_network(data):
 
     zachary_name = "Zachary Caterer"
 
+    # Add yourself as a node
+    nodes[zachary_name] = {
+        "name": zachary_name,
+        "kind": "myself",
+        "size": 10,
+    }  # Use size from YAML
+
     for category in data["papers"]["categories"]:
         for paper in category["pubs"]:
             title = paper["title"]
@@ -52,23 +71,49 @@ def make_network(data):
 
             for name in paper["authors"]:
                 cleaned_name = clean_name(name)
-                if cleaned_name == zachary_name:
-                    continue
 
-                nodes[cleaned_name]["name"] = cleaned_name
-                nodes[cleaned_name]["kind"] = "collaborator"
+                # Add edge to yourself if you are an author
+                if cleaned_name == zachary_name:
+                    edges.append([title, zachary_name])
+                    continue  # Skip further processing for yourself
+
+                # Add collaborators
+                if cleaned_name not in nodes:
+                    nodes[cleaned_name] = {"name": cleaned_name, "kind": "collaborator"}
+                else:
+                    # If already exists, make sure it's marked as collaborator
+                    nodes[cleaned_name]["kind"] = "collaborator"
+
                 edges.append([title, cleaned_name])
 
+    # Process people data
     for person in data["people"]["people"]:
         name = clean_name(person["name"])
-        nodes[name]["name"] = name
-        nodes[name]["kind"] = "direct contact"
+        size = person.get("size", 0.6)  # Default size to 0.6 if not specified
+        if name not in nodes:  # Avoid overwriting existing nodes
+            nodes[name] = {"name": name, "kind": person["kind"], "size": size}
+        else:
+            nodes[name]["size"] = size  # Update size if already exists
 
+    # Assign sizes and colors to nodes
     for node in nodes:
-        kind = nodes[node]["kind"]
-        nodes[node]["size"] = 1.4 if kind == "direct contact" else 0.6
-        nodes[node]["color"] = KIND_TO_COLOR_MAP[kind]
+        nodes[node]["size"] = get_node_size(
+            nodes[node]
+        )  # Set size using the updated function
+        # Set color based on the title instead of kind
+        title = next(
+            (
+                person["title"]
+                for person in data["people"]["people"]
+                if clean_name(person["name"]) == node
+            ),
+            None,
+        )
+        nodes[node]["color"] = TITLE_TO_COLOR_MAP.get(
+            title, "#FFFFFF"
+        )  # Default to white if title not found
 
+    # Create and display the web
     web = Web(adjacency=edges, nodes=dict(nodes))
     web.display.sizeBy = "size"
     web.display.colorBy = "color"
@@ -79,6 +124,7 @@ def make_network(data):
     web.display.height = 400
     web.display.scaleLinkOpacity = True
     web.display.scaleLinkWidth = True
+    web.display.nameToMatch = "Zachary Caterer"
 
     WEBWEB_JSON_PATH.write_text(web.json)
     web.show()
