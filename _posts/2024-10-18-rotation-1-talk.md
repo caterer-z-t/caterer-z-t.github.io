@@ -5,7 +5,7 @@ tag: [UCB]
 categories: [Graduate School]
 author: <zc>    
 image: 
-    path: ../assets/pdf/iq_bio_rotations/zhang_lab/20241018_zhang_lab_rotation_presentation.png
+    path: /assets/pdf/iq_bio_rotations/zhang_lab/20241018_zhang_lab_rotation_presentation.png
     alt: Zhang Lab Rotation Presentation
 ---
 
