@@ -5,7 +5,7 @@ tag: [UCB]
 categories: [Graduate School]
 author: <zc>    
 image: 
-    path: /assets/pdf/iq_bio_rotations/zhang_lab/20241018_zhang_lab_rotation_presentation.png
+    path: https://github.com/caterer-z-t/caterer-z-t.github.io/blob/5545b23c7c7a7ff462d4bf39bbccac8908c53566/assets/pdf/iq_bio_rotations/zhang_lab/20241018_zhang_lab_rotation_presentation.png
     alt: Zhang Lab Rotation Presentation
 ---
 
@@ -16,23 +16,9 @@ This rotation project was with the Zhang lab at University of Colorado Anschutz,
 <h1>Slides</h1>
 <div>
     <figure>
-        <a href="
-            {% if site.data.slides.slides[0].url contains '://' %}
-              {{ site.data.slides.slides[0].url }}
-            {% else %}
-              {{ site.data.slides.slides[0].url | relative_url }}
-            {% endif %}
-        " title="{{ site.data.slides.slides[0].title }}">
-        <img class="thumb" width="300" src="
-          {% if site.data.slides.slides[0].image_path contains '://' %}
-            {{ site.data.slides.slides[0].image_path }}
-          {% else %}
-            {{ site.data.slides.slides[0].image_path | relative_url }}
-          {% endif %}
-        " alt="{{ site.data.slides.slides[0].title }}">
+        <a href="{{ site.data.slides.slides[0].url }}" title="{{ site.data.slides.slides[0].title }}">
+            <img class="thumb" width="300" src="{{ site.data.slides.slides[0].image_path }}" alt="{{ site.data.slides.slides[0].title }}">
         </a>
-        <figcaption>
-        {{ site.data.slides.slides[0].title }}
-        </figcaption>
+        <figcaption>{{ site.data.slides.slides[0].title }}</figcaption>
     </figure>
 </div>
