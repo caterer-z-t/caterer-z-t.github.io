@@ -10,13 +10,12 @@ order: 4
     {% for deck in site.data.projects.projects %}
     <figure>
         <a href=
-            {% if deck.url contains "://" %}
-              "{{ deck.url }}"
-            {% else %}
-              "{{ deck.url | relative_url }}"
-            {% endif %}
-            title="{{ deck.title }}"
-        >
+          {% if deck.url contains "://" %}
+            "{{ deck.url }}"
+          {% else %}
+            "{{ deck.url | relative_url }}"
+          {% endif %}
+        title="{{ deck.title }}">
         <img class="thumb" width="300" src=
           {% if deck.image_path contains "://" %}
             "{{ deck.image_path }}"
