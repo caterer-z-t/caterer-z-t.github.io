@@ -11,7 +11,7 @@ image:
 
 ### Rotation Talk Presentation
 
-You can view my rotation talk presentation using the link [Download Rotation Talk Presentation PDF](../assets/pdf/iq_bio_rotations/zhang_lab/20241018_zhang_lab_rotation_presentation.pdf)
+You can view my rotation talk presentation using the link You can view my rotation talk presentation using the link [Download Rotation Talk Presentation PDF]({{ "/assets/pdf/iq_bio_rotations/zhang_lab/20241018_zhang_lab_rotation_presentation.pdf" | relative_url }})
 This rotation project was with the Zhang lab at CU Anschutz. 
 
 <h1>Slides</h1>
