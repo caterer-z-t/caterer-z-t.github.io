@@ -16,8 +16,8 @@ This rotation project was with the Zhang lab at University of Colorado Anschutz,
 <h1>Slides</h1>
 <div>
     <figure>
-        <a href="{{ site.data.slides.slides[0].url }}" title="{{ site.data.slides.slides[0].title }}">
-            <img class="thumb" width="300" src="{{ site.data.slides.slides[0].image_path }}" alt="{{ site.data.slides.slides[0].title }}">
+        <a href="https://drive.google.com/file/d/1c5OQmymIHlU60Xk-SyQJj1nalhGzZ-zR/view?usp=sharing" title="{{ site.data.slides.slides[0].title }}">
+            <img class="thumb" width="800" src="{{ site.data.slides.slides[0].image_path }}" alt="{{ site.data.slides.slides[0].title }}">
         </a>
         <figcaption>{{ site.data.slides.slides[0].title }}</figcaption>
     </figure>
