@@ -3,12 +3,38 @@ title: IQ Biology Zhang Lab Rotation Talk
 date: 2024-10-18 09:00:00
 tag: [UCB]
 categories: [Graduate School]
-author: <zc>
+author: <zc>    
+image: 
+    path: assets/pdf/iq_bio_rotations/‎Zhang-Lab-IQ-Bio-Fall-2024-Presentation.‎001.png
+    alt: Zhang Lab Rotation Presentation
 ---
 
 ### Rotation Talk Presentation
 
-You can view my rotation talk presentation using the link [Download Rotation Talk Presentation PDF](https://github.com/caterer-z-t/caterer-z-t.github.io/blob/c7e7cf7dca79b0e136de54cf1fe5d7168b0bc533/assets/pdf/iq_bio_rotations/Zhang-Lab-IQ-Bio-Fall-2024-Presentation.pdf)
+You can view my rotation talk presentation using the link [Download Rotation Talk Presentation PDF](assets/pdf/iq_bio_rotations/Zhang-Lab-IQ-Bio-Fall-2024-Presentation.pdf)
 This rotation project was with the Zhang lab at CU Anschutz. 
 
-<iframe src="https://docs.google.com/viewer?url=https://raw.githubusercontent.com/caterer-z-t/caterer-z-t.github.io/c7e7cf7dca79b0e136de54cf1fe5d7168b0bc533/assets/pdf/iq_bio_rotations/Zhang-Lab-IQ-Bio-Fall-2024-Presentation.pdf&embedded=true" width="100%" height="800px"></iframe>
+<h1>Slides</h1>
+<div>
+    <figure>
+        <a href=
+            {% if site.data.slides.slides[0].url contains "://" %}
+              "{{ site.data.slides.slides[0].url }}"
+            {% else %}
+              "{{ site.data.slides.slides[0].url | relative_url }}"
+            {% endif %}
+            title="{{ site.data.slides.slides[0].title }}"
+        >
+        <img class="thumb" width="300" src=
+          {% if site.data.slides.slides[0].image_path contains "://" %}
+            "{{ site.data.slides.slides[0].image_path }}"
+          {% else %}
+            "{{ site.data.slides.slides[0].image_path | relative_url }}"
+          {% endif %}
+          alt="{{ site.data.slides.slides[0].title }}">
+        </a>
+        <figcaption>
+        {{ site.data.slides.slides[0].title }}
+        </figcaption>
+    </figure>
+</div>
