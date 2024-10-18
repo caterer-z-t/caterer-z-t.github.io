@@ -5,13 +5,13 @@ tag: [UCB]
 categories: [Graduate School]
 author: <zc>    
 image: 
-    path: assets/pdf/iq_bio_rotations/‎Zhang-Lab-IQ-Bio-Fall-2024-Presentation.‎001.png
+    path: ../assets/pdf/iq_bio_rotations/zhang_lab/20241018_zhang_lab_rotation_presentation.png
     alt: Zhang Lab Rotation Presentation
 ---
 
 ### Rotation Talk Presentation
 
-You can view my rotation talk presentation using the link [Download Rotation Talk Presentation PDF](assets/pdf/iq_bio_rotations/zhang_lab/Zhang-Lab-IQ-Bio-Fall-2024-Presentation.pdf)
+You can view my rotation talk presentation using the link [Download Rotation Talk Presentation PDF](../assets/pdf/iq_bio_rotations/zhang_lab/20241018_zhang_lab_rotation_presentation.pdf)
 This rotation project was with the Zhang lab at CU Anschutz. 
 
 <h1>Slides</h1>
