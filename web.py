@@ -15,6 +15,7 @@ TITLE_TO_COLOR_MAP = {
     "Principle Investigator": "#FF6347",  # Tomato
     "Post-Doctoral Researcher": "#32CD32",  # Lime Green
     "Research Assistant": "#FF69B4",  # Hot Pink
+    "Undergraduate Researcher": "#FFD700",  # Gold
     "indirect": "#1E90FF",  # Dodger Blue
     "myself": "#FFD700",  # Gold
     "direct": "#FF4500",  # Orange Red
@@ -137,9 +138,11 @@ def make_network(data):
     web.display.colorBy = "color"
     web.display.hideMenu = True
     web.display.showLegend = False
-    web.display.gravity = 0.55
-    web.display.width = 300
-    web.display.height = 300
+    web.display.gravity = 0.05
+    web.display.width = 400
+    web.display.height = 400
+    # web.display.scaleLinkColor = True
+    web.display.linkLength = 40
     web.display.scaleLinkOpacity = True
     web.display.scaleLinkWidth = True
     web.display.nameToMatch = "Zachary Caterer"

@@ -1,6 +1,13 @@
 categories:
   - heading: "Preprint, Under Review, or In Press"
     pubs:
+    - title: "Benchmarking Strategies to identify single-cell phenotypic changes: pyCellPhenoX vs miloR"
+      authors:
+      - Zachary Caterer
+      - Fan Zhang
+      - Jade Young
+      - Revanth Krishna
+      year: 2024
     - title: "pyCellPhenoX"
       authors:
       - Zachary Caterer
