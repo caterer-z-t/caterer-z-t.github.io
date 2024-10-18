@@ -5,6 +5,7 @@ icon: fa-regular fa-lightbulb
 order: 4
 ---
 
+<!--
 <h1>Projects</h1>
 <div>
     {% for deck in site.data.projects.projects %}
@@ -30,3 +31,4 @@ order: 4
     </figure>
     {% endfor %}
 </div>
+-->
