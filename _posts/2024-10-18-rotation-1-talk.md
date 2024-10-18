@@ -5,7 +5,7 @@ tag: [UCB]
 categories: [Graduate School]
 author: <zc>    
 image: 
-    path: https://github.com/caterer-z-t/caterer-z-t.github.io/blob/5545b23c7c7a7ff462d4bf39bbccac8908c53566/assets/pdf/iq_bio_rotations/zhang_lab/20241018_zhang_lab_rotation_presentation.png
+    path: assets/images/boulder/iq_bio/rotations/zhang_lab/20241018_zhang_lab_rotation_presentation.png
     alt: Zhang Lab Rotation Presentation
 ---
 
