@@ -15,54 +15,24 @@ This rotation project was with the Zhang lab at University of Colorado Anschutz,
 
 <h1>Slides</h1>
 <div>
-    {% for deck in site.data.slides.slides %}
     <figure>
-        <a href=
-            {% if deck.url contains "://" %}
-              "{{ deck.url }}"
+        <a href="
+            {% if site.data.slides.slides[0].url contains '://' %}
+              {{ site.data.slides.slides[0].url }}
             {% else %}
-              "{{ deck.url | relative_url }}"
+              {{ site.data.slides.slides[0].url | relative_url }}
             {% endif %}
-            title="{{ deck.title }}"
-        >
-        <img class="thumb" width="600" src=
-          {% if deck.image_path contains "://" %}
-            "{{ deck.image_path }}"
+        " title="{{ site.data.slides.slides[0].title }}">
+        <img class="thumb" width="300" src="
+          {% if site.data.slides.slides[0].image_path contains '://' %}
+            {{ site.data.slides.slides[0].image_path }}
           {% else %}
-            "{{ deck.image_path | relative_url }}"
+            {{ site.data.slides.slides[0].image_path | relative_url }}
           {% endif %}
-          alt="{{ deck.title }}">
+        " alt="{{ site.data.slides.slides[0].title }}">
         </a>
         <figcaption>
-        {{deck.title}}
+        {{ site.data.slides.slides[0].title }}
         </figcaption>
     </figure>
-    {% endfor %}
-</div>
-
-<h1>Recordings</h1>
-<div>
-    {% for deck in site.data.slides.recordings %}
-    <figure>
-        <a href=
-            {% if deck.url contains "://" %}
-              "{{ deck.url }}"
-            {% else %}
-              "{{ deck.url | relative_url }}"
-            {% endif %}
-            title="{{ deck.title }}"
-        >
-        <img class="thumb" width="300" src=
-          {% if deck.image_path contains "://" %}
-            "{{ deck.image_path }}"
-          {% else %}
-            "{{ deck.image_path | relative_url }}"
-          {% endif %}
-          alt="{{ deck.title }}">
-        </a>
-        <figcaption>
-        {{deck.title}}
-        </figcaption>
-    </figure>
-    {% endfor %}
 </div>

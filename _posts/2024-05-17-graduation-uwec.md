@@ -4,6 +4,9 @@ date: 2024-05-17 12:00:00 +0030
 tag: [UWEC]
 categories: [Undergrad]
 author: <zc>
+image: 
+    path: ../assets/images/uwec/uwec_arch_distance.jpeg
+    alt: UWEC Arch Fall
 ---
 
 I am thrilled to share with you the exciting news of my successful completion of my undergraduate degree at UWEC!
