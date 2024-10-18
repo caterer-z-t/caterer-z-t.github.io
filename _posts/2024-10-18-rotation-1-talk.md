@@ -11,8 +11,7 @@ image:
 
 ### Rotation Talk Presentation
 
-You can view my rotation talk presentation using the link You can view my rotation talk presentation using the link [Download Rotation Talk Presentation PDF]({{ "/assets/pdf/iq_bio_rotations/zhang_lab/20241018_zhang_lab_rotation_presentation.pdf" | relative_url }})
-This rotation project was with the Zhang lab at CU Anschutz. 
+This rotation project was with the Zhang lab at University of Colorado Anschutz, and the Biofrontiers Institute at University of Colorado Boulder. 
 
 <h1>Slides</h1>
 <div>
