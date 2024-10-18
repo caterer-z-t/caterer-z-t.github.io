@@ -18,12 +18,13 @@ This rotation project was with the Zhang lab at University of Colorado Anschutz,
     <figure>
         <a href=
             {% if site.data.slides.slides[0].url contains "://" %}
-              "{{ site.data.slides.slides[0].url }}"
+            "{{ site.data.slides.slides[0].url }}"
             {% else %}
-              "{{ site.data.slides.slides[0].url | relative_url }}"
+            "{{ site.data.slides.slides[0].url | relative_url }}"
             {% endif %}
             title="{{ site.data.slides.slides[0].title }}"
         >
+
         <img class="thumb" width="300" src=
           {% if site.data.slides.slides[0].image_path contains "://" %}
             "{{ site.data.slides.slides[0].image_path }}"
