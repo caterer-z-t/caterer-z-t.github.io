@@ -157,3 +157,8 @@ people:
   - name: Hongquan Li
     title: Post-Doctoral Researcher
     kind: indirect
+
+  ## Other
+  - name: Joesph Berg
+    title: PhD Student
+    kind: direct

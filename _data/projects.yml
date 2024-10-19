@@ -22,14 +22,21 @@ research_presentations:
   image_path: assets/images/ucla/kamariza-amgen-presentation.jpg
 
 software_projects:
+  name: "SOM Seq Sim"
+  url: https://github.com/caterer-z-t/SOM_Seq_Sim
+  # image_path:
+  # documentation: 
+
   name: "pyCellPhenoX"
   url: https://github.com/fanzhanglab/pyCellPhenoX
   image_path: https://github.com/fanzhanglab/pyCellPhenoX/blob/66624433d7531cb698c5f89bd0b7baa0deb347e6/logo/pycpx.png
+  # documentation: https://pycellphenox.readthedocs.io/en/latest/
 
   name: "wrmXpress-gui"
   url: https://github.com/wheelerlab-uwec/wrmXpress-gui
   image_path: https://github.com/zamanianlab/wrmXpress/blob/810989c45ce7fe0f2b2722b2634a39af98a7626f/img/logo/output.png
-
+  # documentation: https://wrmxpress-gui.readthedocs.io/en/latest/
+  
 poster_presentations: 
   name: "Identification of DNA Methylation Markers using Feature Selection and Deep Learning for Pancreatic Ductal Adenocarcinoma (PDAC) Diagnosis"
   # url: 
