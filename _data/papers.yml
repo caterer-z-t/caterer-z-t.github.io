@@ -1,6 +1,7 @@
 categories:
   - heading: "Preprint, Under Review, or In Press"
     pubs:
+
     - title: "Benchmarking Strategies to identify single-cell phenotypic changes: pyCellPhenoX vs miloR"
       authors:
       - Zachary Caterer
@@ -8,6 +9,7 @@ categories:
       - Jade Young
       - Revanth Krishna
       year: 2024
+
     - title: "pyCellPhenoX"
       authors:
       - Zachary Caterer
@@ -20,6 +22,7 @@ categories:
       # links:
       #   - text: bioRxiv
       #     url: https://www.biorxiv.org/content/10.1101/2021.12.31.474747
+
     - title: "wrmXpress-gui"
       authors:
       - Zachary Caterer
@@ -52,6 +55,7 @@ categories:
       # links:
       #   - text: bioRxiv
       #     url: https://www.biorxiv.org/content/10.1101/2021.12.31.474747
+
     - title: 'Using environment-sensitive probes to detect Mycobacterium Tuberculosis with Machine Learning-based fluorescence microscope Octopi'
       authors:
       - Zachary Caterer
@@ -99,3 +103,13 @@ categories:
       - Mikayla Hady
       - Jocelyn Stepanek
       year: 2023
+
+    - title: "Three dimensional rendering of the Millennium Falcon"
+      authors:
+      - Zachary Caterer
+      year: 2024
+
+    - title: "Three Dimensional Rendering of the Earth with Interactive Features"
+      authors:
+      - Zachary Caterer
+      year: 2024
