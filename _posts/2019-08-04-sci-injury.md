@@ -4,9 +4,6 @@ date: 2019-08-03 12:00:00 +0030
 tag: [Life]
 categories: [Life]
 author: <zc>
-image: 
-    path: assets/images/people/zach/zac_caden_ryan.JPEG
-    alt: Zach, Caden, and Ryan
 ---
 
 # My Personal Experience with Spinal Cord Injury
