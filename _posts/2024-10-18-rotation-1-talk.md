@@ -13,4 +13,4 @@ image:
 
 This rotation project was with the Zhang lab at University of Colorado Anschutz, and the Biofrontiers Institute at University of Colorado Boulder. To view the presentation please checkout the slides using: [Benchmarking Strategies to identify single-cell phenotypic changes](https://drive.google.com/file/d/1c5OQmymIHlU60Xk-SyQJj1nalhGzZ-zR/view?usp=sharing)
 
-<iframe src="{{ '/assets/pdf/iq_bio_rotations/zhang_lab/20241018_zhang_lab_rotation_presentation.pdf' | relative_url }}" width="100%" height="400px"></iframe>
+<iframe src="{{ '/assets/pdf/iq_bio_rotations/zhang_lab/20241018_zhang_lab_rotation_presentation.pdf' | relative_url }}" width="100%" height="600px"></iframe>
