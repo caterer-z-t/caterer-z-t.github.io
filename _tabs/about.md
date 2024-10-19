@@ -53,7 +53,7 @@ _UWEC arch at sunset_
     During my time at UWEC, I worked with Dr. Wheeler in the Department of Biology. We developed a user-friendly interface for high-throughput analysis of parasitic worms. I had the wonderful opportunity to present this research at the Celebration of Excellence, Research, and Creative Activities (CERCA).
   </p>
   <figure>
-    <img src="assets/images/uwec/wheeler_lab.jpeg" alt="Wheeler Lab social gathering" style="width: 80%; height: auto;">
+    <img src="assets/images/uwec/wheeler_lab.jpeg" alt="Wheeler Lab social gathering" style="width: 100%; height: auto;">
     <figcaption>Wheeler Lab social gathering</figcaption>
   </figure>
 
@@ -82,7 +82,7 @@ _UWEC arch at sunset_
         We developed a scalable feature selection and deep learning framework to identify methylation sites in the human genome associated with PDAC. Our findings hold promise for improving diagnosis and treatment outcomes for this aggressive cancer.
       </p>
       <figure>
-        <img src="assets/images/uwec/cerca_avec_gomes.jpg" alt="Gomes Research Lab Presenting PDAC Project at CERCA 2024" style="width: 80%; height: auto;">
+        <img src="assets/images/uwec/cerca_avec_gomes.jpg" alt="Gomes Research Lab Presenting PDAC Project at CERCA 2024" style="width: 100%; height: auto;">
         <figcaption>Gomes Research Lab presenting PDAC Project at CERCA 2024</figcaption>
       </figure>
     </li>
@@ -108,15 +108,15 @@ _UWEC arch at sunset_
 
   <div style="display: flex; justify-content: space-around;">
     <figure>
-      <img src="assets/images/ucla/lab_circ.JPG" alt="UCLA TKL Lab Circle" style="width: 80%; height: auto;">
+      <img src="assets/images/ucla/lab_circ.JPG" alt="UCLA TKL Lab Circle" style="width: 95%; height: auto;">
       <figcaption>Figure 1: UCLA TKL Lab Circle</figcaption>
     </figure>
     <figure>
-      <img src="assets/images/ucla/ev_amgen.png" alt="UCLA TKL Lab Circle" style="width: 80%; height: auto;">
+      <img src="assets/images/ucla/ev_amgen.png" alt="UCLA TKL Lab Circle" style="width: 95%; height: auto;">
       <figcaption>Figure 2: EV AMGEN Scholar</figcaption>
     </figure>
     <figure>
-      <img src="assets/images/ucla/lab_circ_2.JPG" alt="UCLA TKL Lab Circle Part 2" style="width: 80%; height: auto;">
+      <img src="assets/images/ucla/lab_circ_2.JPG" alt="UCLA TKL Lab Circle Part 2" style="width: 95%; height: auto;">
       <figcaption>Figure 3: UCLA TKL Lab Circle Part 2</figcaption>
     </figure>
   </div>
@@ -135,7 +135,7 @@ _UWEC arch at sunset_
   </p>
 
   <figure>
-    <img src="assets/images/uwec/spl.jpg" alt="Spectral Pathology Lab" style="width: 80%; height: auto;">
+    <img src="assets/images/uwec/spl.jpg" alt="Spectral Pathology Lab" style="width: 100%; height: auto;">
     <figcaption>SPL Lab</figcaption>
   </figure>
 
@@ -179,7 +179,7 @@ _UWEC arch at sunset_
   </ol>
 
   <figure>
-    <img src="assets/images/uwec/cerca2022.jpg" alt="CERCA 2022 Poster Presentation" style="width: 80%; height: auto;">
+    <img src="assets/images/uwec/cerca2022.jpg" alt="CERCA 2022 Poster Presentation" style="width: 100%; height: auto;">
     <figcaption>CERCA 2022 Poster Presentation</figcaption>
   </figure>
 
