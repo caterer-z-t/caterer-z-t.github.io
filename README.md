@@ -9,8 +9,10 @@ Project directory
 |   |-- contact.yml
 |   |-- papers.yml
 |   |-- people.yml
+|   |-- projects.yml
 |   |-- share.yml
 |-- _includes/                   # Partial templates that can be included in pages
+|   |-- projects.html
 |   |-- webweb.html              # Your webweb visualization partial (what you shared above)
 |-- _plugins/
 |   |-- posts-lastmod-hook.rb
@@ -27,10 +29,15 @@ Project directory
 |   |-- tags.md
 |-- assets/                      # Folder for static assets
 |   |-- css/                     # CSS files
-|   |   |-- webweb/style.css     # Webweb specific styles
+|   |   |-- projects/
+|   |   |   |-- style.css
+|   |   |-- webweb/
+|   |   |   |-- style.css        # Webweb specific styles
 |   |-- js/                      # JS files
-|       |-- webweb/              # Folder for webweb JS assets
-|           |-- webweb.bundle.js # Main webweb JavaScript file
+|   |   |-- projects/
+|   |   |   |-- map.js
+|   |   |-- webweb/              # Folder for webweb JS assets
+|   |   |   |-- webweb.bundle.js # Main webweb JavaScript file
 |-- index.html
 |-- _config.yml
 |-- .editorconfig

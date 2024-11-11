@@ -6,7 +6,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 18,
     attribution: '© OpenStreetMap'
 }).addTo(map);
-fetch('assets/data/projects.yml')
+fetch('_data/projects.yml')
     .then(response => response.text())
     .then(yamlText => {
         const data = jsyaml.load(yamlText); // Parse YAML to JavaScript object
