@@ -1,59 +1,155 @@
-personal_projects:
-  name: "Mellennium Falcon"
-  url: https://caterer-z-t.github.io/3d_render
-  image_path: assets/images/projects/millennium_falcon.jpg
+locations:
+  # IQ Bio 2024
+  - city: "Boulder, CO"
+    lat: 40.008393861735605
+    lon: -105.24903941563032
+    entries:
+      - category: "personal_project"
+        name: "Millennium Falcon"
+        url: "https://caterer-z-t.github.io/3d_render"
+        image_path: "https://raw.githubusercontent.com/caterer-z-t/caterer-z-t.github.io/ef87bc0d823d18540c3489fb008f96e411aa398e/assets/images/projects/millennium_falcon.jpg"
 
-  name: 'Globe Earth'
-  # url: https://caterer-z-t.github.io/globe_earth
-  # image_path: assets/images/projects/globe_earth.jpg
+      - category: "research_presentation"
+        name: "Benchmarking Strategies to identify single-cell phenotypic changes"
+        date: "October 18, 2024"
+        type: "talk"
+        affiliation: "IQ Biology Program, Fan Zhang Lab"
+        url: "https://caterer-z-t.github.io/posts/rotation-1-talk/"
+        image_path: "https://raw.githubusercontent.com/caterer-z-t/caterer-z-t.github.io/ef87bc0d823d18540c3489fb008f96e411aa398e/assets/images/boulder/iq_bio/rotations/zhang_lab/20241018_zhang_lab_rotation_presentation.png"
+      
+      - category: "software_project"
+        name: "SOM Seq Sim"
+        url: "https://github.com/caterer-z-t/SOM_Seq_Sim" 
+        affiliation: "CSCI 6118: Software Engineering for Scientists"
+        # image_path:
+        # documentation: https://som-seq-sim.readthedocs.io/en/latest/
 
-research_talks:
-  # name: 
-  # url:
-  # image_path:
+  # Amgen Scholar 2023
+  - city: "Los Angeles, CA"
+    lat: 34.06969123198319
+    lon: -118.44367588906834
+    entries:
+      - category: "research_presentation"
+        name: "Using Environment-Sensitive Probes to Detect Mycobacterium Tuberculosis"
+        date: "August 30, 2023"
+        type: "talk"
+        affiliation: "Amgen Scholar Program, Mireille Kamariza Lab"
+        url: "https://caterer-z-t.github.io/posts/amgen-kamariza-rotation/"
+        image_path: "https://raw.githubusercontent.com/caterer-z-t/caterer-z-t.github.io/ef87bc0d823d18540c3489fb008f96e411aa398e/assets/images/ucla/kamariza-amgen-presentation.jpg"
 
-research_presentations:
-  name: "Benchmarking Stragegies to identify single-cell phenotypic changes"
-  url: https://caterer-z-t.github.io/posts/rotation-1-talk/
-  image_path: assets/images/boulder/iq_bio/rotations/zhang_lab/20241018_zhang_lab_rotation_presentation.png
-
-  name: "Using Environment-Sensitive Probes to Detect Mycobacterium Tuberculosis with Machine Learning Based Fluorescence Microscope Octopi"
-  url: https://caterer-z-t.github.io/posts/amgen-kamariza-rotation/
-  image_path: assets/images/ucla/kamariza-amgen-presentation.jpg
-
-software_projects:
-  name: "SOM Seq Sim"
-  url: https://github.com/caterer-z-t/SOM_Seq_Sim
-  # image_path:
-  # documentation: 
-
-  name: "pyCellPhenoX"
-  url: https://github.com/fanzhanglab/pyCellPhenoX
-  image_path: https://github.com/fanzhanglab/pyCellPhenoX/blob/66624433d7531cb698c5f89bd0b7baa0deb347e6/logo/pycpx.png
-  # documentation: https://pycellphenox.readthedocs.io/en/latest/
-
-  name: "wrmXpress-gui"
-  url: https://github.com/wheelerlab-uwec/wrmXpress-gui
-  image_path: https://github.com/zamanianlab/wrmXpress/blob/810989c45ce7fe0f2b2722b2634a39af98a7626f/img/logo/output.png
-  # documentation: https://wrmxpress-gui.readthedocs.io/en/latest/
+  # ABRCMS 2023
+  - city: "Pheonix, AZ"
+    lat: 33.4499953430112
+    lon: -112.06995724733298
+    entries:
+      - category: "poster_presentation"
+        name: "Using environment-sensitive probes to detect Mycobacterium Tuberculosis with Machine Learning-based fluorescence microscope Octopi"
+        date: "November 17, 2023"
+        type: "poster"
+        affiliation: "ABRCMS 2023, Mireille Kamariza Lab"
+        url: "https://drive.google.com/file/d/1xolWmzQQB5Wmz24BAHBR39Qe6N2wUPEq/view?usp=sharing"
   
-poster_presentations: 
-  name: "Identification of DNA Methylation Markers using Feature Selection and Deep Learning for Pancreatic Ductal Adenocarcinoma (PDAC) Diagnosis"
-  # url: 
-  # image_path: 
+  # CU Anschutz DBMI
+  - city: "Aurora, CO"
+    lat: 39.745573886931865
+    lon: -104.84149078417525
+    entries:
+      - category: "software_project"
+        name: "pyCellPhenoX"
+        affiliation: "CU Anschutz DBMI, Fan Zhang Lab"
+        url: "https://github.com/fanzhanglab/pyCellPhenoX"
+        image_path: "https://raw.githubusercontent.com/fanzhanglab/pyCellPhenoX/blob/66624433d7531cb698c5f89bd0b7baa0deb347e6/logo/pycpx.png"
 
-  name: "Using environment-sensitive probes to detect Mycobacterium Tuberculosis with Machine Learning-based fluorescence microscope Octopi"
-  # url:
-  # image_path:
+  # ASHG 2024
+  - city: "Denver, CO"
+    lat: 39.74327494123729
+    lon: -104.99522067085505
+    entries:
+      - category: "poster_presentation"
+        name: "Identification of DNA Methylation Markers using Feature Selection and Deep Learning for Pancreatic Ductal Adenocarcinoma (PDAC) Diagnosis"
+        date: "November 7, 2024"
+        type: "poster"
+        affiliation: "ASHG 2024, Rahul Gomes Lab"
+        url: "https://drive.google.com/file/d/1-BwQ2jLhllQKj3PsYDYFgDWtdOsyLywu/view?usp=sharing"
 
-  name: "Differentiating Between Non-Alcoholic Steatohepatitis and Alcoholic Steatohepatitis though FTIR Imaging"
-  # url:
-  # image_path:
+  # Research in the Rotunda 2022
+  - city: "Madison, WI"
+    lat: 43.07483400033543
+    lon: -89.38302257620016
+    entries:
+      - category: "poster_presentation"
+        name: "Comparing the Accuracy of FTIR Imaging and QCL Technology for the Differentiation Between Chromophobe Renal Cell Carcinoma and Oncocytoma"
+        date: "March, 2022"
+        affiliation: "Research in the Rotunda 2022, Michael Walsh Lab"
+        type: "poster"
 
-  name: "Exploring Feature Selection with Deep Learning for Kidney Tissue Microarray Classification using Infrared Spectral Imaging"
-  # url:
-  # image_path:
+  # UWEC Various Years
+  - city: "Eau Claire, WI"
+    lat: 44.79759493715432
+    lon: -91.49876571918574
+    entries:
 
-  name: "Comparing the Accuracy of FTIR Imaging and QCL Technology for the Differentiation Between Chromophobe Renal Cell Carcinoma and Oncocytoma"
-  # url:
-  # image_path:
+      - category: "software_project"
+        name: "wrmXpress-gui"
+        url: "https://github.com/wheelerlab-uwec/wrmXpress-gui"
+        affiliation: "UWEC Department of Biology, Nic Wheeler Lab"
+        image_path: "https://raw.githubusercontent.com/zamanianlab/wrmXpress/810989c45ce7fe0f2b2722b2634a39af98a7626f/img/logo/output.png"
+
+      - category: "poster_presentation"
+        name: "wrmXpress-gui"
+        date: "April 24, 2024"
+        affiliation: "CERCA 2024, Nic Wheeler Lab"
+        type: "poster"
+        url: "https://drive.google.com/file/d/1oLaHzc0SQYm5MbDw73vpfqYOH3Ij8f7d/view?usp=sharing"
+
+      - category: 'research_presentation'
+        name: "Identification of DNA Methylation Markers using Feature Selection and Deep Learning for Pancreatic Ductal Adenocarcinoma (PDAC) Diagnosis"
+        date: "May 30, 2024"
+        affiliation: "WiSYS QuickPitch 2024, Rahul Gomes Lab"
+        type: "poster"
+        url: "https://drive.google.com/file/d/1-BwQ2jLhllQKj3PsYDYFgDWtdOsyLywu/view?usp=sharing"
+
+      - category: "poster_presentation"
+        name: "Identification of DNA Methylation Markers using Feature Selection and Deep Learning for Pancreatic Ductal Adenocarcinoma (PDAC) Diagnosis"
+        date: "May 30, 2024"
+        affiliation: "IEEE 2024, Rahul Gomes Lab"
+        type: "poster"
+        url: "https://drive.google.com/file/d/1-BwQ2jLhllQKj3PsYDYFgDWtdOsyLywu/view?usp=sharing"
+
+      - category: "poster_presentation"
+        name: "Identification of DNA Methylation Markers using Feature Selection and Deep Learning for Pancreatic Ductal Adenocarcinoma (PDAC) Diagnosis"
+        date: "April, 2024"
+        type: "poster"
+        affiliation: "CERCA 2024, Rahul Gomes Lab"
+        url: "https://drive.google.com/file/d/1-BwQ2jLhllQKj3PsYDYFgDWtdOsyLywu/view?usp=sharing"
+
+      - category: "poster_presentation"
+        name: "Differentiating Between Non-Alcoholic Steatohepatitis and Alcoholic Steatohepatitis though FTIR Imaging"
+        date: "April 14, 2023"
+        affiliation: "CERCA 2023, Michael Walsh Lab"
+        type: "poster"
+
+      - category: "poster_presentation"
+        name: "Exploring Feature Selection with Deep Learning for Kidney Tissue Microarray Classification using Infrared Spectral Imaging"
+        date: "April 14, 2023"
+        affiliation: "CERCA 2023, Michael Walsh Lab"
+        type: "poster"
+
+      - category: "poster_presentation"
+        name: "Exploring Feature Selection with Deep Learning for Kidney Tissue Microarray Classification using Infrared Spectral Imaging"
+        date: "April 25, 2022"
+        affiliation: "CERCA 2022, Michael Walsh Lab"
+        type: "poster"
+
+      - category: "poster_presentation"
+        name: "Comparing the Accuracy of FTIR Imaging and QCL Technology for the Differentiation Between Chromophobe Renal Cell Carcinoma and Oncocytoma"
+        date: "April, 2022"
+        affiliation: "CERCA 2022, Michael Walsh Lab"
+        type: "poster"
+
+      - category: "poster_presentation"
+        name: "Comparing the Accuracy of FTIR Imaging and QCL Technology for the Differentiation Between Chromophobe Renal Cell Carcinoma and Oncocytoma"
+        date: "April, 2021"
+        affiliation: "CERCA 2021, Michael Walsh Lab"
+        type: "poster"
+        

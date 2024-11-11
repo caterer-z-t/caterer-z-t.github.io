@@ -5,8 +5,12 @@ icon: fa-regular fa-lightbulb
 order: 4
 ---
 
-<!--
-<h1>Projects</h1>
+<!-- Link the Projects Tab to the New Page -->
+<a href="{{ site.baseurl }}/interactive_map/">
+    <h1>Projects</h1>
+</a>
+
+<!-- Optionally, display project details -->
 <div>
     {% for deck in site.data.projects.projects %}
     <figure>
@@ -31,4 +35,3 @@ order: 4
     </figure>
     {% endfor %}
 </div>
--->
