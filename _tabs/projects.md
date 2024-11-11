@@ -5,7 +5,7 @@ icon: fa-regular fa-lightbulb
 order: 4
 ---
 
-<h1>Projects</h1>
+<h3>Projects</h3>
 
 <!-- Include the interactive map content -->
 {% include projects.html %}
