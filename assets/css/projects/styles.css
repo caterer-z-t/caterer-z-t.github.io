@@ -1,11 +1,3 @@
-/* Set the map container to take full width and a fixed height */
-#map {
-    width: 100vw;
-    /* Full viewport width */
-    height: 100vh;
-    /* Full viewport height */
-}
-
 /* Add other custom styles here if needed */
 body {
     font-family: Arial, sans-serif;
