@@ -11,3 +11,11 @@ body {
     overflow-y: auto;
     /* Enable vertical scrolling */
 }
+
+/* Style the map container */
+#map {
+    height: 100%;
+    /* Set the height of the map */
+    width: 100%;
+    /* Set the width of the map */
+}
