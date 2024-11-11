@@ -8,4 +8,7 @@ order: 4
 <h3>Projects</h3>
 
 <!-- Include the interactive map content -->
-{% include projects.html %}
+<div class="container">
+  <!-- Include the interactive map content -->
+  {% include projects.html %}
+</div>
