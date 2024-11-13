@@ -5,4 +5,4 @@ icon: fa-regular fa-lightbulb
 order: 4
 ---
 
-<iframe src="_includes/projects/index.html" height="600px" width="100%" style="border:none;"></iframe>
+<iframe src="/_includes/projects/index.html" height="600px" width="100%" style="border:none;"></iframe>
