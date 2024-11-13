@@ -52,24 +52,26 @@ for (i in 1:length(projects_data$locations)) {
     }
 }
 
-# 
+#
 # Convert to tibble for geocoding
 flattened_df <- as_tibble(flattened_df)
+
+# keep only the unique titles from each city
+flattened_df <- flattened_df %>%
+    distinct(city, project_name, .keep_all = TRUE)
 print(head(flattened_df))
 
 library(dplyr)
 library(leaflet)
 library(htmlwidgets)
 
-# Create the map and add custom interaction for the modal
 flattened_df %>%
     filter(!is.na(lat) & !is.na(lon)) %>%
     group_by(lat, lon) %>%
     mutate(lab = paste(
         str_c("<b>Location: </b>", city, "<br>"),
-        str_c("<b>Projects:</b><br>",
-            str_c(project_name,
-                str_c('<a href="', url, '" target="_PARENT">Program Info</a>'),
+        str_c("<b>Title: </b>", project_name, "<br>",
+            str_c(str_c('<a href="', url, '" target="_PARENT">More Info</a>'),
                 sep = "<br>"
             ),
             collapse = "<br><br>"
@@ -79,63 +81,8 @@ flattened_df %>%
     ungroup() %>%
     leaflet() %>%
     addProviderTiles(providers$CartoDB.Positron) %>%
-    addCircleMarkers(
+    addMarkers(
         lng = ~lon, lat = ~lat,
-        radius = 5, color = "blue", fillOpacity = 0.5,
-        popup = NULL, # Disable default popup
+        popup = ~lab, 
         label = "Click for Projects"
-    ) %>% # Add a label
-    htmlwidgets::onRender("
-    function(el, x) {
-        var markers = this._map._layers;
-
-        // Disable the default popups and ensure the modal displays
-        for (var key in markers) {
-            var marker = markers[key];
-            if (marker instanceof L.Marker) {
-                marker.on('click', function(e) {
-                    var lat = e.latlng.lat;
-                    var lon = e.latlng.lng;
-                    var popupContent = e.target.options.label;
-
-                    // Create the modal container dynamically
-                    var modalContainer = document.createElement('div');
-                    modalContainer.style.position = 'fixed';
-                    modalContainer.style.top = '0';
-                    modalContainer.style.left = '0';
-                    modalContainer.style.width = '100vw';
-                    modalContainer.style.height = '100vh';
-                    modalContainer.style.backgroundColor = 'rgba(0, 0, 0, 0.7)';
-                    modalContainer.style.zIndex = 9999;
-                    modalContainer.style.overflow = 'auto';
-                    modalContainer.style.display = 'flex';
-                    modalContainer.style.justifyContent = 'center';
-                    modalContainer.style.alignItems = 'center';
-
-                    // Create the modal content box
-                    var modalContent = document.createElement('div');
-                    modalContent.style.backgroundColor = 'white';
-                    modalContent.style.padding = '20px';
-                    modalContent.style.borderRadius = '10px';
-                    modalContent.style.maxHeight = '80vh';
-                    modalContent.style.overflowY = 'scroll';
-
-                    // Insert the content (using popupContent as an example)
-                    modalContent.innerHTML = popupContent;
-
-                    // Append the modal content to the container
-                    modalContainer.appendChild(modalContent);
-                    document.body.appendChild(modalContainer);
-
-                    // Close modal when clicking outside of the modal content
-                    modalContainer.onclick = function(event) {
-                        if (event.target === modalContainer) {
-                            document.body.removeChild(modalContainer);
-                        }
-                    };
-                });
-            }
-        }
-    }
-  ") %>%
-    saveWidget(here::here("_includes/projects", "map.html")) # save map widget
+    ) 
