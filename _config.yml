@@ -135,8 +135,6 @@ plugins:
   - jekyll-archives
 # ------------ The following options are not recommended to be modified ------------------
 
-markdown: kramdown
-
 kramdown:
   input: GFM
   parse_block_html: true
