@@ -106,7 +106,7 @@
     </div>
 
     <script>
-        mapboxgl.accessToken = 'pk.eyJ1IjoiY2F0ZXJlci16LXQiLCJhIjoiY20zY2Q5ZDV1MXo3ODJwb21sanl1cTQyNyJ9.L2D8ZEFu32joMfixxs2Pnw';
+        bo.accessToken = 'pk.eyJ1IjoiY2F0ZXJlci16LXQiLCJhIjoiY20zY2Q5ZDV1MXo3ODJwb21sanl1cTQyNyJ9.L2D8ZEFu32joMfixxs2Pnw';
 
         const map = new mapboxgl.Map({
             container: 'map',
@@ -120,7 +120,7 @@
         });
 
         // Fetch locations from the YAML file
-        fetch('{{ site.baseurl }}/_data/projects.yml')  // Use relative path or proper URL here
+        fetch('{{ site.baseurl }}/_data/projects.yml')        // Use relative path or proper URL here
             .then(response => response.text())
             .then(yamlText => {
                 const locationsFromYaml = jsyaml.load(yamlText); // Parse YAML into JavaScript object

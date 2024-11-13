@@ -127,11 +127,19 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: ""
+baseurl: "/caterer-z-t.github.io"
 
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-archives
 # ------------ The following options are not recommended to be modified ------------------
 
+markdown: kramdown
+
 kramdown:
+  input: GFM
+  parse_block_html: true
   syntax_highlighter: rouge
   syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
     css_class: highlight
