@@ -127,12 +127,8 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: "/caterer-z-t.github.io"
+baseurl: ""
 
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-archives
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:
