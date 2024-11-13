@@ -1,0 +1,10 @@
+<script>
+    fetch('/projects/index.html')
+        .then(response => response.text())
+        .then(htmlContent => {
+            document.getElementById("project-content").innerHTML = htmlContent;
+        })
+        .catch(error => console.error("Error loading project content:", error));
+</script>
+
+<div id="project-content"></div>
