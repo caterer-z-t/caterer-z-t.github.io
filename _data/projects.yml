@@ -83,6 +83,7 @@ locations:
         affiliation: "Research in the Rotunda 2022, Michael Walsh Lab"
         type: "poster"
 
+
   # UWEC Various Years
   - city: "Eau Claire, WI"
     lat: 44.79759493715432
@@ -152,4 +153,5 @@ locations:
         date: "April, 2021"
         affiliation: "CERCA 2021, Michael Walsh Lab"
         type: "poster"
-        
+
+
