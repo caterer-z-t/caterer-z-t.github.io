@@ -21,7 +21,7 @@ locations:
         name: "SOM Seq Sim"
         url: "https://github.com/caterer-z-t/SOM_Seq_Sim" 
         affiliation: "CSCI 6118: Software Engineering for Scientists"
-        # image_path:
+        image_path: https://github.com/caterer-z-t/SOM_Seq_Sim/blob/00ad2c6650b4883f197ab86283e0dfc1d6743cd7/assets/som_package_logo.png
         # documentation: https://som-seq-sim.readthedocs.io/en/latest/
 
   # Amgen Scholar 2023
