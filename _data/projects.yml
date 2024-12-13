@@ -4,11 +4,14 @@ locations:
     lat: 40.008393861735605
     lon: -105.24903941563032
     entries:
-      - category: "personal_project"
-        name: "Millennium Falcon"
-        url: "https://caterer-z-t.github.io/3d_render"
-        image_path: "https://raw.githubusercontent.com/caterer-z-t/caterer-z-t.github.io/ef87bc0d823d18540c3489fb008f96e411aa398e/assets/images/projects/millennium_falcon.jpg"
 
+      - category: "software_project"
+        name: "SOM Seq Sim"
+        date: "December 2, 2024"
+        url: "https://github.com/caterer-z-t/SOM_Seq_Sim" 
+        affiliation: "CSCI 6118: Software Engineering for Scientists"
+        image_path: https://raw.githubusercontent.com/caterer-z-t/SOM_Seq_Sim/586ce8333c6596a8862a3179b618543e47774e49/assets/som_package_logo.png
+        
       - category: "research_presentation"
         name: "Benchmarking Strategies to identify single-cell phenotypic changes"
         date: "October 18, 2024"
@@ -17,13 +20,11 @@ locations:
         url: "https://caterer-z-t.github.io/posts/rotation-1-talk/"
         image_path: "https://raw.githubusercontent.com/caterer-z-t/caterer-z-t.github.io/ef87bc0d823d18540c3489fb008f96e411aa398e/assets/images/boulder/iq_bio/rotations/zhang_lab/20241018_zhang_lab_rotation_presentation.png"
       
-      - category: "software_project"
-        name: "SOM Seq Sim"
-        url: "https://github.com/caterer-z-t/SOM_Seq_Sim" 
-        affiliation: "CSCI 6118: Software Engineering for Scientists"
-        image_path: https://github.com/caterer-z-t/SOM_Seq_Sim/blob/00ad2c6650b4883f197ab86283e0dfc1d6743cd7/assets/som_package_logo.png
-        # documentation: https://som-seq-sim.readthedocs.io/en/latest/
-
+      - category: "personal_project"
+        name: "Millennium Falcon"
+        url: "https://caterer-z-t.github.io/3d_render"
+        image_path: "https://raw.githubusercontent.com/caterer-z-t/caterer-z-t.github.io/ef87bc0d823d18540c3489fb008f96e411aa398e/assets/images/projects/millennium_falcon.jpg"
+            
   # Amgen Scholar 2023
   - city: "Los Angeles, CA"
     lat: 34.06969123198319

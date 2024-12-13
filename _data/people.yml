@@ -36,6 +36,7 @@ people:
     kind: direct
 
 ## Stanislawski Lab
+
   - name: Maggie Stanislawski
     title: Principle Investigator
     kind: direct
@@ -44,6 +45,9 @@ people:
     title: PhD Student
     kind: direct 
 
+  - name: Ashley Scadden
+    title: Research Assistant
+    kind: direct
 
  ### UWEC
 

@@ -2,6 +2,14 @@ categories:
   - heading: "Preprint, Under Review, or In Press"
     pubs:
 
+    - title: "Genomic & Gut Microbial Attributes of Body Mass Index (BMI)"
+      authors:
+      - Zachary Caterer 
+      - Maggie Stanislawski
+      - Emily Yeo
+      - Ashley Scadden
+      year: 2024
+      
     - title: "Benchmarking Strategies to identify single-cell phenotypic changes: pyCellPhenoX vs miloR"
       authors:
       - Zachary Caterer
