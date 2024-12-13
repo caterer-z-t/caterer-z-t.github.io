@@ -5,7 +5,7 @@ tag: [UCB]
 categories: [Graduate School]
 author: <zc>    
 image: 
-    path: assets/images/boulder/iq_bio/rotations/stanislawski_lab/stanislawski_lab_rotation_presentation/stanislawski_lab_rotation_presentation.001.png
+    path: /Users/zc/Documents/caterer-z-t.github.io/assets/images/boulder/iq_bio/rotations/stanislawski_lab/stanislawski_lab_rotation_presentation/stanislawski_lab_rotation_presentation.png
     alt: Stanislawski Lab Rotation Presentation
 ---
 
