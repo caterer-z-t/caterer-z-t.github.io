@@ -1,5 +1,5 @@
 ---
-title: IQ Biology Stanislawsku Lab Rotation Talk
+title: IQ Biology Stanislawski Lab Rotation Talk
 date: 2024-12-13 09:00:00
 tag: [UCB]
 categories: [Graduate School]
