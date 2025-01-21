@@ -58,7 +58,7 @@ locations:
         name: "pyCellPhenoX"
         affiliation: "CU Anschutz DBMI, Fan Zhang Lab"
         url: "https://github.com/fanzhanglab/pyCellPhenoX"
-        image_path: "https://raw.githubusercontent.com/fanzhanglab/pyCellPhenoX/blob/481506d50735e2a47bb827127f7228d13ac84f10/logo/pycpx.png"
+        image_path: "https://raw.githubusercontent.com/fanzhanglab/pyCellPhenoX/481506d50735e2a47bb827127f7228d13ac84f10/logo/pycpx.png"
 
   # ASHG 2024
   - city: "Denver, CO"
