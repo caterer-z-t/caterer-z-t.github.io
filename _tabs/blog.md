@@ -8,6 +8,7 @@ order: 5
 <div class="blog-posts">
   {% assign sorted_posts = site.blog | sort: 'date' | reverse %}
   {% unless sorted_posts == empty %}
+  {% for post in sorted_posts %}
     <div class="blog-post">
       <h3 class="post-title">
         <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
@@ -24,4 +25,5 @@ order: 5
     </div>
     <hr>
   {% endfor %}
+{% endunless %}
 </div>
