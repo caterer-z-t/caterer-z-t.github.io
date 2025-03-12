@@ -147,6 +147,9 @@ collections:
   tabs:
     output: true
     sort_by: order
+  blog:
+    output: true
+    permalink: /blog/:title/
 
 defaults:
   - scope:
