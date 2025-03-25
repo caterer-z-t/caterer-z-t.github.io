@@ -5,7 +5,7 @@ tag: [UWEC, Research, Publications]
 categories: [Undergrad, Research]
 author: <zc>    
 image:
-    path: assets/images/uwec/wrmXpress_GA.jpg
+    path: assets/images/uwec/wrmXpress_GA.png
     alt: wrmXpress graphical abstract
 ---
 
