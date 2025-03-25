@@ -1,5 +1,5 @@
 ---
-title: Amgen Scholars Kamariza Lab Rotation
+title: Amgen Scholar at The Kamariza Lab
 date: 2023-08-21 09:00:00
 tag: [UCLA, Research]
 categories: [Undergrad, Research]
