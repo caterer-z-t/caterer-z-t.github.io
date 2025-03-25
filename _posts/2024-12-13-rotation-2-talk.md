@@ -1,8 +1,8 @@
 ---
 title: IQ Biology Stanislawski Lab Rotation Talk
 date: 2024-12-13 09:00:00
-tag: [UCB]
-categories: [Graduate School]
+tag: [UCB, Research]
+categories: [Graduate School, Research]
 author: <zc>    
 image: 
     path: assets/images/boulder/iq_bio/rotations/stanislawski_lab/stanislawski_lab_rotation_presentation.png

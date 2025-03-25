@@ -1,8 +1,8 @@
 ---
 title: IQ Biology Sprenger Lab Rotation Talk
 date: 2025-03-05 09:00:00
-tag: [UCB]
-categories: [Graduate School]
+tag: [UCB, Research]
+categories: [Graduate School, Research]
 author: <zc>    
 image: 
     path: assets/images/boulder/iq_bio/rotations/sprenger_lab/sprenger_lab_rotation_presentation.png

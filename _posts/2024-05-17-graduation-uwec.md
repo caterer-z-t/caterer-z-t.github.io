@@ -1,8 +1,8 @@
 ---
 title: Graduation From UWEC
 date: 2024-05-17 12:00:00 +0030
-tag: [UWEC]
-categories: [Undergrad]
+tag: [UWEC, Education]
+categories: [Undergrad, Education]
 author: <zc>
 image: 
     path: ../assets/images/uwec/uwec_arch_distance.jpeg

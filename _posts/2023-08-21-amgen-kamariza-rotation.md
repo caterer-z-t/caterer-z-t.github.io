@@ -1,8 +1,8 @@
 ---
 title: Amgen Scholars Kamariza Lab Rotation
 date: 2023-08-21 09:00:00
-tag: [UCLA]
-categories: [Undergrad]
+tag: [UCLA, Research]
+categories: [Undergrad, Research]
 author: <zc>    
 image: 
     path: assets/images/ucla/kamariza-amgen-presentation.jpg

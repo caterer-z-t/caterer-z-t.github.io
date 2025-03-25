@@ -1,8 +1,8 @@
 ---
 title: IQ Biology Zhang Lab Rotation Talk
 date: 2024-10-18 09:00:00
-tag: [UCB]
-categories: [Graduate School]
+tag: [UCB, Research]
+categories: [Graduate School, Research]
 author: <zc>    
 image: 
     path: assets/images/boulder/iq_bio/rotations/zhang_lab/20241018_zhang_lab_rotation_presentation.png
