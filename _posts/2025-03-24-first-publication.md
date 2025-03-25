@@ -4,9 +4,9 @@ date: 2025-03-24 09:00:00
 tag: [UWEC, Research, Publications]
 categories: [Undergrad, Research]
 author: <zc>    
-image:
-    path: assets/images/uwec/ipj_journal.jpg
-    alt: international journal for parasitology drugs and drug resistance cover
+# image:
+#     path: assets/images/uwec/ipj_journal.jpg
+#     alt: international journal for parasitology drugs and drug resistance cover
 ---
 
 ### First Publication
