@@ -1,5 +1,5 @@
 ---
-title: First Publications
+title: First Publication
 date: 2025-03-24 09:00:00
 tag: [UWEC, Research, Publications]
 categories: [Undergrad, Research]
@@ -9,7 +9,7 @@ image:
     alt: First Publication Announcement
 ---
 
-### First Publications
+### First Publication
 
 Reaching this milestone has been an exciting moment in my academic journey. I’m grateful for the opportunity to contribute to research, collaborate with incredible mentors and colleagues, and take part in meaningful scientific exploration.
 
@@ -25,4 +25,4 @@ Leading my first publication as a first author has been both challenging and rew
 These experiences reinforce my passion for research and innovation. I look forward to continuing to explore new ideas and working with inspiring teams. A heartfelt thank you to my mentors, collaborators, and peers who have supported me along the way!
 
 #### LinkedIn Post
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7310011136790147073?collapsed=1" height="399" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7310011136790147073?collapsed=1" height="399" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
