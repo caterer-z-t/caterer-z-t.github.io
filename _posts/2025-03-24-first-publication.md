@@ -25,4 +25,4 @@ Leading my first publication as a first author has been both challenging and rew
 These experiences reinforce my passion for research and innovation. I look forward to continuing to explore new ideas and working with inspiring teams. A heartfelt thank you to my mentors, collaborators, and peers who have supported me along the way!
 
 #### LinkedIn Post
-<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7310011136790147073?collapsed=1" height="399" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7310011136790147073?collapsed=1" height="399" width="800" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
