@@ -1,5 +1,6 @@
 ---
 layout: post
+type: blog
 title:  "Proposed research for graduate school"
 date:   2025-03-26 08:00:00
 ---

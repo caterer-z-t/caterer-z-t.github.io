@@ -1,5 +1,6 @@
 ---
 layout: post
+type: blog
 title:  "A new generation Zach"
 date:   2025-03-09 08:00:00
 ---
