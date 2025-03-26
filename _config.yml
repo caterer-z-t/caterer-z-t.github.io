@@ -157,7 +157,9 @@ defaults:
       type: blog
     values:
       layout: post
-      permalink: /blog/:title/ # Ensure blog posts use this permalink
+      comments: true
+      toc: true
+      permalink: /blog/:title/ # Custom permalink for blog posts
 
   - scope:
       path: "" # Applies to all files
