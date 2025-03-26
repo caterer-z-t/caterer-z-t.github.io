@@ -2,7 +2,7 @@
 layout: post
 type: blog
 title:  "Proposed research for graduate school"
-date:   2025-03-26 08:00:00
+date:   2025-03-25 08:00:00
 ---
 
 I have made significant progress in selecting my research lab(s) and am currently working through the final details with both the professors and the department. The goal is to ensure that my co-advisors are the right fit for my research and that we fully understand the department's expectations before making anything official. This process has turned out to be far more administrative than I initially anticipated. As a student in the Interdisciplinary Quantitative Biology (IQ Bio) Program at the University of Colorado Boulder, pursuing a PhD in Biological Engineering through the Department of Chemical and Biological Engineering, I assumed that joining a lab at the University of Colorado Anschutz Medical School would not only be accepted but encouraged. Given BioFrontiers' emphasis on interdisciplinary research, I am surprised by the number of administrative hurdles involved in making this happen. While I understand the importance of departmental guidelines, the process has been more complex than expected. That said, I remain optimistic that everything will come together in a way that best supports my research goals.
