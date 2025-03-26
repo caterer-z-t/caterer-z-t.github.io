@@ -147,19 +147,19 @@ collections:
   tabs:
     output: true
     sort_by: order
-  blog:
-    output: true
-    permalink: /blog/:title/
+  # blog:
+  #   output: true
+  #   permalink: /blog/:title/
 
 defaults:
-  - scope:
-      path: "blog" # Applies to blog posts
-      type: blog
-    values:
-      layout: post
-      comments: true
-      toc: true
-      permalink: /blog/:title/ # Custom permalink for blog posts
+  # - scope:
+  #     path: "blog" # Applies to blog posts
+  #     type: blog
+  #   values:
+  #     layout: post
+  #     comments: true
+  #     toc: true
+  #     permalink: /blog/:title/ # Custom permalink for blog posts
 
   - scope:
       path: "" # Applies to all files
