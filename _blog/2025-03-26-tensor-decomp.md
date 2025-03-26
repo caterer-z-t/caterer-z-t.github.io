@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Proposed research for graduate school"
+permalink: /blog/tensor-decomp/
 date:   2025-03-26 08:00:00
 ---
 
