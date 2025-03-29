@@ -11,7 +11,7 @@ permalink: /slides/
     {% assign sorted_slides = site.data.slides | sort: "date" | reverse %}
     {% for slide in sorted_slides %}
     <div class="slide-thumbnail">
-        <a href="{{ slide.url }}" target="_blank">
+        <a href="{% if slide.url %}{{ slide.url }}{% else %}{{ site.baseurl }}{{ slide.post }}{% endif %}" target="_blank">
             <img src="{{ site.baseurl }}{{ slide.image_path }}" alt="{{ slide.title }}" />
             <h3>{{ slide.title }}</h3>
         </a>
@@ -27,7 +27,7 @@ permalink: /slides/
     {% for slide in sorted_slides %}
     <li>
         <strong>{{ slide.title }}</strong>
-        <a href="{{ slide.url }}" target="_blank">View Presentation</a>
+        <a href="{% if slide.url %}{{ slide.url }}{% else %}{{ site.baseurl }}{{ slide.post }}{% endif %}" target="_blank" class="btn btn-primary">View Slide</a>
     </li>
     {% endfor %}
 </ul>

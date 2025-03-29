@@ -1,24 +1,24 @@
 - title: "2024 IQ Biology Rotation 3 Presentation"
   # url: https://drive.google.com/file/d/1c5OQmymIHlU60Xk-SyQJj1nalhGzZ-zR/view?usp=sharing
   image_path: /assets/slide_covers/boulder/sprenger_lab_rotation_presentation.png
-  post: posts/rotation-3-talk/
+  post: /2025/03/05/rotation-3-talk.html
   date: 2025-03-05
 
 
 - title: "2024 IQ Biology Rotation 2 Presentation"
   url: https://drive.google.com/file/d/1M3mWgE5vxIQ42aNond6AS6Ev8jRPSGel/view?usp=sharing
   image_path: /assets/slide_covers/boulder/stanislawski_lab_rotation_presentation.png
-  post: posts/rotation-2-talk/
+  post: 2024/12/13/rotation-2-talk.html
   date: 2024-12-13
 
 - title: "2024 IQ Biology Rotation 1 Presentation"
   url: https://drive.google.com/file/d/1c5OQmymIHlU60Xk-SyQJj1nalhGzZ-zR/view?usp=sharing
   image_path: /assets/slide_covers/boulder/20241018_zhang_lab_rotation_presentation.png
-  post: posts/rotation-1-talk/
+  post: /2024/10/18/rotation-1-talk.html
   date: 2024-10-18
 
 - title: "Using Environment-Sensitive Probes to Detect Mycobacterium Tuberculosis with Machine Learning Based Fluorescence Microscope Octopi"
   date: 2023-08-21
   image_path: /assets/slide_covers/ucla/kamariza-amgen-presentation.jpg
   url: https://drive.google.com/file/d/1Od4c3yiHz0Nlhh5oKuozeRUhX9EUypGi/view?usp=sharing
-  post: posts/kamariza-amgen-presentation/
+  post: /2023/08/21/amgen-kamariza-rotation.html
