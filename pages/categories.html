@@ -1,0 +1,37 @@
+---
+layout: default
+title: Categories
+permalink: /categories/
+---
+
+<!-- <h1>Categories</h1> -->
+
+{% assign all_categories = "" | split: "," %}
+
+{% for post in site.posts %}
+{% for category in post.categories %}
+{% unless all_categories contains category %}
+{% assign all_categories = all_categories | push: category %}
+{% endunless %}
+{% endfor %}
+{% endfor %}
+
+<!-- Sort categories in reverse order -->
+{% assign all_categories = all_categories | sort %}
+
+{% for category in all_categories %}
+<h1 id="{{ category | slugify }}">{{ category | capitalize }}</h1>
+<ul>
+    {% for post in site.posts %}
+    {% if post.categories contains category %}
+    <li>
+        <a href="{{ post.url }}">{{ post.title }}</a> ({{ post.date | date: "%B %d, %Y" }})
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>
+{% endfor %}
+
+<br>
+
+<div><a href="{{ site.baseurl }}archives/" title="Archives" class="col span_12">Archives</a></div>

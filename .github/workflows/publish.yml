@@ -1,0 +1,48 @@
+name: Jekyll Publish
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  jekyll:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.3'
+          bundler-cache: true
+
+      - name: Build Jekyll Site
+        run: bundle exec jekyll build
+
+      - name: Restore Lychee Cache
+        uses: actions/cache@v4
+        with:
+          path: .lycheecache
+          key: cache-lychee-${{ github.sha }}
+          restore-keys: cache-lychee-
+
+      - name: Run Link Checker (Lychee)
+        uses: lycheeverse/lychee-action@v2
+        with:
+          fail: false
+          args: "--base _site --accept '100..=103,200..=299,403' --cache --max-cache-age 14d _site"
+
+      - name: Upload Artifact for GitHub Pages
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: '_site'
+
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v4

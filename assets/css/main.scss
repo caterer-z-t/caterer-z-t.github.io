@@ -1,0 +1,774 @@
+---
+---
+@use 'syntax';
+@use 'barefoot';
+@use 'responsive.gs.12col';
+@use 'sass:color';
+
+// Accent Colors
+$periwinkle-accent-color: #AEADF0;
+$oxford-blue-accent-color: #011638;
+$spring-green-accent-color: #00B140;
+$pentose-orange-accent-color: #FF6F20;
+
+// Default (Light Mode) Variables
+:root {
+  --background-color: #FCFCFC;
+  --text-color: #212529;
+  --link-color: #007bff;
+  --link-hover-color: #0056b3;
+  --border-color: #e0e0e0;
+  --contrast-color: #3F88C5;
+}
+
+// Dark Mode Overrides
+body.dark-mode {
+  --background-color: #121212;
+  --text-color: #f8f9fa;
+  --link-color: #1e90ff;
+  --link-hover-color: #007bff;
+  --border-color: #2c2c2c;
+  --contrast-color: #3F88C5;
+}
+
+// Global Styles
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// Apply Variables to Elements
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+}
+
+html, body {
+  height: 100%;
+  min-width: 1000px;
+}
+
+// Links
+a {
+  color: var(--link-color);
+  text-decoration: none;
+
+  &:hover {
+    color: var(--link-hover-color);
+  }
+}
+
+// Borders & Other Elements
+hr,
+.border {
+  border-color: var(--border-color);
+}
+
+// Headers
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--contrast-color);
+}
+
+blockquote {
+  padding: 0 20px;
+  margin-top: 20px; // Fixed spacing issue (no space in "20 px")
+  border-left: 5px solid var(--contrast-color); // Corrected margin-left → border-left
+}
+
+ul, ol {
+  margin-left: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border: none;
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+hr {
+  border: 0;
+  height: 25px;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAcIAAAAZCAYAAAHVkR6LAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAJCSURBVHjaYmAYBaOAXPB/NAhoAAACaBQN9WTKNACe1B+NZyoCgAAa7uj+aBCMlmtDAjCNkIgE4fPD1YMAATSKRsEoGAW0Kz5Hm7/DoP4bBUMU1GOJRP7RYBl6OfD/aHE6CgYtAAigUTS0QfxoEIyCUTAw4PxoI3sUjIKBA/xI7ev1o8Ex9AEjDvH9o0EzqMAFIC5E6+yOxufQBo6jQTC0gT4D5qgTOn4/GkyjYBTQPiPCgD+0thtdHjQEAUAA9u3gBkEYCgMwie6Bm3j1BhvgRo7gCMYR3MBNWIESNGlIOWiipeT7wjuQwOU17wD96wL40kULIC9bFBux14Li1KHO2gD5dJVELGTVG8Jt2WlBcU6hDtH9Q0vKlkpYSFesT5yuGPcHn4ln2lD3hfet6brME1AUaJ6OuVbTDxsg0xCmqtEm+I33UfPbwvA5Ywh/EKdl6tdgjt99R60B+NAgQHt3k0MwEAUAeDiBpaUjuAFHcROcxFHYWuEEHMEN8NJKZlOhVEZ8XzrRakXykqbe/Dw2AAC+JjqtL8mIEgB/aJLM+oXi9IUAOnefXTETCiiPZUzQrVjxMkzV8rNx9v751rbCA8A/yAsh5M04IRSg9+R15uXDY5HhHRrORdfoouEzo1TVQ5jW+5tbW7b4fvcotL9HgS84pudKIUTbCReUlxEC74lu0NMLv1wjM9zX+/E6SNUY47jOHiOLVOYSgOJFva3VC9ngo/96VdESgJ9+IMYDbZ1liDF2uEvN3aP58VwIAQD4uCuCHpI1W5yjpQAAAABJRU5ErkJggg==) center center no-repeat;
+}
+
+code {
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-size: .8rem;
+}
+
+p code {
+  padding: 0px 5px;
+  border: 1px solid #ddd;
+  background-color: var(--contrast-color);
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+table {
+  border-collapse: collapse;
+  border: 1px solid var(--text-color);
+
+  td,
+  th {
+    border: 1px solid var(--text-color);
+    padding: 5px 10px;
+  }
+
+  thead {
+    background-color: var(--contrast-color);
+    color: var(--text-color);
+  }
+}
+
+dt {
+  float: left;
+  width: 10%;
+  font-weight: bold;
+}
+
+dd {
+  float: left;
+  width: 100%;
+}
+
+footer {
+  font-size: .8rem;
+  text-align: center;
+}
+
+
+/*===============================================================*/
+
+.highlight {
+  padding: 30px;
+  border-radius: 9px;
+  background-color: var(--contrast-color);
+  color: var(--text-color);
+  line-height: 3;
+
+  code {
+    font-size: 1.2rem;
+  }
+}
+
+.container {
+  max-width: 1000px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.center {
+  text-align: center;
+}
+
+.right { 
+  float: right;
+  margin: 0 0 20px 20px;
+}
+
+.left {
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.top-navbar {
+  margin-bottom: 20px;
+  height: 100px;
+  a {
+      display: inline-block;
+      color: var(--contrast-color);
+      padding: 25px 25px 25px;
+      margin-right: 10px;
+      margin-top: 10px;
+      text-transform: lowercase;
+      border-radius: 15px;
+      // border-bottom: 1px solid var(--contrast-color);
+      text-decoration: none;
+      transition: all ease-in-out .3s;
+  
+      &:hover,
+      &.current-page {
+        color: var(--background-color);
+        border-bottom: 1px solid var(--contrast-color);
+      }
+  
+      &:hover {
+        background-color: var(--contrast-color);
+        transform: scale(1.15);
+      }
+  
+      &.current-page {
+        background-color: var(--contrast-color);
+      }
+    }
+  }
+
+
+.archive,
+.single {
+  margin-bottom: 40px;
+}
+
+/* Sidebar Navigation */
+.side-navbar {
+  position: fixed;
+  top: 50px;
+  /* Adjust for your header height */
+  left: -250px;
+  /* Initially hidden */
+  width: 220px;
+  /* Adjusted width */
+  height: 90vh;
+  /* Slightly smaller than full height */
+  background: var(--background-color);
+  transition: left 0.3s ease-in-out;
+  padding: 20px;
+  border-radius: 15px;
+  /* Round the entire sidebar */
+  // box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+
+  &.show {
+    left: 10px;
+    /* Position it slightly inside */
+  }
+
+  a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px 20px;
+    border-radius: 15px;
+    /* Rounded corners for each item */
+    color: var(--contrast-color);
+    text-decoration: none;
+    text-transform: lowercase;
+    transition: all 0.3s ease-in-out;
+    background: var(--background-color);
+    /* Background matches page */
+    margin-bottom: 10px;
+    /* Space between items */
+
+    &:hover,
+    &.current-page {
+      color: var(--background-color);
+      background-color: var(--contrast-color);
+      /* Match hover effect */
+      transform: scale(1.1);
+    }
+  }
+}
+
+/* Adjust Sidebar Icons */
+.svg-icon-sidebar {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.single {
+  // font-size: 1.125rem;
+  line-height: 28px;
+}
+
+.single time {
+  color: #999;
+  font-size: .9rem;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.bundle {
+  border-top: 1px solid var(--contrast-color);
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.post-tag {
+  font-size: .9rem;
+  color: #999;
+
+  a {
+    text-decoration: none;
+  }
+}
+
+.post-date {
+  text-align: right;
+}
+
+.svg-icon {
+  display: inline-block;
+  width: 3em;
+  height: 3em;
+  fill: currentColor
+}
+
+.svg-icon-header {
+  width: 20px;
+  /* Set the size of the icons */
+  height: 20px;
+  margin-right: 8px;
+  /* Space between the icon and the text */
+  fill: currentColor;
+  /* Makes the icon inherit the text color */
+}
+
+.not-found {
+  margin-top: 150px;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.not-found h1 {
+  font-size: 8rem;
+}
+
+dl,
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+
+dl,
+.clearfix:after {
+  clear: both;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Sidebar TOC Navigation */
+.sidebar-toc {
+  position: fixed;
+  top: 50px;
+  /* Adjust for your header height */
+  right: 20px;
+  /* Initially hidden */
+  width: 300px;
+  /* Adjusted width */
+  height: auto;
+  /* Slightly smaller than full height */
+  background: var(--background-color);
+  transition: left 0.3s ease-in-out;
+  padding: 5px;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  /* Round the entire sidebar */
+  // box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+
+  &.show {
+    left: 10px;
+    /* Position it slightly inside */
+  }
+
+  h3 {
+    color: var(--contrast-color);
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+
+  #toc-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  #toc-list li {
+    margin: 10px 0;
+  }
+
+  #toc-list a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px;
+    border-radius: 15px;
+    /* Rounded corners for each item */
+    color: var(--contrast-color);
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all 0.3s ease-in-out;
+    background: var(--background-color);
+    /* Background matches page */
+    margin-bottom: 10px;
+    /* Space between items */
+  }
+  /* Remove bullet points for TOC items */
+  .no-bullets {
+    list-style-type: none;
+    /* Removes the bullet points */
+    padding: 0;
+    /* Removes the padding */
+    margin: 0;
+    /* Removes the margin */
+  }
+
+  #toc-list a:hover,
+  #toc-list a.current-page {
+    color: var(--background-color);
+    background-color: var(--contrast-color);
+    /* Match hover effect */
+    transform: scale(1.1);
+  }
+}
+
+/*============================================================================*/
+#logo {
+  display: inline-block;
+  height: 110px;
+  width: 110px;
+  background-size: 90px 90px;
+  background-position: left center;
+  background-repeat: no-repeat;
+}
+/*============================================================================*/
+@media screen and (max-width: 90px) {
+  .top-navbar {
+    height: 50px;
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    a {
+      padding: 3px 7px;
+      margin: 5px;
+      border-radius: 0;
+      border: 1px solid var(--contrast-color);
+      transition: none;
+
+      &:hover {
+        transform: none;
+      }
+    }
+  }
+
+  .bundle,
+  .post-date {
+    text-align: center;
+  }
+
+  .bundle article {
+    margin-bottom: 30px;
+  }
+
+  #logo {
+    background-position: center center;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+
+  .sidebar-toc,
+  .side-navbar {
+    display: none;
+  }
+}
+
+/*============================================================================*/
+/*tags page*/
+
+ul.posts {
+  list-style-type: none;
+  margin-bottom: 2rem;
+  padding: 0;
+}
+
+ul.posts li span {
+  color: silver;
+}
+
+.tag-box {
+  list-style: none;
+  margin: 0;
+  padding: 4px 0;
+  overflow: hidden;
+}
+
+.tag-box.inline li {
+  float: left;
+  font-size: 14px;
+  font-size: 0.875rem;
+  line-height: 2.5;
+}
+
+.tag-box a {
+  padding: 4px 6px;
+  margin: 2px;
+  background-color: #e6e6e6;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.tag-box a span {
+  vertical-align: super;
+  font-size: 10px;
+  font-size: 0.625rem;
+}
+
+/*============================================================================*/
+
+/* moon and lighbulbulb icons */
+/* Initially hide the moon icon and show the lightbulb */
+.moon-icon {
+  display: none;
+}
+
+.lightbulb-icon {
+  display: inline-block;
+}
+
+/* Swap visibility in light mode */
+body.light-mode .lightbulb-icon {
+  display: none;
+}
+
+body.light-mode .moon-icon {
+  display: inline-block;
+}
+
+/*============================================================================*/
+/* Main Post Styles */
+
+
+// Post footer
+.post-footer, .post-tags{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // margin-top: 10px;
+  // padding: 5px ;
+  /* Adds some space above */
+}
+
+.post-footer .post-date, .post-footer .post-tags, .post-footer .categories {
+  font-size: 0.7rem;
+}
+
+.content-preview .sitebaseurl {
+  display: inline-block;
+  // font-size: 0.9rem;
+  text-decoration: underline;
+}
+
+.mini-card {
+  display: flex;
+  margin-bottom: 35px;
+  border-radius: 5px;
+  height: 150px;
+  padding: 10px;
+  align-items: stretch;
+  border-bottom: 1px solid var(--contrast-color);
+}
+
+.left-side {
+  flex: 2;
+  padding-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right-side {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  // align-items: stretch;
+  .post.image.path {
+    max-width: 100%;
+    object-fit: cover;
+    flex-grow: 1;
+  }
+}
+
+/*============================================================================*/
+
+/* koda images */
+
+.koda-images {
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  /* Optional, adds space between images */
+
+  figure {
+    margin: 0;
+    width: 30%;
+    /* Adjust width as needed */
+    // overflow: hidden;
+    /* Prevents the image from overflowing the figure during the zoom effect */
+
+    img {
+      width: 95%;
+      height: auto;
+      display: block;
+      margin: 0 auto;
+      transition: transform 0.3s ease;
+      /* Smooth transition effect */
+
+      &:hover {
+        transform: scale(1.25) translateY(-10px);
+        /* Enlarge image on hover (1.25x by default) */
+      }
+    }
+
+    figcaption {
+      text-align: center;
+      font-style: italic;
+      margin-top: 8px;
+    }
+  }
+}
+
+/* Modal Styles */
+.image-modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  z-index: 1;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  // background-color: rgba(0, 0, 0, 0.4);
+  /* Semi-transparent background */
+  padding-top: 60px;
+  /* Padding from top */
+
+  /* Modal content */
+  .modal-content {
+    background-color: var(--background-color);
+    margin: 5% auto;
+    padding: 20px;
+    // border: 1px solid #888;
+    width: 80%;
+    /* Width of modal */
+    max-width: 800px;
+    /* Maximum width */
+    border-radius: 15px;
+    /* Rounded corners */
+    // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Modal header */
+  .image-modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--border-color);
+
+    h2 {
+      font-size: 1.5rem;
+      color: var(--contrast-color);
+    }
+
+    .close {
+      color: var(--contrast-color);
+      font-size: 1.5rem;
+      font-weight: bold;
+      border: none;
+      background: none;
+      cursor: pointer;
+
+      &:hover,
+      &:focus {
+        color: var(--contrast-color);
+        text-decoration: none;
+      }
+    }
+    .modal-title {
+      font-size: 1.5rem;
+      color: var(--contrast-color);
+    }
+  }
+
+  /* Modal body */
+  .image-modal-body {
+    padding: 20px;
+    font-size: 1rem;
+    line-height: 1.6;
+    color: var(--text-color);
+  }
+
+  /* Modal footer */
+  .image-modal-footer {
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid var(--border-color);
+    padding: 10px 0;
+
+    button {
+      background-color: var(--border-color);
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s ease-in-out;
+
+      &:hover {
+        background-color: var(--contrast-color);
+      }
+
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+}
+
+/* Display the modal when active */
+.image-modal.show {
+  display: block;
+}
+
+/* basic image styles */
+.images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* Ensures the image takes up full width of its container */
+}
+
+.images img {
+  width: 80%;
+  /* Adjust size of the image */
+  height: auto;
+  transition: transform 0.3s ease;
+  /* Smooth transition for hover effect */
+}
+
+.images img:hover {
+  transform: scale(1.25) translateY(-10px);
+  /* Enlarge and move the image on hover */
+}

@@ -18,6 +18,44 @@ people:
 
 ### CU Boulder
 
+## Lp(a) Project
+
+  - name: Misa Graff
+    title: Principle Investigator
+    kind: direct
+
+  - name: Christy Avery
+    title: Principle Investigator
+    kind: direct
+
+  - name: Meng Lin
+    title: Research Assistant
+    kind: direct
+
+  - name: Christ Gignoux
+    title: Principle Investigator
+    kind: direct
+
+## Kechris Lab
+
+  - name: Katerina Kechris
+    title: Principle Investigator
+    kind: direct
+
+## Stanislawski Lab
+
+  - name: Maggie Stanislawski
+    title: Principle Investigator
+    kind: direct
+
+  - name: Emily Yeo
+    title: PhD Student
+    kind: direct 
+
+  - name: Ashley Scadden
+    title: Research Assistant
+    kind: direct
+
 ## Team rotation
   - name: Richard Benninger
     title: Principle Investigator
@@ -62,20 +100,6 @@ people:
     kind: direct
 
   - name: Revanth Krishna
-    title: Research Assistant
-    kind: direct
-
-## Stanislawski Lab
-
-  - name: Maggie Stanislawski
-    title: Principle Investigator
-    kind: direct
-
-  - name: Emily Yeo
-    title: PhD Student
-    kind: direct 
-
-  - name: Ashley Scadden
     title: Research Assistant
     kind: direct
 

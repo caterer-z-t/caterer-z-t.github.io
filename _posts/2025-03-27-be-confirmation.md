@@ -1,0 +1,8 @@
+---
+title: Biological Engineering PhD Confirmation
+date: 2025-03-27
+type: blog
+layout: post
+---
+
+It’s official! My proposed project on statistical genetics related to Lipoprotein(a) has been approved by the Department of Chemical and Biological Engineering at the University of Colorado Boulder. Since this project falls within the department’s scope, it qualifies as a PhD in Biological Engineering. This marks an exciting first step toward earning my PhD. Beyond this progress, I’ve been diving deeper into computation and computer science, and I’m looking forward to pursuing my MS in Computer Science. I’ve been having a lot of fun experimenting with web development—finding new ways to integrate websites, adding new features to my personal site, and coming up with creative ideas to implement. While understanding what’s happening “under the hood” of these websites is still somewhat outside my realm of expertise, I’ve learned that the more I experiment (and inevitably break things), the better my understanding becomes. I believe there are two main ways to learn: the traditional approach—studying books, articles, or lecture slides—and the hands-on approach—learning by doing, breaking, and rebuilding. Both are valuable and should be used together, but I personally find the latter more enjoyable. That’s probably why I gravitate toward engineering, science, and even cooking—fields where experimentation plays a crucial role in mastering the craft.

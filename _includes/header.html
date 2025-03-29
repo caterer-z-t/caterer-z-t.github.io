@@ -1,0 +1,53 @@
+<!-- meta information -->
+<meta charset="utf-8">
+<meta name="description" {% if page.title=="Home" %} content="{{ site.data.brume.description }}" {% else %}
+    content="{{ page.content | strip_html | strip_newlines | truncate: 120 | xml_escape }}" {% endif %}>
+<meta name="author" content="{{ site.data.brume.author }}">
+
+
+<!-- Enable responsiveness on mobile devices-->
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+<!-- title -->
+<title>{{ page.title }} &middot; {{ site.data.brume.name }}</title>
+
+<!-- icons -->
+<link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" />
+
+<!-- stylesheets -->
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+
+<!-- bigfoot -->
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/barefoot.min.js"></script>
+
+<!-- theme-toggle -->
+<script type="text/javascript" src="{{ site.baseurl }}/assets/js/theme-toggle.js"></script>
+
+<!-- sidebar nav -->
+<script src="{{ site.baseurl }}/assets/js/sidebar.js"></script>
+
+<!-- sidebar toc -->
+<script src="{{ site.baseurl }}/assets/js/sidebar-toc.js"></script>
+
+<!-- image modal -->
+<script src="{{ site.baseurl }}/assets/js/image-modal.js"></script>
+
+<!-- Google fonts -->
+<link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic&amp;subset=latin-ext">
+
+<script>
+    MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+        },
+        svg: {
+            fontCache: 'global'
+        }
+    };
+</script>
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+</script>
+
+<!-- feed links -->
+<link rel="alternate" href="{{ site.baseurl }}/feed.xml" type="application/rss+xml" title="{{ site.name }}">

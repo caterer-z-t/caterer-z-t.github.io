@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% include header.html %}
+</head>
+
+<body>
+    {% include icons.html %}
+
+    <div class="container periwinkle">
+        <header class="top row gutters">
+            {% include navigation.html %}
+        </header>
+
+        {{ content }}
+
+    </div>
+    {% include footer.html %}
+        
+    <script type="text/javascript">
+        lf = new BareFoot();
+        lf.init();
+    </script>
+
+</body>
+</html>

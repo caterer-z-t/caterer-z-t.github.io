@@ -1,0 +1,35 @@
+
+- url: /
+  title: Home
+  icon: fa-home
+
+- url: /about/
+  title: About
+  icon: fa-about
+
+- url: /projects_map/
+  title: Projects
+  icon: fa-projects
+
+# - url: /publications/
+#   title: Publications
+
+- url: /koda/
+  title: Koda
+  icon: fa-dog
+
+- url: /cv/
+  title: CV
+  icon: fa-pdf
+
+- url: /blog/
+  title: Blog
+  icon: fa-blog
+
+
+
+# - url: /cv/
+#   title: Curriculum Vitae
+
+# - url: /opensci/
+#   title: Open Science

@@ -1,0 +1,36 @@
+---
+layout: default
+title: Projects Map
+permalink: /projects_map/
+---
+
+<head>
+    <meta charset="utf-8">
+    <title>Interactive 3D Map with Pins</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.7.0/mapbox-gl.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+    <link rel="stylesheet" href="/assets/css/projects/style.css">
+</head>
+
+<body>
+    <div id="map"></div>
+
+    <!-- Back Button -->
+    <!-- <button id="backButton" class="back-button">Back to Home</button> -->
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div id="modal-content-body"></div>
+            <footer>
+                <button id="closeButton" class="close-button">Close</button>
+            </footer>
+        </div>
+        
+    </div>
+
+    <script src="{{ site.baseurl }}/assets/js/3d_map.js"></script>
+    </body>

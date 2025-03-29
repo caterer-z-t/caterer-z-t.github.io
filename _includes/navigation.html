@@ -1,0 +1,22 @@
+<nav class="col span_10 top-navbar">
+    {% for link in site.data.links %}
+    <a href="{{ link.url }}" title="{{ link.title }}" {% if page.url==link.url %}class="current-page" {% endif %}>
+        <svg class="svg-icon-header">
+            <use xlink:href="#{{ link.icon }}"></use>
+        </svg>
+        {{ link.title }}
+    </a>
+    {% endfor %}
+</nav>
+
+<!-- Sidebar Navigation (Initially Hidden) -->
+<nav class="side-navbar">
+    {% for link in site.data.links %}
+    <a href="{{ link.url }}" title="{{ link.title }}" {% if page.url==link.url %}class="current-page" {% endif %}>
+        <svg class="svg-icon-sidebar">
+            <use xlink:href="#{{ link.icon }}"></use>
+        </svg>
+        {{ link.title }}
+    </a>
+    {% endfor %}
+</nav>

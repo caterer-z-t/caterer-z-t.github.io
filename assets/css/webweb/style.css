@@ -1,7 +1,9 @@
+@import '/assets/css/main.css';
+
 #webweb-center {
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    background-color: var(--color-background, transparent);
     text-align: justify;
     font-family: palatino, georgia, verdana, arial, sans-serif;
     width: 100%;
@@ -11,6 +13,7 @@
 #webweb-menu {
     font-size: 10px;
     padding: 15px;
+    background-color: var(--color-background, transparent);
     /* flexbox stuff.. */
     display: -ms-flexbox;
     display: -webkit-flex;
@@ -37,6 +40,15 @@
 }
 
 @media (max-width: 600px) {
+    #webweb-center {
+        margin-left: auto;
+        margin-right: auto;
+        background-color: var(--color-background, transparent);
+        text-align: justify;
+        font-family: palatino, georgia, verdana, arial, sans-serif;
+        width: 100%;
+        height: 100%;
+    }
     #webweb-menu {
         -webkit-flex-direction: column;
         -ms-flex-direction: column;
@@ -50,21 +62,24 @@
 
 #webweb-visualization-container {
     overflow: hidden;
+    background-color: var(--color-background, transparent);;
 }
 
 #webweb-visualization-container>svg {
-    border: solid 3px #f5f6fa;
+    background-color: var(--color-background, transparent);
     display: block;
     margin: 0 auto;
 }
 
 #webweb-visualization-container>canvas {
-    border: solid 3px #f5f6fa;
+    /* border: solid 3px #f5f6fa; */
+    background-color: var(--color-background, transparent);
     display: block;
     margin: 0 auto;
 }
 
 /* Hide buttons or control elements */
 .webweb-controls {
+    background-color: var(--color-background, transparent);
     display: none !important;
 }
