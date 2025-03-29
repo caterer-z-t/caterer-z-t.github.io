@@ -1,0 +1,43 @@
+.recent-slides {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 items per row */
+    gap: 20px;
+    /* Space between slides */
+    margin-bottom: 30px;
+}
+
+.slide-thumbnail {
+    text-align: center;
+    cursor: pointer;
+}
+
+.slide-thumbnail img {
+    width: 100%;
+    height: auto;
+    max-width: 300px;
+    /* Optional: control max image size */
+}
+
+h3 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 10px 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}

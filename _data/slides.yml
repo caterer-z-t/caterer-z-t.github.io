@@ -1,21 +1,24 @@
-slides:
-
-  - title: "2024 IQ Biology Rotation 2 Presentation"
-    url: https://drive.google.com/file/d/1M3mWgE5vxIQ42aNond6AS6Ev8jRPSGel/view?usp=sharing
-    image_path: assets/images/boulder/iq_bio/rotations/stanislawski_lab/stanislawski_lab_rotation_presentation/stanislawski_lab_rotation_presentation.001.png
-    post: posts/rotation-2-talk/
-
-  - title: "2024 IQ Biology Rotation 1 Presentation"
-    url: https://drive.google.com/file/d/1c5OQmymIHlU60Xk-SyQJj1nalhGzZ-zR/view?usp=sharing
-    image_path: assets/images/boulder/iq_bio/rotations/zhang_lab/20241018_zhang_lab_rotation_presentation.png
-    post: posts/rotation-1-talk/
-
-  # - title: "2023 Erdos-Renyi Prize Lecture"
-  #   url: https://drive.google.com/file/d/1shQw0nw_Cjxw7TG1Vz625S67wmiNwyZA/view?usp=sharing
-  #   image_path: /assets/images/slides/Larremore_ErdosRenyi_2023.png
+- title: "2024 IQ Biology Rotation 3 Presentation"
+  # url: https://drive.google.com/file/d/1c5OQmymIHlU60Xk-SyQJj1nalhGzZ-zR/view?usp=sharing
+  image_path: /assets/slide_covers/boulder/sprenger_lab_rotation_presentation.png
+  post: posts/rotation-3-talk/
+  date: 2025-03-05
 
 
-recordings:
-  # - title: "Data Science as a Field"
-  #   url: https://www.coursera.org/lecture/data-science-as-a-field/dan-larremore-p6hfG
-  #   image_path: /assets/images/slides/DS_coursera.png
+- title: "2024 IQ Biology Rotation 2 Presentation"
+  url: https://drive.google.com/file/d/1M3mWgE5vxIQ42aNond6AS6Ev8jRPSGel/view?usp=sharing
+  image_path: /assets/slide_covers/boulder/stanislawski_lab_rotation_presentation.png
+  post: posts/rotation-2-talk/
+  date: 2024-12-13
+
+- title: "2024 IQ Biology Rotation 1 Presentation"
+  url: https://drive.google.com/file/d/1c5OQmymIHlU60Xk-SyQJj1nalhGzZ-zR/view?usp=sharing
+  image_path: /assets/slide_covers/boulder/20241018_zhang_lab_rotation_presentation.png
+  post: posts/rotation-1-talk/
+  date: 2024-10-18
+
+- title: "Using Environment-Sensitive Probes to Detect Mycobacterium Tuberculosis with Machine Learning Based Fluorescence Microscope Octopi"
+  date: 2023-08-21
+  image_path: /assets/slide_covers/ucla/kamariza-amgen-presentation.jpg
+  url: https://drive.google.com/file/d/1Od4c3yiHz0Nlhh5oKuozeRUhX9EUypGi/view?usp=sharing
+  post: posts/kamariza-amgen-presentation/

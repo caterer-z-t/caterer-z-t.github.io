@@ -1,0 +1,48 @@
+---
+layout: default
+title: Publications
+permalink: /publications/
+---
+
+<h1>Publications</h1>
+
+<!-- Display the 3 most recent publications in one row -->
+<div class="recent-publications">
+    {% assign sorted_pubs = site.data.publication | sort: "date" | reverse %}
+    {% for pub in sorted_pubs limit: 3 %}
+    <div class="publication-thumbnail">
+        <a href="#publication-modal" class="publication-link" data-title="{{ pub.title }}" data-file="{{ pub.file }}"
+            data-date="{{ pub.date }}">
+            <h3><a href="{{ site.baseurl }}{{ pub.file }}" target="_blank">{{ pub.title }}</a></h3>
+        </a>
+        <!-- Embed the first page of the PDF using PDF.js -->
+        <div class="pdf-thumbnail">
+            <a href="{{ site.baseurl }}{{ pub.file }}" target="_blank">
+            <iframe src="{{ site.baseurl }}{{ pub.file }}" width="100%" height="400px"></iframe>
+            </a>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- List of all publications -->
+<h3>All Publications</h3>
+
+{% if site.data.publication %}
+{% assign sorted_pubs = site.data.publication | sort: "date" | reverse %}
+<ul>
+    {% for pub in sorted_pubs %}
+    <li>
+        <strong>{{ pub.title }}</strong> - {{ pub.date | date: "%B %d, %Y" }}
+        [<a href="{{ pub.file }}" target="_blank">PDF</a>]
+    </li>
+    {% endfor %}
+</ul>
+{% else %}
+<p>No publications found.</p>
+{% endif %}
+
+
+<!-- Modal styling -->
+<!-- Link to external CSS file for modal styling -->
+<link rel="stylesheet" href="{{ site.baseurl }}/assets/css/publications/main.css">
