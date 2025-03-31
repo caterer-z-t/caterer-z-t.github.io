@@ -56,3 +56,34 @@
     cursor: pointer;
 }
 
+/* Hide the most recent publication by default (on desktop) */
+.recent-publication-mobile {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+
+    /* Hide other publication sections to make space for the iframe */
+    .recent-publications {
+        display: none;
+    }
+
+    .publication-thumbnail {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Show only the most recent publication on mobile */
+    .recent-publication-mobile {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    /* Style iframe to fill full screen on mobile */
+    .pdf-thumbnail iframe {
+        width: 100%;
+        height: 100vh;
+        /* Full viewport height */
+        border: none;
+    }
+}

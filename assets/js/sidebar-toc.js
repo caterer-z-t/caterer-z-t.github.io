@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 // Toggle sidebar visibility
-document.getElementById('toggle-toc').addEventListener('click', function () {
-    const tocSidebar = document.getElementById('toc-sidebar');
-    tocSidebar.classList.toggle('show');
-});
+// document.getElementById('toggle-toc').addEventListener('click', function () {
+//     const tocSidebar = document.getElementById('toc-sidebar');
+//     tocSidebar.classList.toggle('show');
+// });

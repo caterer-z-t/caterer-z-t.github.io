@@ -1,0 +1,11 @@
+Model Information:
+* title:	NASB2 - SpongeBob Neutral
+* source:	https://sketchfab.com/3d-models/nasb2-spongebob-neutral-42ec5bc46cd14b5ba96e683d49a80812
+* author:	SMF Features Developed From Cheryl Hill (https://sketchfab.com/cherylhill28)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "NASB2 - SpongeBob Neutral" (https://sketchfab.com/3d-models/nasb2-spongebob-neutral-42ec5bc46cd14b5ba96e683d49a80812) by SMF Features Developed From Cheryl Hill (https://sketchfab.com/cherylhill28) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

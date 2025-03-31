@@ -9,8 +9,75 @@
     {% endfor %}
 </nav>
 
+<!-- Header Navigation Toggle -->
+<nav class="header-navbar-toggle" id="menu-toggle" style="display: none;">
+    <a href="" title="Menu">
+        <svg class="svg-icon-header" id="menu-icon">
+            <use xlink:href="#fa-menu"></use>
+        </svg>
+        Menu
+    </a>
+</nav>
+
+<nav class="hidden-nav" id="hidden-nav" style="display: none;">
+    <div class="hidden-nav-content">
+        <!-- Close button -->
+        <a href="#close" title="Close" class="close-button">
+            <svg class="svg-icon-header" id="close-icon">
+                <use xlink:href="#fa-close"></use>
+            </svg>
+            Close
+        </a>
+
+        <!-- Navigation links -->
+        <div class="hidden-nav-links">
+            {% for link in site.data.links %}
+            <a href="{{ link.url }}" title="{{ link.title }}" {% if page.url==link.url %}class="current-page" {% endif
+                %}>
+                <svg class="svg-icon-header">
+                    <use xlink:href="#{{ link.icon }}"></use>
+                </svg>
+                {{ link.title }}
+            </a>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="hidden-nav-footer">
+        <p>
+            by Zachary Caterer <br /><br />
+            <a href="https://github.com/caterer-z-t"><svg class="svg-icon">
+                    <use xlink:href="#fa-envelope"></use>
+                </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://github.com/caterer-z-t"><svg class="svg-icon">
+                    <use xlink:href="#fa-github"></use>
+                </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/zacharytcaterer/"><svg class="svg-icon">
+                    <use xlink:href="#fa-linkedin"></use>
+                </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://orcid.org/0000-0001-9019-0730"><svg class="svg-icon">
+                    <use xlink:href="#fa-orcid"></use>
+                </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="{{site.baseurl}}/feed.xml"><svg class="svg-icon">
+                    <use xlink:href="#fa-rss"></use>
+                </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <!-- Mobile theme toggle with same structure as main theme toggle -->
+            <span id="mobile-theme-toggle">
+                <svg class="svg-icon mobile-lightbulb-icon">
+                    <use xlink:href="#fa-lightbulb"></use>
+                </svg>
+                <svg class="svg-icon mobile-moon-icon">
+                    <use xlink:href="#fa-moon"></use>
+                </svg>
+            </span>
+        </p>
+        <br />
+    </footer>
+</nav>
+
 <!-- Sidebar Navigation (Initially Hidden) -->
-<nav class="side-navbar">
+<nav class="side-navbar" id="side-menu">
     {% for link in site.data.links %}
     <a href="{{ link.url }}" title="{{ link.title }}" {% if page.url==link.url %}class="current-page" {% endif %}>
         <svg class="svg-icon-sidebar">
@@ -19,4 +86,36 @@
         {{ link.title }}
     </a>
     {% endfor %}
+
+    <footer class="hidden-nav-footer-sidebar" id="footer-sidebar">
+        <p>
+            <span style="font-size: 0.7rem;">by Zachary Caterer</span> <br /><br />
+            <a href="https://github.com/caterer-z-t"><svg class="svg-icon">
+                    <use xlink:href="#fa-envelope"></use>
+                </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://github.com/caterer-z-t"><svg class="svg-icon">
+                    <use xlink:href="#fa-github"></use>
+                </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://www.linkedin.com/in/zacharytcaterer/"><svg class="svg-icon">
+                    <use xlink:href="#fa-linkedin"></use>
+                </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://orcid.org/0000-0001-9019-0730"><svg class="svg-icon">
+                    <use xlink:href="#fa-orcid"></use>
+                </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="{{site.baseurl}}/feed.xml"><svg class="svg-icon">
+                    <use xlink:href="#fa-rss"></use>
+                </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
+            <!-- Sidebar theme toggle -->
+            <span id="sidebar-theme-toggle">
+                <svg class="svg-icon sidebar-lightbulb-icon">
+                    <use xlink:href="#fa-lightbulb"></use>
+                </svg>
+                <svg class="svg-icon sidebar-moon-icon">
+                    <use xlink:href="#fa-moon"></use>
+                </svg>
+            </span>
+        </p>
+        <br />
+    </footer>
+
 </nav>

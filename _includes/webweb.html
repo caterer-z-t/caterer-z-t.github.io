@@ -1,6 +1,6 @@
 <link rel="stylesheet" href="{{ '/assets/css/webweb/style.css' | relative_url }}">
 
-<div id="webweb-container" style="width: 100%; height: 100%;"></div>
+<div id="webweb-container"></div>
 <script type="text/javascript">
     var wwdata = {{ include.webweb_json | jsonify }};
     wwdata.display.attachWebwebToElementWithId = "webweb-container";
