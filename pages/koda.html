@@ -4,10 +4,29 @@ title: Koda
 permalink: /koda/
 ---
 
-<p>Hello, I'm Koda, I am a 4-year-old golden retriever. I am currently pursuing my PhD in Squirrel Habitat Management.
+<p>
+    Hello, I'm Koda, I am a <span id="koda-age"></span>-year-old golden retriever.
+    I am currently pursuing my PhD in Squirrel Habitat Management.
     My favorite activities are terrorizing squirrels, being a dictator over my stuffed animals and my blankets, and
     chasing balls. I have done a lot of work to become therapy-certified, where I visit nursing homes and hospitals
-    where I love to bring happiness to others. I am certified through Pet-Partners.</p>
+    where I love to bring happiness to others. I am certified through Pet-Partners.
+</p>
+
+<script>
+    // Function to calculate Koda's current age
+    (function () {
+        const birthDate = new Date(2020, 1, 20); // Months are 0-indexed: 1 = February
+        const today = new Date();
+        let age = today.getFullYear() - birthDate.getFullYear();
+        const hasHadBirthdayThisYear =
+            today.getMonth() > birthDate.getMonth() ||
+            (today.getMonth() === birthDate.getMonth() && today.getDate() >= birthDate.getDate());
+        if (!hasHadBirthdayThisYear) {
+            age -= 1;
+        }
+        document.getElementById("koda-age").textContent = age;
+    })();
+</script>
 
 <br>
 
