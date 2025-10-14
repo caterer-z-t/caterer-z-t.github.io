@@ -24,6 +24,9 @@
   icon: "fa-brands fa-orcid"
   url: "https://orcid.org/0000-0001-9019-0730"
 
+- type: camera
+  icon: "fa-solid fa-camera"
+  # url: "https://www.instagram.com/z_26caterer"
 
 # - type: rss
 #   icon: "fas fa-rss"
