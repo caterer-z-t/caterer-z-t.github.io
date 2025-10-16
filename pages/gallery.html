@@ -3,3 +3,43 @@ layout: page
 title: Gallery
 permalink: /gallery/
 ---
+
+<!-- Gallery-specific styles -->
+<link rel="stylesheet" href="{{ '/assets/css/gallery/gallery.css' | relative_url }}">
+
+<div class="gallery-container">
+    <!-- <h1>Photo Gallery</h1> -->
+
+    <!-- Slideshow -->
+    <div id="slideshow" class="slideshow">
+        <img id="slideshow-image" src="" alt="Slideshow Image">
+    </div>
+
+    <!-- Gallery Grid -->
+    <div id="photo-grid" class="photo-grid"></div>
+</div>
+
+<!-- Lightbox Overlay -->
+<div id="lightbox-overlay" class="lightbox-overlay" style="display: none;">
+    <span id="lightbox-close" class="lightbox-close">&times;</span>
+    <img id="lightbox-image" class="lightbox-image" src="" alt="">
+</div>
+
+<!-- EXIF.js library for reading photo metadata -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/exif-js/2.3.0/exif.min.js"></script>
+
+<!-- Gallery JavaScript -->
+<script>
+    // Pass Jekyll variables to JavaScript
+    window.galleryConfig = {
+        imageFolder: "{{ '/assets/images/gallery/' | relative_url }}",
+        imageList: [
+            {% assign gallery_images = site.static_files
+            | where_exp: "file", "file.path contains 'assets/images/gallery'" %}
+    {% for image in gallery_images %}
+    "{{ image.name }}"{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+        ]
+    };
+</script>
+<script src="{{ '/assets/js/gallery.js' | relative_url }}"></script>
