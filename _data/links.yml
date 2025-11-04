@@ -22,9 +22,9 @@
   title: CV
   icon: fa-pdf
 
-- url: /gallery/
-  title: Gallery
-  icon: fa-camera
+# - url: /gallery/
+#   title: Gallery
+#   icon: fa-camera
 
 # - url: /blog/
 #   title: Blog
