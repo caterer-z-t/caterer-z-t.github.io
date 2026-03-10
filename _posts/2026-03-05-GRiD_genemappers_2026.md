@@ -26,7 +26,7 @@ layout: main_post
 
     <p>
       View the source code on <a href="https://github.com/caterer-z-t/GRiD">GitHub</a> or explore the 
-      full documentation on <a href="https://grid.readthedocs.io">ReadTheDocs</a>.
+      full documentation on <a href="https://caterer-z-t.github.io/GRiD">ReadTheDocs</a>.
     </p>
   </div>
 
