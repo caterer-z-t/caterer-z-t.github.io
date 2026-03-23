@@ -1,6 +1,8 @@
 
-url: 
-baseurl: 
+title: Zach Caterer
+description: Zach Caterer – PhD student at CU Boulder studying computational biology, genomics, and bioinformatics.
+url: "https://caterer-z-t.github.io"
+author: Zach Caterer
 
 sass:
   sass_dir: assets/css
