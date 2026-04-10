@@ -22,6 +22,10 @@
   title: CV
   icon: fa-pdf
 
+- url: /more/
+  title: More
+  icon: fa-more
+
 # - url: /gallery/
 #   title: Gallery
 #   icon: fa-camera

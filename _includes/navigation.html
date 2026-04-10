@@ -45,34 +45,7 @@
 
     <!-- Footer -->
     <footer class="hidden-nav-footer">
-        <p>
-            by Zachary Caterer <br /><br />
-            <a href="https://github.com/caterer-z-t"><svg class="svg-icon">
-                    <use xlink:href="#fa-envelope"></use>
-                </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://github.com/caterer-z-t"><svg class="svg-icon">
-                    <use xlink:href="#fa-github"></use>
-                </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://www.linkedin.com/in/zacharytcaterer/"><svg class="svg-icon">
-                    <use xlink:href="#fa-linkedin"></use>
-                </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://orcid.org/0000-0001-9019-0730"><svg class="svg-icon">
-                    <use xlink:href="#fa-orcid"></use>
-                </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="{{site.baseurl}}/feed.xml"><svg class="svg-icon">
-                    <use xlink:href="#fa-rss"></use>
-                </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <!-- Mobile theme toggle with same structure as main theme toggle -->
-            <span id="mobile-theme-toggle">
-                <svg class="svg-icon mobile-lightbulb-icon">
-                    <use xlink:href="#fa-lightbulb"></use>
-                </svg>
-                <svg class="svg-icon mobile-moon-icon">
-                    <use xlink:href="#fa-moon"></use>
-                </svg>
-            </span>
-        </p>
-        <br />
+        {% include nav-footer.html toggle_id="mobile-theme-toggle" lightbulb_class="mobile-lightbulb-icon" moon_class="mobile-moon-icon" %}
     </footer>
 </nav>
 
@@ -88,34 +61,7 @@
     {% endfor %}
 
     <footer class="hidden-nav-footer-sidebar" id="footer-sidebar">
-        <p>
-            <span style="font-size: 0.7rem;">by Zachary Caterer</span> <br /><br />
-            <a href="https://github.com/caterer-z-t"><svg class="svg-icon">
-                    <use xlink:href="#fa-envelope"></use>
-                </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://github.com/caterer-z-t"><svg class="svg-icon">
-                    <use xlink:href="#fa-github"></use>
-                </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://www.linkedin.com/in/zacharytcaterer/"><svg class="svg-icon">
-                    <use xlink:href="#fa-linkedin"></use>
-                </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://orcid.org/0000-0001-9019-0730"><svg class="svg-icon">
-                    <use xlink:href="#fa-orcid"></use>
-                </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="{{site.baseurl}}/feed.xml"><svg class="svg-icon">
-                    <use xlink:href="#fa-rss"></use>
-                </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
-            <!-- Sidebar theme toggle -->
-            <span id="sidebar-theme-toggle">
-                <svg class="svg-icon sidebar-lightbulb-icon">
-                    <use xlink:href="#fa-lightbulb"></use>
-                </svg>
-                <svg class="svg-icon sidebar-moon-icon">
-                    <use xlink:href="#fa-moon"></use>
-                </svg>
-            </span>
-        </p>
-        <br />
+        {% include nav-footer.html toggle_id="sidebar-theme-toggle" lightbulb_class="sidebar-lightbulb-icon" moon_class="sidebar-moon-icon" small=true %}
     </footer>
 
 </nav>

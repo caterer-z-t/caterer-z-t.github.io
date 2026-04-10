@@ -8,6 +8,7 @@
 @use 'syntax';
 @use 'barefoot';
 @use 'responsive.gs.12col';
+@use 'more';
 @use 'sass:color';
 
 /*============================================
@@ -293,16 +294,16 @@ footer {
 
 
 .top-navbar {
-  display: block;
-  margin-bottom: 20px;
-  height: 100px;
+  display: flex;
+  flex-wrap: nowrap;
   align-items: center;
-  justify-content: space-between;
+  margin-bottom: 20px;
+  min-height: 100px;
   a {
       display: inline-block;
       color: var(--contrast-color);
-      padding: 25px 25px 25px;
-      margin-right: 10px;
+      padding: 12px 18px;
+      margin-right: 6px;
       margin-top: 10px;
       text-transform: lowercase;
       border-radius: 15px;

@@ -1,33 +1,28 @@
 ---
 layout: default
-title: playground
+title: Playground
 permalink: /playground/
 ---
 
-<!DOCTYPE html>
-<html lang="en">
+<link rel="stylesheet" href="{{ '/assets/css/playground/style.css' | relative_url }}">
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3D Town Visualization</title>
+<!-- Loading screen (hidden once model loads) -->
+<div id="loading">
+    <span id="loading-text">Loading...</span>
+</div>
 
-    <style>
-        body {
-            margin: 0;
-            overflow: hidden;
-        }
+<!-- Click-to-enter overlay (shown when pointer is unlocked) -->
+<div id="overlay">
+    <h2>Issum — The Town on Capital Isle</h2>
+    <p>Click anywhere to explore</p>
+    <div id="controls-hint">
+        <span><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> or <kbd>↑↓←→</kbd> Move</span>
+        <span><kbd>Mouse</kbd> Look</span>
+        <span><kbd>Shift</kbd> Sprint</span>
+        <span><kbd>E</kbd> / <kbd>Space</kbd> Fly up</span>
+        <span><kbd>Q</kbd> Fly down</span>
+        <span><kbd>Esc</kbd> Pause</span>
+    </div>
+</div>
 
-        canvas {
-            display: block;
-        }
-    </style>
-</head>
-
-<body>
-
-<script src="{{ site.baseurl }}/assets/issum_the_town_on_capital_isle/castle.js"></script>
-
-</body>
-
-</html>
+<script type="module" src="{{ site.baseurl }}/assets/issum_the_town_on_capital_isle/castle.js"></script>

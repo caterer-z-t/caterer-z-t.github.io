@@ -7,14 +7,13 @@ categories:
       - Zachary Caterer
       - Maggie Stanislawski
       - Ashley Scadden
-      - Katerina Kechris
       - Misa Graff
       - Christy Avery
       - Meng Lin
-      - Christ Gignoux
+      - Chris Gignoux
       year: 2025
 
-    - title: "working title: Synthetic Secretion"
+    - title: "Synthetic Secretion"
       authors:
       - Zachary Caterer
       - Logan Barrios
@@ -23,7 +22,7 @@ categories:
       - Stephen Kissler
       year: 2025
 
-    - title: "Cyro-em mapping of ApolipoproteinE for TREM2 binding"
+    - title: "Cryo-em mapping of ApolipoproteinE for TREM2 binding"
       authors:
       - Zachary Caterer
       - Kayla Sprenger
@@ -147,18 +146,63 @@ categories:
       - Jocelyn Stepanek
       year: 2023
 
-    - title: "Three dimensional rendering of the Millennium Falcon"
+  - heading: "Software & Projects"
+    kind: software_project
+    pubs:
+
+    - title: "pyCellPhenoX"
       authors:
       - Zachary Caterer
+      - Fan Zhang
+      - Jade Young
+      - Jun Inamo
+      - Revanth Krishna
+      url: https://pycellphenox.readthedocs.io/en/latest/
       year: 2024
 
-    - title: "Three Dimensional Rendering of the Earth with Interactive Features"
+    - title: "wrmXpress-gui"
       authors:
       - Zachary Caterer
+      - Nic Wheeler
+      - Rachel Horejsi
+      - Carley Weber
+      - Sage Mathisen
+      - Chase Nelson
+      - Maggie Bagatta
+      - Ireland Coughlin
+      - Megan Wettien
+      - Mostafa Zamanian
+      url: https://wrmxpress-gui.readthedocs.io/latest/
+      year: 2025
+
+    - title: "GRiD"
+      authors:
+      - Zachary Caterer
+      - Maggie Stanislawski
+      url: https://caterer-z-t.github.io/GRiD/
+      year: 2025
+
+    - title: "SOM Seq Sim"
+      authors:
+      - Zachary Caterer
+      url: https://som-seq-sim.readthedocs.io/en/latest/
       year: 2024
 
-    - title: "Machine Learning Approaches to Optimizing Mega Tic Tac Toe"
+    - title: "Mega Tic Tac Toe"
       authors:
       - Zachary Caterer
       - Joesph Berg
+      url: https://caterer-z-t.github.io/mega-tic-tac-toe/
+      year: 2024
+
+    - title: "AI Bioimaging"
+      authors:
+      - Zachary Caterer
+      url: https://github.com/caterer-z-t/AI-Bioimaging
+      year: 2025
+
+    - title: "Three dimensional rendering of the Millennium Falcon"
+      authors:
+      - Zachary Caterer
+      url: https://caterer-z-t.github.io/3d_render
       year: 2024

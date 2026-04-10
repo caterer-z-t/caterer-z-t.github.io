@@ -23,6 +23,17 @@ jobs:
           ruby-version: '3.3'
           bundler-cache: true
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install Python dependencies
+        run: pip install pyyaml requests
+
+      - name: Generate webweb.json
+        run: python _scripts/generate_webweb.py
+
       - name: Build Jekyll Site
         run: bundle exec jekyll build
 

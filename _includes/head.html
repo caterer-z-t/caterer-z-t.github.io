@@ -4,50 +4,52 @@
     content="{{ page.content | strip_html | strip_newlines | truncate: 120 | xml_escape }}" {% endif %}>
 <meta name="author" content="{{ site.data.brume.author }}">
 
-
-<!-- Enable responsiveness on mobile devices-->
+<!-- Enable responsiveness on mobile devices -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
 <!-- title -->
 <title>{{ page.title }} &middot; {{ site.data.brume.name }}</title>
 
-<!-- icons -->
+<!-- favicon -->
 <link rel="shortcut icon" href="{{ site.baseurl }}/favicon.ico" />
 
-<!-- stylesheets -->
+<!-- stylesheet -->
 <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
 
-<!-- bigfoot -->
+<!-- footnotes -->
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/barefoot.min.js"></script>
 
-<!-- theme-toggle -->
+<!-- theme toggle (run early to avoid flash of wrong theme) -->
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/theme-toggle.js"></script>
 
-<!-- sidebar nav -->
+<!-- nav & sidebar -->
 <script src="{{ site.baseurl }}/assets/js/sidebar.js"></script>
 
-<!-- sidebar toc -->
+<!-- table of contents -->
 <script src="{{ site.baseurl }}/assets/js/sidebar-toc.js"></script>
 
 <!-- image modal -->
 <script src="{{ site.baseurl }}/assets/js/image-modal.js"></script>
 
-<!-- Google fonts -->
+<!-- Google Fonts -->
 <link rel="stylesheet"
     href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700,400italic&amp;subset=latin-ext">
 
+<!-- MathJax -->
 <script>
     MathJax = {
-        tex: {
-            inlineMath: [['$', '$'], ['\\(', '\\)']]
-        },
-        svg: {
-            fontCache: 'global'
-        }
+        tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] },
+        svg: { fontCache: 'global' }
     };
 </script>
-<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
-</script>
+<script type="text/javascript" id="MathJax-script" async
+    src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
 
-<!-- feed links -->
+<!-- RSS feed -->
 <link rel="alternate" href="{{ site.baseurl }}/feed.xml" type="application/rss+xml" title="{{ site.name }}">
+
+<!-- Google Search Console verification -->
+<meta name="google-site-verification" content="Eqs9Ui2OeiFjS1qAuaHIG9Trta0saDI2dOgIhj-_d1U" />
+
+<!-- Structured data (schema.org Person) -->
+{% include seo-head.html %}

@@ -1,0 +1,38 @@
+<!--
+    Shared navigation footer: social links + theme toggle.
+    Parameters:
+      include.toggle_id       — id for the theme toggle <span>
+      include.lightbulb_class — CSS class for the lightbulb icon
+      include.moon_class      — CSS class for the moon icon
+      include.small           — if truthy, renders byline at 0.7rem
+-->
+<p>
+    {% if include.small %}<span style="font-size: 0.7rem;">{% endif %}
+    by Zachary Caterer
+    {% if include.small %}</span>{% endif %}
+    <br /><br />
+    <a href="https://github.com/caterer-z-t"><svg class="svg-icon">
+            <use xlink:href="#fa-envelope"></use>
+        </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://github.com/caterer-z-t"><svg class="svg-icon">
+            <use xlink:href="#fa-github"></use>
+        </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://www.linkedin.com/in/zacharytcaterer/"><svg class="svg-icon">
+            <use xlink:href="#fa-linkedin"></use>
+        </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="https://orcid.org/0000-0001-9019-0730"><svg class="svg-icon">
+            <use xlink:href="#fa-orcid"></use>
+        </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="{{ site.baseurl }}/feed.xml"><svg class="svg-icon">
+            <use xlink:href="#fa-rss"></use>
+        </svg></a>&nbsp;&nbsp;&nbsp;&nbsp;
+    <span id="{{ include.toggle_id }}">
+        <svg class="svg-icon {{ include.lightbulb_class }}">
+            <use xlink:href="#fa-lightbulb"></use>
+        </svg>
+        <svg class="svg-icon {{ include.moon_class }}">
+            <use xlink:href="#fa-moon"></use>
+        </svg>
+    </span>
+</p>
+<br />

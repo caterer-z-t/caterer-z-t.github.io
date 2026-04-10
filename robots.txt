@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://caterer-z-t.github.io/sitemap.xml
