@@ -1,9 +1,9 @@
 ---
 ---
-import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.160/build/three.module.min.js';
-import { GLTFLoader }          from 'https://cdn.jsdelivr.net/npm/three@0.160/examples/jsm/loaders/GLTFLoader.js';
-import { DRACOLoader }         from 'https://cdn.jsdelivr.net/npm/three@0.160/examples/jsm/loaders/DRACOLoader.js';
-import { PointerLockControls } from 'https://cdn.jsdelivr.net/npm/three@0.160/examples/jsm/controls/PointerLockControls.js';
+import * as THREE from 'three';
+import { GLTFLoader }          from 'three/addons/loaders/GLTFLoader.js';
+import { DRACOLoader }         from 'three/addons/loaders/DRACOLoader.js';
+import { PointerLockControls } from 'three/addons/controls/PointerLockControls.js';
 
 // ── Scene ──────────────────────────────────────────────────────────────────
 const scene = new THREE.Scene();
@@ -12,7 +12,7 @@ scene.fog = new THREE.FogExp2(0x87ceeb, 0.008);
 
 // ── Camera ─────────────────────────────────────────────────────────────────
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-camera.position.set(0, 4, 12);
+camera.position.set(23.7, 1.5, 3.5);
 
 // ── Renderer ───────────────────────────────────────────────────────────────
 const renderer = new THREE.WebGLRenderer({ antialias: true });
@@ -55,8 +55,9 @@ loader.load(
     (gltf) => {
         gltf.scene.traverse((node) => {
             if (node.isMesh) {
-                node.castShadow = true;
+                node.castShadow    = true;
                 node.receiveShadow = true;
+                collidables.push(node);
             }
         });
         scene.add(gltf.scene);
@@ -87,18 +88,27 @@ controls.addEventListener('unlock', () => { overlay.style.display = 'flex'; });
 const keys = {};
 window.addEventListener('keydown', (e) => {
     keys[e.code] = true;
-    // prevent arrow keys from scrolling the page
     if (['ArrowUp','ArrowDown','ArrowLeft','ArrowRight','Space'].includes(e.code)) {
         e.preventDefault();
     }
 });
 window.addEventListener('keyup', (e) => { keys[e.code] = false; });
 
+// ── Physics / ground collision ─────────────────────────────────────────────
+const PLAYER_HEIGHT = 0.6;   // eye height above ground
+const GRAVITY       = -25;   // units/s²
+const JUMP_SPEED    = 10;    // units/s upward on jump
+let   velocityY     = 0;
+let   onGround      = false;
+let   collidables   = [];    // filled once GLTF loads
+
+const groundRay = new THREE.Raycaster();
+groundRay.far = PLAYER_HEIGHT + 2;   // only look slightly below feet
+
 // ── Animation loop ─────────────────────────────────────────────────────────
 const clock = new THREE.Clock();
-const WALK   = 8;
-const SPRINT = 22;
-const FLY    = 6;
+const WALK   = 6;
+const SPRINT = 16;
 
 function animate() {
     requestAnimationFrame(animate);
@@ -107,16 +117,44 @@ function animate() {
         const dt    = clock.getDelta();
         const speed = (keys['ShiftLeft'] || keys['ShiftRight']) ? SPRINT : WALK;
         const v     = speed * dt;
-        const fv    = FLY * dt;
 
+        // Horizontal movement
         if (keys['KeyW'] || keys['ArrowUp'])    controls.moveForward(v);
         if (keys['KeyS'] || keys['ArrowDown'])  controls.moveForward(-v);
         if (keys['KeyA'] || keys['ArrowLeft'])  controls.moveRight(-v);
         if (keys['KeyD'] || keys['ArrowRight']) controls.moveRight(v);
-        if (keys['KeyE'] || keys['Space'])      controls.getObject().position.y += fv;
-        if (keys['KeyQ'])                       controls.getObject().position.y -= fv;
+
+        // Jump
+        if ((keys['Space'] || keys['KeyE']) && onGround) {
+            velocityY = JUMP_SPEED;
+            onGround  = false;
+        }
+
+        // Gravity
+        velocityY += GRAVITY * dt;
+        const player = controls.getObject();
+        player.position.y += velocityY * dt;
+
+        // Ground detection via downward ray from eye position
+        if (collidables.length > 0) {
+            groundRay.set(player.position, new THREE.Vector3(0, -1, 0));
+            const hits = groundRay.intersectObjects(collidables, true);
+            if (hits.length > 0 && hits[0].distance <= PLAYER_HEIGHT + 0.3) {
+                player.position.y = hits[0].point.y + PLAYER_HEIGHT;
+                velocityY = 0;
+                onGround  = true;
+            } else {
+                onGround = false;
+            }
+        }
+
+        // Safety floor — don't fall into the void
+        if (player.position.y < -20) {
+            player.position.set(0, PLAYER_HEIGHT + 2, 12);
+            velocityY = 0;
+        }
     } else {
-        clock.getDelta(); // keep clock ticking so dt doesn't spike on re-entry
+        clock.getDelta();
     }
 
     renderer.render(scene, camera);

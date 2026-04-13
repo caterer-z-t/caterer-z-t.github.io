@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: fullscreen
 title: Playground
 permalink: /playground/
 ---
@@ -19,10 +19,28 @@ permalink: /playground/
         <span><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd> or <kbd>↑↓←→</kbd> Move</span>
         <span><kbd>Mouse</kbd> Look</span>
         <span><kbd>Shift</kbd> Sprint</span>
-        <span><kbd>E</kbd> / <kbd>Space</kbd> Fly up</span>
-        <span><kbd>Q</kbd> Fly down</span>
+        <span><kbd>Space</kbd> Jump</span>
         <span><kbd>Esc</kbd> Pause</span>
     </div>
 </div>
+
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160/build/three.module.min.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160/examples/jsm/"
+  }
+}
+</script>
+
+<script>
+// Catch any JS errors (including module failures) and surface them on screen
+function _showLoadError(msg) {
+    var el = document.getElementById('loading-text');
+    if (el) el.textContent = 'Error: ' + msg;
+}
+window.addEventListener('error', function(e) { _showLoadError(e.message || String(e)); });
+window.addEventListener('unhandledrejection', function(e) { _showLoadError(String(e.reason)); });
+</script>
 
 <script type="module" src="{{ site.baseurl }}/assets/issum_the_town_on_capital_isle/castle.js"></script>
