@@ -5,10 +5,10 @@
 =                 IMPORTS                   =
 ============================================*/
 
-@use './syntax';
-@use './barefoot';
-@use './responsive.gs.12col';
-@use './more';
+@import 'syntax';
+@import 'barefoot';
+@import 'responsive.gs.12col';
+@import 'more';
 
 /*============================================
 =               ACCENT COLORS                =
