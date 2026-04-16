@@ -32,6 +32,11 @@ layout: main_post
 
 </div>
 
+# Poser and Presentation
+The poster can be found [here](https://drive.google.com/file/d/12IRyaQJ7cxHsIWMtV8Pm_r10mz-z1FTa/view?usp=sharing)
+
+The lightening talk presentation slide can be found [here](https://drive.google.com/file/d/17cjGYB15SKn-VDPCr2Lz1Nr5WgAqNrgd/view?usp=sharing)
+
 
 # Acknowledgments Further
 This work was conducted in the Stanislawski lab at the **[University of Colorado Anschutz](https://www.cuanschutz.edu/)**. Computational resources were provided by the **[NIH BioData Catalyst](https://gen3.biodatacatalyst.nhlbi.nih.gov/)** and the **[University of North Carolina Chapel Hill](https://www.unc.edu/)** Research Computing facilities. In addition to all co-authors, we thank  Drs. Jonathan Shortt and Esteban Lucero for their help and guidance.
